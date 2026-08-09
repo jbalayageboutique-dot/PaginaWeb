@@ -160,6 +160,11 @@ app.post("/api/cloudinary/optimize", (req, res) => {
   res.json({ success: true, optimizedUrl });
 });
 
+// Route for Google Search Console verification
+app.get("/google3df15fde543cd005.html", (req, res) => {
+  res.send("google-site-verification: google3df15fde543cd005.html");
+});
+
 // ==========================================
 // VITE & STATIC FILES SERVING
 // ==========================================
