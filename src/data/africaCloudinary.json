@@ -1,0 +1,96 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/clienta-africa-expedicion",
+  "uploaded_at": "2026-08-11T16:01:24.108Z",
+  "case": {
+    "id": "clienta-africa-expedicion",
+    "title": "Mechas y Babylights sin Matizar con Olaplex | Expedición África",
+    "before_public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2",
+    "after_public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1381"
+  },
+  "photos": [
+    {
+      "role": "after-main",
+      "original_filename": "IMG_1381.jpg",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1381",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2588,
+      "height": 3860,
+      "bytes": 4099259,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786464067/maison-balayage/casos/clienta-africa-expedicion/IMG_1381.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1381?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1381?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1387 2.jpg",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1387 2",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2186,
+      "height": 3623,
+      "bytes": 3135285,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786464068/maison-balayage/casos/clienta-africa-expedicion/IMG_1387%202.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1387%202?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1387%202?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "before-main",
+      "original_filename": "IMG_1392 2.jpg",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1796,
+      "height": 2678,
+      "bytes": 1955668,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786464070/maison-balayage/casos/clienta-africa-expedicion/IMG_1392%202.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1392%202?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1392%202?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "after",
+      "original_filename": "IMG_1380.MOV",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1380",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 11054516,
+      "duration": 5.536667,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464071/maison-balayage/casos/clienta-africa-expedicion/IMG_1380.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464071/maison-balayage/casos/clienta-africa-expedicion/IMG_1380.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1380.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1390.mov",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1390",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 922,
+      "height": 1384,
+      "bytes": 48528371,
+      "duration": 33.935,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464077/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464077/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1393.MOV",
+      "public_id": "maison-balayage/casos/clienta-africa-expedicion/IMG_1393",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 34471674,
+      "duration": 17.5,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464082/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786464082/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}

@@ -364,6 +364,52 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'clienta-africa-expedicion',
+    title: 'Sarah: Babylights Platinadas (Sin Matizar) - Expedición África',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2',
+    afterImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
+    startingBase: 'Rubio oscuro natural con puntas desgastadas por el sol y la sal marina',
+    techniqueUsed: 'Micro-babylights ultra finas de alta densidad en todo el contorno y melena. Decoloración limpia (altura 9) sin necesidad de matizar. Tratamiento reconstructor Olaplex incorporado y sellado de cutícula profundo.',
+    finalTone: 'Rubio platino nórdico natural, ultra luminoso y sin matiz',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de crecimiento a los 4-6 meses',
+    hairTexture: 'Cabello expuesto a condiciones extremas de navegación',
+    description: 'Nuestra cliente Sarah, quien se encontraba navegando en una expedición marítima internacional desde África, nos contactó a través de Google para restaurar e iluminar su cabello al llegar a Punta Arenas. Realizamos un diseño minucioso de micro-babylights extra finas para lograr la máxima claridad. Debido a la pureza del aclarado (altura 9), no hubo necesidad de aplicar matizante. Protegimos la fibra capilar con el tratamiento completo de Olaplex y finalizamos con un sellado de cutícula e hidratación profunda para contrarrestar el daño del viento y la sal del mar.',
+    clientName: 'Sarah',
+    rating: 5,
+    clientReview: 'I found JB Balayage on Google while sailing on a maritime expedition from Africa to Patagonia. I needed a professional to brighten my hair in Punta Arenas, and the results exceeded all my expectations! The micro-babylights are extremely fine, and we did not even need to tone it. Thanks to the Olaplex treatment and cuticle sealing, my hair feels incredibly healthy, soft, and shiny despite the harsh sea conditions. An absolute gem of a salon in Patagonia!',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1387 2',
+        alt: 'Resultado de babylights rubias sin matizar visto desde atrás'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464071/maison-balayage/casos/clienta-africa-expedicion/IMG_1380.mov',
+        title: 'Brillo y movimiento natural del rubio sin matizar'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464077/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.mov',
+        title: 'Detalle de la elasticidad y suavidad con Olaplex'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464082/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.mov',
+        title: 'Movimiento y caída del rubio platino tridimensional'
+      }
+    ],
+    seoKeywords: [
+      'babylights sin matizar Punta Arenas',
+      'rubio platino natural',
+      'decoloracion limpia sin daño',
+      'tratamiento olaplex Punta Arenas',
+      'peluqueria cerca del puerto',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'gisela-barrido-color-borgona',
     title: 'Gisela: barrido de color en tono borgoña',
     category: 'correccion-color',
