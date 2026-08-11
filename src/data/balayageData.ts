@@ -621,8 +621,25 @@ export const SERVICES_MENU: ServiceItem[] = [
     duration: '1.5 horas',
     priceRange: 'Servicio de Mantenimiento',
     recommendedFor: 'Realizar cada 2 o 3 meses para mantener el tono impecable.',
-    popularBadge: false,
-    seoTag: 'Matizado Balayage'
+  },
+  {
+    id: 'olaplex-treatment-full',
+    title: 'Protocolo Reconstructor Completo Olaplex',
+    shortSubtitle: 'El estándar de oro internacional para la reconstrucción capilar',
+    description: 'Protocolo completo de reconstrucción molecular en salón utilizando el sistema original de Olaplex (Pasos Nº.1 y Nº.2). Su tecnología patentada de multiplicación de enlaces reconecta los enlaces de disulfuro rotos en el cabello dañado por procesos químicos, térmicos o ambientales, devolviendo la fuerza, elasticidad e integridad estructural desde el primer uso.',
+    includes: [
+      'Olaplex Nº.1 Bond Multiplier (concentrado activo en salón)',
+      'Olaplex Nº.2 Bond Perfector (fijación molecular)',
+      'Lavado reparador con Olaplex Shampoo & Acondicionador',
+      'Masaje capilar relajante y estimulación de cutícula',
+      'Styling protector final para dar suavidad y brillo espejo'
+    ],
+    duration: '1 - 1.5 horas',
+    priceRange: 'Consulta personalizada',
+    recommendedFor: 'Cabellos decolorados, sensibilizados, quebradizos o antes de un cambio de color importante para preparar la fibra capilar de forma segura.',
+    popularBadge: true,
+    seoTag: 'Tratamiento Olaplex',
+    imageUrl: 'https://res.cloudinary.com/apssuuqy/image/upload/v1786466085/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg'
   }
 ];
 

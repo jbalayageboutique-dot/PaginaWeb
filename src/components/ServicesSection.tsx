@@ -38,6 +38,18 @@ export const ServicesSection: React.FC = () => {
                 </span>
               )}
 
+              {srv.imageUrl && (
+                <div className="-mx-6 -mt-6 sm:-mx-8 sm:-mt-8 mb-6 overflow-hidden h-52 relative border-b border-[#2A2A2A]">
+                  <img 
+                    src={srv.imageUrl} 
+                    alt={srv.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#171717] to-transparent opacity-60" />
+                </div>
+              )}
+
               <div className="space-y-4">
                 <div className="space-y-1">
                   <span className="text-xs font-semibold text-[#BFA181] uppercase tracking-widest">

@@ -11,7 +11,7 @@ export interface BeforeAfterCase {
   title: string;
   category: BalayageCategory;
   categoryLabel: string;
-  beforeImage: string;
+  beforeImage?: string;
   afterImage: string;
   startingBase: string;
   techniqueUsed: string;
@@ -23,6 +23,15 @@ export interface BeforeAfterCase {
   clientName?: string;
   rating?: number;
   clientReview?: string;
+  galleryImages?: {
+    src: string;
+    alt: string;
+  }[];
+  videos?: {
+    src: string;
+    poster?: string;
+    title: string;
+  }[];
   seoKeywords: string[];
 }
 
@@ -37,6 +46,7 @@ export interface ServiceItem {
   recommendedFor: string;
   popularBadge?: boolean;
   seoTag: string;
+  imageUrl?: string;
 }
 
 export interface GoogleReview {
