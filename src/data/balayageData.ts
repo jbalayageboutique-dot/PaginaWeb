@@ -212,65 +212,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'JB Balayaje Peluqueria boutique'
     ]
   },
-  {
-    id: 'nicole-morena-iluminada',
-    title: 'Nicole: Balayage Morena Iluminada',
-    category: 'correccion-color',
-    categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-portada-despues-01',
-    startingBase: 'Cabello oscuro teñido con acumulación previa de tintura negra y roja artificial y alta porosidad',
-    techniqueUsed: 'Prueba de mechas previa para diagnosticar la resistencia y altura de decoloración segura en cabello poroso, diseño de Balayage Morena Iluminada a mano alzada, sellado de cutícula y tratamiento de hidratación profunda.',
-    finalTone: 'Castaño iluminado avellana y caramelo multidimensional',
-    durationHours: '5 horas',
-    maintenanceFrequency: 'Baño de brillo y matiz cada 2-3 meses',
-    hairTexture: 'Cabello poroso previamente teñido de negro y rojo',
-    description: 'Nicole llegó buscando un cambio luminoso, pero con antecedentes de acumulación de tintura negra y roja (los pigmentos más difíciles de extraer) y una fibra capilar altamente porosa. Realizamos una prueba de mechas de diagnóstico fundamental para evaluar la resistencia y salud del cabello, determinando con precisión científica hasta qué altura de decoloración podíamos llegar de forma segura. En base a ese diagnóstico, optamos por diseñar un Balayage Morena Iluminada en tonos avellana y caramelo. Finalizamos con sellado de cutícula e hidratación profunda para recuperar la elasticidad, sedosidad y brillo del cabello.',
-    clientName: 'Nicole',
-    rating: 5,
-    clientReview: 'Súper contenta con el resultado. Agradezco mucho la honestidad de la prueba de mechas para cuidar mi pelo, quedó brillante y hermoso.',
-    galleryImages: [
-      {
-        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-despues-01',
-        alt: 'Morena iluminada avellana y caramelo vista posterior'
-      },
-      {
-        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-01',
-        alt: 'Reflejo en espejo del balayage avellana'
-      },
-      {
-        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-02',
-        alt: 'Luminosidad del contorno facial Morena Iluminada'
-      },
-      {
-        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-detalle-ia-01',
-        alt: 'Textura suave y brillo tridimensional'
-      }
-    ],
-    videos: [
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402185/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-01.mov',
-        title: 'Movimiento y relieve morena iluminada'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402188/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-02.mov',
-        title: 'Suavidad y brillo al movimiento'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402189/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-03.mov',
-        title: 'Resultado final brillante'
-      }
-    ],
-    seoKeywords: [
-      'morena iluminada Punta Arenas',
-      'decolorar tintura negra y roja',
-      'prueba de mechas peluqueria',
-      'balayage avellana Punta Arenas',
-      'peluqueria Punta Arenas',
-      'JB Balayaje Peluqueria boutique'
-    ]
-  },
-  {
+{
     id: 'ninoska-balayage-babylights-miel',
     title: 'Ninoska: Balayage y Babylights',
     category: 'balayage-rubio',
