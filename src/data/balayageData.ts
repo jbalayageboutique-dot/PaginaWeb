@@ -164,29 +164,29 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   },
   {
     id: 'roxana-balayage-cobrizo',
-    title: 'Roxana Cobrizo: balayage cobrizo y caramelo multidimensional',
+    title: 'Roxana: Mechas con Babylights e iluminación de contorno',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-portada-despues-01',
-    startingBase: 'Base natural oscura',
-    techniqueUsed: 'Balayage completo en tonos cobrizo y caramelo multidimensional para iluminar. Protocolo de cuidado de la fibra capilar, sellado de cutícula y tratamiento de hidratación profunda.',
-    finalTone: 'Cobrizo y caramelo vibrante, luminoso y con reflejos tridimensionales',
+    startingBase: 'Base natural clara',
+    techniqueUsed: 'Trabajo de mechas con papel combinadas con babylights muy finas e iluminación de contorno facial para resaltar el rostro.',
+    finalTone: 'Rubio luminoso y vibrante, muy natural',
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
     hairTexture: 'Cabello de grosor medio',
-    description: 'Roxana llegó buscando iluminar su base oscura con reflejos cálidos y llenos de vida. Diseñamos un balayage cobrizo suave mezclado con toques de caramelo que aportan relieve y movimiento. Cuidamos rigurosamente su fibra durante la aclaración, realizando un sellado de cutícula e hidratación intensiva al finalizar. El resultado es un cabello sano, sedoso y con un brillo espectacular.',
+    description: 'Roxana llegó buscando iluminar su cabello con un rubio radiante. Diseñamos un trabajo de mechas con papel y babylights muy finas con iluminación de contorno para aportar luz y relieve. Realizamos un sellado de cutícula e hidratación profunda al finalizar. El resultado es un rubio espectacular, brillante y sumamente sano.',
     clientName: 'Roxana',
     rating: 5,
-    clientReview: 'Encantada con el tono cobrizo y caramelo. El pelo me quedó súper brillante y con un movimiento hermoso.',
+    clientReview: 'Encantada con mis mechas y babylights. El pelo me quedó súper brillante y con un contorno muy iluminado.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-01',
-        alt: 'Resultado final cobrizo de Roxana visto en espejo'
+        alt: 'Resultado final de mechas de Roxana visto en espejo'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-02',
-        alt: 'Reflejo en espejo del balayage cobrizo'
+        alt: 'Reflejo en espejo de las mechas y babylights'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-detalle-ia-01',
@@ -194,19 +194,19 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-despues-01',
-        alt: 'Vista posterior del balayage cobrizo y caramelo'
+        alt: 'Vista posterior de las mechas y babylights'
       }
     ],
     videos: [
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786392853/maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-movimiento-01.mov',
-        title: 'Movimiento y reflejos caramelo cobrizo'
+        title: 'Movimiento y reflejos rubios muy luminosos'
       }
     ],
     seoKeywords: [
-      'balayage cobrizo Punta Arenas',
-      'balayage caramelo',
-      'morena iluminada cobriza',
+      'mechas con papel Punta Arenas',
+      'babylights rubio Punta Arenas',
+      'iluminacion contorno facial',
       'peluqueria Punta Arenas',
       'JB Balayaje Peluqueria boutique'
     ]
