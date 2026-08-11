@@ -212,6 +212,64 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'JB Balayaje Peluqueria boutique'
     ]
   },
+  {
+    id: 'carolina-balayage-rubio-nuevo',
+    title: 'Carolina: Mechas con Babylights & Contouring Rubio Nácar',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-portada-despues-01',
+    startingBase: 'Base clara natural',
+    techniqueUsed: 'Técnica de mechas con papel combinadas con babylights extra finas en todo el contorno para iluminar el rostro (contouring). Protocolo completo de Olaplex integrado en la aclaración para el cuidado capilar, finalizando con sellado de cutícula e hidratación profunda.',
+    finalTone: 'Rubio nácar cálido, luminoso y sumamente brillante',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
+    hairTexture: 'Cabello de grosor medio',
+    description: 'En esta sesión de diseño para Carolina, que cuenta con una base clara natural, realizamos un trabajo detallado de mechas con papel combinadas con babylights extra finas para aportar iluminación suave y directa en todo el contorno de su rostro. Cuidando estrictamente la salud de su cabello, incorporamos el tratamiento de Olaplex durante todo el proceso de aclarado. Para coronar la transformación, aplicamos un protocolo de sellado de cutícula e hidratación profunda, dando como resultado una melena rubia extremadamente brillante, sedosa y saludable.',
+    clientName: 'Carolina',
+    rating: 5,
+    clientReview: 'Me encantaron las babylights súper finas de contorno. El pelo me quedó sanísimo gracias a Olaplex y con un brillo espectacular por el sellado de cutícula.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-despues-01',
+        alt: 'Resultado final rubio y babylights visto desde atrás'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-01',
+        alt: 'Reflejo en espejo del balayage rubio cálido'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-02',
+        alt: 'Detalle de la luminosidad del contorno facial rubio'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-detalle-ia-01',
+        alt: 'Textura suave y brillo con sellado de cutícula e hidratación'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402185/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-01.mov',
+        title: 'Movimiento y relieve del rubio cálido'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402188/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-02.mov',
+        title: 'Suavidad y brillo al movimiento'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402189/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-03.mov',
+        title: 'Resultado final brillante con ondas'
+      }
+    ],
+    seoKeywords: [
+      'mechas con papel Punta Arenas',
+      'babylights rubio calido',
+      'iluminacion contorno facial',
+      'tratamiento olaplex Punta Arenas',
+      'sellado cuticula cabello',
+      'JB Balayaje Peluqueria boutique'
+    ]
+  },
 {
     id: 'ninoska-balayage-babylights-miel',
     title: 'Ninoska: Balayage y Babylights',
