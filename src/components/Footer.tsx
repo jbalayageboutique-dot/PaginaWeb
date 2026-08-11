@@ -2,6 +2,8 @@ import React from 'react';
 import { Star, MapPin, ExternalLink, Heart } from 'lucide-react';
 import { GOOGLE_BUSINESS_DATA } from '../data/balayageData';
 
+import logoConfig from '../data/logoConfig.json';
+
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#0F0F0F] text-[#E5E5E5] pt-16 pb-12 border-t border-[#2A2A2A] text-xs">
@@ -13,11 +15,15 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Google Rating */}
           <div className="space-y-4 md:col-span-1">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-[#171717] text-[#BFA181] flex items-center justify-center font-serif text-lg border border-[#2A2A2A]">
-                B
-              </div>
+              <img 
+                src={logoConfig.small_url}
+                alt={logoConfig.alt}
+                className="w-9 h-9 rounded-full object-cover border border-[#2A2A2A]"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+              />
               <span className="font-serif text-xl font-semibold text-white">
-                Maison Balayage
+                JB Balayaje Peluqueria boutique
               </span>
             </div>
 
@@ -107,7 +113,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Copyright & SEO Tags */}
         <div className="pt-8 border-t border-[#2A2A2A] flex flex-col sm:flex-row items-center justify-between gap-4 text-stone-500 text-[11px]">
-          <p>© {new Date().getFullYear()} Maison Balayage. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} JB Balayaje Peluqueria boutique. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1">
             <span>Optimizado para posicionamiento en Google por</span>
             <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />

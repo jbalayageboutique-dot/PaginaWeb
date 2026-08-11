@@ -52,7 +52,7 @@ export default function App() {
           customCases={customCases}
         />
 
-        {/* Google Business Profile & Rating (4.9 Stars & Reviews) */}
+        {/* Google Business Profile & Rating (5.0 Stars & Reviews) */}
         <GoogleBusinessSection />
 
         {/* Services & Pricing Menu */}

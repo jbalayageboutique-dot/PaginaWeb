@@ -204,7 +204,7 @@ export const SeoAssistantPanel: React.FC<SeoPanelProps> = ({ isOpen, onClose }) 
               </pre>
 
               <p className="text-[11px] text-stone-400 italic">
-                * Este código ayuda a Google a mostrar el número de teléfono, dirección, horario y valoración de 4.9 estrellas directamente en los resultados de búsqueda.
+                * Este código ayuda a Google a mostrar el número de teléfono, dirección, horario y valoración de 5.0 estrellas directamente en los resultados de búsqueda.
               </p>
             </div>
           )}

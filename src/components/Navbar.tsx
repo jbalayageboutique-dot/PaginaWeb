@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Sparkles, Search, MessageCircle, BarChart2, MapPin, Star, Menu, X, Zap, UploadCloud } from 'lucide-react';
 import { GOOGLE_BUSINESS_DATA } from '../data/balayageData';
 
+import logoConfig from '../data/logoConfig.json';
+
 interface NavbarProps {
   onOpenSeoPanel: () => void;
   onOpenQuiz: () => void;
@@ -67,12 +69,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           onClick={() => handleNavClick('hero')} 
           className="flex items-center gap-3 text-left group"
         >
-          <div className="w-10 h-10 rounded-full bg-[#171717] text-[#BFA181] flex items-center justify-center font-serif text-xl border border-[#BFA181] group-hover:scale-105 transition-transform">
-            B
-          </div>
+          <img 
+            src={logoConfig.small_url}
+            alt={logoConfig.alt}
+            className="w-10 h-10 rounded-full object-cover border border-[#BFA181] group-hover:scale-105 transition-transform"
+            referrerPolicy="no-referrer"
+            loading="eager"
+          />
           <div>
             <span className="block font-serif text-xl sm:text-2xl font-semibold tracking-wide text-[#F5F5F5]">
-              Maison Balayage
+              JB Balayaje Peluqueria boutique
             </span>
             <span className="block text-[10px] tracking-widest uppercase text-[#A3A3A3] font-medium">
               Atelier de Coloración
@@ -100,7 +106,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           >
             Google Reviews
             <span className="bg-[#BFA181]/20 text-[#BFA181] border border-[#BFA181]/40 text-[10px] px-1.5 py-0.5 rounded-full font-bold">
-              4.9 ★
+              5.0 ★
             </span>
           </button>
           <button 
@@ -163,7 +169,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
               className="text-left text-stone-200 py-1 flex items-center justify-between"
             >
               <span>Reseñas de Google</span>
-              <span className="text-xs font-bold bg-[#BFA181]/20 text-[#BFA181] px-2 py-0.5 rounded border border-[#BFA181]/40">4.9 ★</span>
+              <span className="text-xs font-bold bg-[#BFA181]/20 text-[#BFA181] px-2 py-0.5 rounded border border-[#BFA181]/40">5.0 ★</span>
             </button>
             <button
               onClick={() => handleNavClick('faq')}

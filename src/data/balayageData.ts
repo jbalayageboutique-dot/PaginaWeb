@@ -1,12 +1,12 @@
 import { BeforeAfterCase, ServiceItem, GoogleBusinessInfo, GoogleReview, SeoSettings } from '../types';
 
 export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
-  name: 'Maison Balayage Studio',
+  name: 'JB Balayaje Peluqueria boutique',
   headline: 'Especialista Máster en Balayage, Morenas Iluminadas & Corrección de Color',
   address: 'esquina Iris Muñoz - Roberto Rasmussen Fernández 187',
   city: '6200000 Punta Arenas, Magallanes y la Antártica Chilena, Chile',
-  rating: 4.9,
-  totalReviews: 128,
+  rating: 5.0,
+  totalReviews: 64,
   googleProfileUrl: 'https://maps.google.com/?q=esquina+Iris+Mu%C3%B1oz+-+Roberto+Rasmussen+Fern%C3%A1ndez+187,+6200000+Punta+Arenas,+Magallanes+y+la+Ant%C3%A1rtica+Chilena,+Chile',
   phone: '+56 9 8558 0190',
   whatsappNumber: '56985580190',
@@ -20,7 +20,7 @@ export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
 };
 
 export const INITIAL_SEO_SETTINGS: SeoSettings = {
-  pageTitle: 'Maison Balayage Punta Arenas | Especialista en Balayage & Coloración Profesional',
+  pageTitle: 'JB Balayaje Peluqueria boutique Punta Arenas | Especialista en Balayage & Coloración Profesional',
   metaDescription: 'Estudio especializado en Balayage Rubio, Morena Iluminada y Corrección de Color en Punta Arenas, Magallanes. Ubicados en esquina Iris Muñoz - Roberto Rasmussen Fernández 187.',
   targetKeywords: [
     'Balayage Punta Arenas',
@@ -32,12 +32,384 @@ export const INITIAL_SEO_SETTINGS: SeoSettings = {
     'Peluquería Iris Muñoz Punta Arenas'
   ],
   canonicalUrl: 'https://estudiobalayage.com',
-  businessName: 'Maison Balayage Studio Punta Arenas',
+  businessName: 'JB Balayaje Peluqueria boutique Punta Arenas',
   geoRegion: 'CL-MA',
   placeAddress: 'esquina Iris Muñoz - Roberto Rasmussen Fernández 187, 6200000 Punta Arenas, Magallanes y la Antártica Chilena, Chile'
 };
 
 export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
+  {
+    id: 'carolina-balayage-rubio-calido-olaplex',
+    title: 'Carolina Rubio: balayage rubio cálido con tratamiento Olaplex',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-portada-despues-01',
+    startingBase: 'Cabello oscuro natural y sano',
+    techniqueUsed: 'Balayage completo con contorno iluminado en tonos cálidos. Protocolo completo de Olaplex en mezcla para cuidar la fibra, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Rubio cálido multidimensional con brillo espejo',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de contorno a los 3 meses y matización regular',
+    hairTexture: 'Cabello natural oscuro',
+    description: 'Carolina llegó al atelier con su hermoso cabello oscuro natural con el deseo de pasar a rubio. Diseñamos un balayage completo con contorno cálido para aportar luz y suavidad a su rostro. Cuidamos al máximo la integridad capilar aplicando el protocolo completo de Olaplex, sellado de cutícula y tratamiento de hidratación profunda. El brillo y la sedosidad finales demuestran que es posible alcanzar un rubio espectacular sin comprometer la salud del cabello.',
+    clientName: 'Carolina (Rubio)',
+    rating: 5,
+    clientReview: 'Espectacular el brillo y la suavidad del pelo gracias al tratamiento Olaplex. El color cálido me encantó.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-espejo-ia-01',
+        alt: 'Resultado final rubio de Carolina visto en espejo'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
+        alt: 'Detalle del sellado de cutícula e hidratación'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-despues-01',
+        alt: 'Resultado balayage rubio cálido desde atrás'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-despues-02',
+        alt: 'Vista lateral del degradado rubio cálido'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786261111/maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-movimiento-01.mov',
+        title: 'Movimiento y brillo después de Olaplex'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786261119/maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-movimiento-03.mov',
+        title: 'Brillo y suavidad final'
+      }
+    ],
+    seoKeywords: [
+      'balayage rubio calido Punta Arenas',
+      'olaplex para cabello rubio',
+      'sellado de cuticula e hidratacion',
+      'cabello oscuro natural a rubio',
+      'peluqueria Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'carolina-cobrizo-correccion-color',
+    title: 'Carolina Cobrizo: corrección de negro y rojo a cobrizo luminoso',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-barrido-color-negro-rojo-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-portada-despues-02',
+    startingBase: 'Tintura negra previa con acumulación de rojo artificial',
+    techniqueUsed: 'Barrido de color, extracción progresiva de pigmentos rojo/negro y masaje técnico prolongado para emparejar la base',
+    finalTone: 'Cobrizo luminoso, uniforme y cálido',
+    durationHours: 'Sesión técnica extendida',
+    maintenanceFrequency: 'Baño de brillo y matiz según diagnóstico',
+    hairTexture: 'Cabello teñido con carga artificial acumulada',
+    description: 'Carolina llegó buscando un cobrizo que no le habían podido lograr. Se realizó un barrido de color para retirar pigmentos negros y rojos, dos de los tonos más difíciles de limpiar, trabajando la fibra con paciencia hasta lograr una base pareja. El resultado fue un cobrizo uniforme, luminoso y muy favorecedor.',
+    clientName: 'Carolina',
+    rating: 5,
+    clientReview: 'Se fue muy conforme y feliz porque se logró el color cobrizo que quería.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01',
+        alt: 'Resultado cobrizo de Carolina visto en espejo'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-02',
+        alt: 'Retrato en espejo del resultado cobrizo final'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01',
+        alt: 'Vista frontal del cobrizo final luminoso'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01',
+        alt: 'Vista de perfil del cobrizo uniforme'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-luz-natural-03',
+        alt: 'Cobrizo final visto con luz natural'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-textura-perfil-04',
+        alt: 'Textura y brillo del color cobrizo final'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-uniforme-01',
+        alt: 'Detalle de brillo y uniformidad del cobrizo'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252970/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.mov',
+        title: 'Resultado cobrizo en espejo'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252972/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.mov',
+        title: 'Vista frontal del resultado'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252986/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-movimiento-brillo-posterior-01.mov',
+        title: 'Movimiento y brillo posterior'
+      }
+    ],
+    seoKeywords: [
+      'correccion de color cobrizo Punta Arenas',
+      'barrido de color tintura negra',
+      'sacar tintura roja del cabello',
+      'color cobrizo uniforme',
+      'peluqueria colorista Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'roxana-balayage-cobrizo',
+    title: 'Roxana Cobrizo: balayage cobrizo y caramelo multidimensional',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-portada-despues-01',
+    startingBase: 'Base natural oscura',
+    techniqueUsed: 'Balayage completo en tonos cobrizo y caramelo multidimensional para iluminar. Protocolo de cuidado de la fibra capilar, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Cobrizo y caramelo vibrante, luminoso y con reflejos tridimensionales',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
+    hairTexture: 'Cabello de grosor medio',
+    description: 'Roxana llegó buscando iluminar su base oscura con reflejos cálidos y llenos de vida. Diseñamos un balayage cobrizo suave mezclado con toques de caramelo que aportan relieve y movimiento. Cuidamos rigurosamente su fibra durante la aclaración, realizando un sellado de cutícula e hidratación intensiva al finalizar. El resultado es un cabello sano, sedoso y con un brillo espectacular.',
+    clientName: 'Roxana',
+    rating: 5,
+    clientReview: 'Encantada con el tono cobrizo y caramelo. El pelo me quedó súper brillante y con un movimiento hermoso.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-01',
+        alt: 'Resultado final cobrizo de Roxana visto en espejo'
+      },
+      {
+        src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-02',
+        alt: 'Reflejo en espejo del balayage cobrizo'
+      },
+      {
+        src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-detalle-ia-01',
+        alt: 'Detalle de brillo y sellado de cutícula'
+      },
+      {
+        src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-despues-01',
+        alt: 'Vista posterior del balayage cobrizo y caramelo'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786392853/maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-movimiento-01.mov',
+        title: 'Movimiento y reflejos caramelo cobrizo'
+      }
+    ],
+    seoKeywords: [
+      'balayage cobrizo Punta Arenas',
+      'balayage caramelo',
+      'morena iluminada cobriza',
+      'peluqueria Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'nicole-morena-iluminada',
+    title: 'Nicole: Balayage Morena Iluminada',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-portada-despues-01',
+    startingBase: 'Cabello oscuro teñido con acumulación previa de tintura negra y roja artificial y alta porosidad',
+    techniqueUsed: 'Prueba de mechas previa para diagnosticar la resistencia y altura de decoloración segura en cabello poroso, diseño de Balayage Morena Iluminada a mano alzada, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Castaño iluminado avellana y caramelo multidimensional',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Baño de brillo y matiz cada 2-3 meses',
+    hairTexture: 'Cabello poroso previamente teñido de negro y rojo',
+    description: 'Nicole llegó buscando un cambio luminoso, pero con antecedentes de acumulación de tintura negra y roja (los pigmentos más difíciles de extraer) y una fibra capilar altamente porosa. Realizamos una prueba de mechas de diagnóstico fundamental para evaluar la resistencia y salud del cabello, determinando con precisión científica hasta qué altura de decoloración podíamos llegar de forma segura. En base a ese diagnóstico, optamos por diseñar un Balayage Morena Iluminada en tonos avellana y caramelo. Finalizamos con sellado de cutícula e hidratación profunda para recuperar la elasticidad, sedosidad y brillo del cabello.',
+    clientName: 'Nicole',
+    rating: 5,
+    clientReview: 'Súper contenta con el resultado. Agradezco mucho la honestidad de la prueba de mechas para cuidar mi pelo, quedó brillante y hermoso.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-despues-01',
+        alt: 'Morena iluminada avellana y caramelo vista posterior'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-01',
+        alt: 'Reflejo en espejo del balayage avellana'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-espejo-ia-02',
+        alt: 'Luminosidad del contorno facial Morena Iluminada'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-detalle-ia-01',
+        alt: 'Textura suave y brillo tridimensional'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402185/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-01.mov',
+        title: 'Movimiento y relieve morena iluminada'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402188/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-02.mov',
+        title: 'Suavidad y brillo al movimiento'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786402189/maison-balayage/casos/nicole-morena-iluminada-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-movimiento-03.mov',
+        title: 'Resultado final brillante'
+      }
+    ],
+    seoKeywords: [
+      'morena iluminada Punta Arenas',
+      'decolorar tintura negra y roja',
+      'prueba de mechas peluqueria',
+      'balayage avellana Punta Arenas',
+      'peluqueria Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'ninoska-balayage-babylights-miel',
+    title: 'Ninoska: Balayage y Babylights',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01',
+    startingBase: 'Cabello castaño previo con deseo de mayor luminosidad sin efecto raíz',
+    techniqueUsed: 'Balayage completo combinado con babylights muy finas de contorno facial (contouring) para enmarcar el rostro en tonos miel. Masaje de sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Color miel tridimensional, cálido, brillante y de aspecto sumamente sano',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Retoque de contorno a los 3-4 meses',
+    hairTexture: 'Cabello de grosor medio',
+    description: 'Ninoska buscaba iluminar su rostro con un cambio sutil pero sumamente elegante. Diseñamos un trabajo combinado de balayage y babylights ultra finas de contorno en un tono miel, que es furor en esta temporada. Para nosotros, cuidar la salud del cabello es fundamental: finalizamos con un tratamiento completo de sellado de cutícula seguido de una hidratación profunda. El resultado es un cabello sumamente sedoso, con brillo espejo y un color miel perfectamente integrado.',
+    clientName: 'Ninoska',
+    rating: 5,
+    clientReview: 'Feliz con mi color miel y el brillo increíble de mi pelo. Se siente muy sano e hidratado.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01',
+        alt: 'Balayage y babylights color miel de Ninoska'
+      },
+      {
+        src: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02',
+        alt: 'Luz y relieve del contorno miel de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03',
+        alt: 'Textura suave y brillo tridimensional'
+      },
+      {
+        src: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04',
+        alt: 'Resultado final con el logo del salon de fondo'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786396560/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01.mov',
+        title: 'Movimiento y brillo del color miel'
+      }
+    ],
+    seoKeywords: [
+      'balayage miel Punta Arenas',
+      'babylights Punta Arenas',
+      'iluminacion contorno rostro',
+      'sellado cuticula cabello',
+      'hidratacion profunda Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'milena-mechas-babylights-rubio-calido',
+    title: 'Milena Rubio Cálido: mechas con papel y babylights de contorno',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01',
+    startingBase: 'Rubio previo desgastado y opaco con crecimiento de raíz',
+    techniqueUsed: 'Mechas con papel de plata combinadas con babylights muy finas de contorno facial para máxima luminosidad',
+    finalTone: 'Rubio cálido luminoso y vibrante, altura 9',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Retoque de contorno cada 3-4 meses',
+    hairTexture: 'Cabello rubio natural con aclaración previa',
+    description: 'Milena es clienta de nuestra peluquería desde hace 3 años. En esta sesión, decidimos realizar una transición hacia un rubio más cálido y luminoso. Aplicamos mechas con papel de plata combinadas con la técnica de babylights muy finas enfocadas en el contorno del rostro (contouring) para resaltar sus rasgos. Logramos alcanzar una altura de decoloración 9, finalizando con matices cálidos espectaculares que aportan luz y vitalidad.',
+    clientName: 'Milena',
+    rating: 5,
+    clientReview: 'Feliz con el cambio a tonos cálidos y el contorno súper iluminado que destaca el rostro.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01',
+        alt: 'Resultado final rubio cálido de Milena visto en espejo'
+      },
+      {
+        src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01',
+        alt: 'Detalle de las mechas y babylights de contorno'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786257631/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.mov',
+        title: 'Movimiento y brillo del rubio cálido final'
+      }
+    ],
+    seoKeywords: [
+      'mechas con papel Punta Arenas',
+      'babylights rubio calido',
+      'iluminacion de contorno facial',
+      'rubio altura 9',
+      'peluqueria Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
+  {
+    id: 'gisela-barrido-color-borgona',
+    title: 'Gisela: barrido de color en tono borgoña',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
+    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
+    techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
+    durationHours: '5.5 horas',
+    maintenanceFrequency: 'Baño de color y brillo cada 1.5 a 2 meses',
+    hairTexture: 'Cabello muy abundante y extralargo',
+    description: 'Gisela llegó con una melena espectacularmente larga y voluptuosa, pero con acumulaciones de tinturas previas que daban un tono desigual. Realizamos un barrido de color técnico para limpiar las zonas oscuras y homogeneizar la fibra. Luego, aplicamos un borgoña intenso de alta luminosidad. Finalizamos con sellado de cutícula e hidratación profunda. Los resultados saltan a la vista: una melena sana, con un brillo extraordinario y un tono borgoña lleno de reflejos.',
+    clientName: 'Gisela',
+    rating: 5,
+    clientReview: 'Espectacular el brillo y la uniformidad del color. Mi melena larga se siente súper sedosa y el borgoña le dio mucha vida.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01',
+        alt: 'Melena larga borgoña vista de espalda con ondas'
+      },
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02',
+        alt: 'Retrato de perfil mostrando el brillo tridimensional borgoña'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov',
+        title: 'Brillo y movimiento tridimensional borgoña'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov',
+        title: 'Movimiento en cabello extralargo'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov',
+        title: 'Resultado de brillo espejo final'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color Punta Arenas',
+      'cabello color borgona',
+      'cabello largo borgoña',
+      'peluqueria Punta Arenas',
+      'Maison Balayage Studio'
+    ]
+  },
   {
     id: 'case-1',
     title: 'Balayage Rubio Miel Dimensión Signature',
