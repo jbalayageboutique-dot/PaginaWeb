@@ -89,7 +89,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'sellado de cuticula e hidratacion',
       'cabello oscuro natural a rubio',
       'peluqueria Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -159,7 +159,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'sacar tintura roja del cabello',
       'color cobrizo uniforme',
       'peluqueria colorista Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -208,7 +208,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'balayage caramelo',
       'morena iluminada cobriza',
       'peluqueria Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -266,7 +266,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'prueba de mechas peluqueria',
       'balayage avellana Punta Arenas',
       'peluqueria Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -316,7 +316,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'iluminacion contorno rostro',
       'sellado cuticula cabello',
       'hidratacion profunda Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -358,7 +358,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'iluminacion de contorno facial',
       'rubio altura 9',
       'peluqueria Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
@@ -407,7 +407,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'cabello color borgona',
       'cabello largo borgoña',
       'peluqueria Punta Arenas',
-      'Maison Balayage Studio'
+      'JB Balayaje Peluqueria boutique'
     ]
   },
   {
