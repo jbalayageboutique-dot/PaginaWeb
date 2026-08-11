@@ -40,37 +40,37 @@ export const INITIAL_SEO_SETTINGS: SeoSettings = {
 export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   {
     id: 'carolina-balayage-rubio-calido-olaplex',
-    title: 'Carolina Rubio: balayage rubio cálido con tratamiento Olaplex',
+    title: 'Carolina: Balayage & Babylights Rubio Cálido con Olaplex',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-portada-despues-01',
-    startingBase: 'Cabello oscuro natural y sano',
-    techniqueUsed: 'Balayage completo con contorno iluminado en tonos cálidos. Protocolo completo de Olaplex en mezcla para cuidar la fibra, sellado de cutícula y tratamiento de hidratación profunda.',
+    startingBase: 'Cabello oscuro natural',
+    techniqueUsed: 'Combinación de Balayage con Babylights muy finas para contorno iluminado en tonos cálidos. Protocolo con el tratamiento Olaplex integrado para cuidar la fibra capilar, seguido de sellado de cutícula e hidratación profunda.',
     finalTone: 'Rubio cálido multidimensional con brillo espejo',
     durationHours: '5 horas',
     maintenanceFrequency: 'Retoque de contorno a los 3 meses y matización regular',
     hairTexture: 'Cabello natural oscuro',
-    description: 'Carolina llegó al atelier con su hermoso cabello oscuro natural con el deseo de pasar a rubio. Diseñamos un balayage completo con contorno cálido para aportar luz y suavidad a su rostro. Cuidamos al máximo la integridad capilar aplicando el protocolo completo de Olaplex, sellado de cutícula y tratamiento de hidratación profunda. El brillo y la sedosidad finales demuestran que es posible alcanzar un rubio espectacular sin comprometer la salud del cabello.',
+    description: 'Carolina llegó con el deseo de realizar una transición hacia un rubio luminoso pero cuidando al máximo la salud de su cabello. Diseñamos un trabajo personalizado combinando la técnica de Balayage con Babylights muy finitas de contorno. Durante todo el proceso de aclaración trabajamos con el tratamiento protector Olaplex para garantizar la integridad de la fibra capilar. Finalizamos la sesión con un protocolo de sellado de cutícula e hidratación profunda para restaurar, sellar y aportarle un brillo y suavidad excepcionales al cabello.',
     clientName: 'Carolina (Rubio)',
     rating: 5,
-    clientReview: 'Espectacular el brillo y la suavidad del pelo gracias al tratamiento Olaplex. El color cálido me encantó.',
+    clientReview: 'Espectacular el brillo y la suavidad del pelo gracias al tratamiento Olaplex y el sellado de cutícula. El rubio cálido con las babylights súper finas me encantó.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-espejo-ia-01',
-        alt: 'Resultado final rubio de Carolina visto en espejo'
+        alt: 'Resultado final rubio y babylights de Carolina visto en espejo'
       },
       {
         src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
-        alt: 'Detalle del sellado de cutícula e hidratación'
+        alt: 'Detalle del sellado de cutícula e hidratación profunda'
       },
       {
         src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-despues-01',
-        alt: 'Resultado balayage rubio cálido desde atrás'
+        alt: 'Resultado balayage y babylights rubio cálido desde atrás'
       },
       {
         src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-despues-02',
-        alt: 'Vista lateral del degradado rubio cálido'
+        alt: 'Vista lateral del degradado y mechas rubias finas'
       }
     ],
     videos: [
@@ -80,15 +80,15 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786261119/maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-movimiento-03.mov',
-        title: 'Brillo y suavidad final'
+        title: 'Brillo y suavidad con sellado de cutícula'
       }
     ],
     seoKeywords: [
       'balayage rubio calido Punta Arenas',
+      'babylights rubio Punta Arenas',
       'olaplex para cabello rubio',
       'sellado de cuticula e hidratacion',
       'cabello oscuro natural a rubio',
-      'peluqueria Punta Arenas',
       'JB Balayaje Peluqueria boutique'
     ]
   },
