@@ -624,22 +624,22 @@ export const SERVICES_MENU: ServiceItem[] = [
   },
   {
     id: 'olaplex-treatment-full',
-    title: 'Protocolo Reconstructor Completo Olaplex',
-    shortSubtitle: 'El estándar de oro internacional para la reconstrucción capilar',
-    description: 'Protocolo completo de reconstrucción molecular en salón utilizando el sistema original de Olaplex (Pasos Nº.1 y Nº.2). Su tecnología patentada de multiplicación de enlaces reconecta los enlaces de disulfuro rotos en el cabello dañado por procesos químicos, térmicos o ambientales, devolviendo la fuerza, elasticidad e integridad estructural desde el primer uso.',
+    title: 'Tratamiento Reconstructor Premium Olaplex® Completo',
+    shortSubtitle: 'El revolucionario sistema Nº.1 del mundo para revivir el cabello dañado',
+    description: 'El tratamiento de reconstrucción capilar más prestigioso y demandado a nivel mundial. Olaplex® no es un simple baño de crema o hidratación cosmética; es una terapia química activa patentada que trabaja a nivel molecular. Su fórmula exclusiva reconecta los enlaces de disulfuro rotos por procesos químicos (decoloraciones, tinturas, alisados) y térmicos (planchas, secadores). Repara de forma inmediata la estructura interna de la fibra, devolviendo la fuerza, elasticidad y salud original a melenas extremadamente sensibilizadas.',
     includes: [
-      'Olaplex Nº.1 Bond Multiplier (concentrado activo en salón)',
-      'Olaplex Nº.2 Bond Perfector (fijación molecular)',
-      'Lavado reparador con Olaplex Shampoo & Acondicionador',
-      'Masaje capilar relajante y estimulación de cutícula',
-      'Styling protector final para dar suavidad y brillo espejo'
+      'Paso Nº.1 Bond Multiplier: Concentrado puro para multiplicar y reconectar enlaces rotos',
+      'Paso Nº.2 Bond Perfector: Crema selladora activa para consolidar e igualar la fibra',
+      'Lavado de mantenimiento con Shampoo Nº.4 y Acondicionador Nº.5 Bond Maintenance',
+      'Masaje capilar relajante con estimulación y alineación profunda de la cutícula',
+      'Styling protector final con ondas balayage para lucir un brillo espejo tridimensional'
     ],
     duration: '1 - 1.5 horas',
     priceRange: 'Consulta personalizada',
-    recommendedFor: 'Cabellos decolorados, sensibilizados, quebradizos o antes de un cambio de color importante para preparar la fibra capilar de forma segura.',
+    recommendedFor: 'Cabellos decolorados, sensibilizados, quebradizos o antes de un cambio de color importante para preparar la estructura capilar de forma 100% segura.',
     popularBadge: true,
     seoTag: 'Tratamiento Olaplex',
-    imageUrl: 'https://res.cloudinary.com/apssuuqy/image/upload/v1786466085/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg'
+    imageUrl: 'https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best,e_enhance,e_sharpen:100/v1786466085/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg'
   }
 ];
 
