@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                 loading="lazy"
               />
               <span className="font-serif text-xl font-semibold text-white">
-                JB Balayaje Peluqueria boutique
+                JB Balayage Peluqueria boutique
               </span>
             </div>
 
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Copyright & SEO Tags */}
         <div className="pt-8 border-t border-[#2A2A2A] flex flex-col sm:flex-row items-center justify-between gap-4 text-stone-500 text-[11px]">
-          <p>© {new Date().getFullYear()} JB Balayaje Peluqueria boutique. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} JB Balayage Peluqueria boutique. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1">
             <span>Optimizado para posicionamiento en Google por</span>
             <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />

@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           />
           <div>
             <span className="block font-serif text-xl sm:text-2xl font-semibold tracking-wide text-[#F5F5F5]">
-              JB Balayaje Peluqueria boutique
+              JB Balayage Peluqueria boutique
             </span>
             <span className="block text-[10px] tracking-widest uppercase text-[#A3A3A3] font-medium">
               Atelier de Coloración
