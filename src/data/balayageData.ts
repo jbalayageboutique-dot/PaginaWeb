@@ -3,11 +3,11 @@ import { BeforeAfterCase, ServiceItem, GoogleBusinessInfo, GoogleReview, SeoSett
 export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
   name: 'JB Balayaje Peluqueria boutique',
   headline: 'Especialista Máster en Balayage, Morenas Iluminadas & Corrección de Color',
-  address: 'Roberto Rasmussen Fernández 187 (esquina Iris Muñoz), Villa Los Sauces',
+  address: 'Roberto Rasmussen Fernández 187 (esquina Iris Muñoz), Valle Los Sauces',
   city: 'Punta Arenas, Magallanes y la Antártica Chilena, Chile',
   rating: 5.0,
   totalReviews: 64,
-  googleProfileUrl: 'https://maps.google.com/?q=Roberto+Rasmussen+Fernandez+187,+esquina+Iris+Munoz,+Villa+Los+Sauces,+Punta+Arenas,+Magallanes,+Chile',
+  googleProfileUrl: 'https://maps.google.com/?q=Roberto+Rasmussen+Fernandez+187,+esquina+Iris+Munoz,+Valle+Los+Sauces,+Punta+Arenas,+Magallanes,+Chile',
   phone: '+56 9 8558 0190',
   whatsappNumber: '56985580190',
   whatsappFormatted: '+56 9 8558 0190',
@@ -21,7 +21,7 @@ export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
 
 export const INITIAL_SEO_SETTINGS: SeoSettings = {
   pageTitle: 'JB Balayaje Peluqueria boutique Punta Arenas | Especialista en Balayage & Coloración Profesional',
-  metaDescription: 'Estudio especializado en Balayage Rubio, Morena Iluminada y Corrección de Color en Punta Arenas, Magallanes. Ubicados en Roberto Rasmussen Fernández 187, Villa Los Sauces.',
+  metaDescription: 'Estudio especializado en Balayage Rubio, Morena Iluminada y Corrección de Color en Punta Arenas, Magallanes. Ubicados en Roberto Rasmussen Fernández 187, Valle Los Sauces.',
   targetKeywords: [
     'Balayage Punta Arenas',
     'Peluquería Punta Arenas',
@@ -34,7 +34,7 @@ export const INITIAL_SEO_SETTINGS: SeoSettings = {
   canonicalUrl: 'https://estudiobalayage.com',
   businessName: 'JB Balayaje Peluqueria boutique Punta Arenas',
   geoRegion: 'CL-MA',
-  placeAddress: 'Roberto Rasmussen Fernández 187 (esquina Iris Muñoz), Villa Los Sauces, Punta Arenas, Magallanes y la Antártica Chilena, Chile'
+  placeAddress: 'Roberto Rasmussen Fernández 187 (esquina Iris Muñoz), Valle Los Sauces, Punta Arenas, Magallanes y la Antártica Chilena, Chile'
 };
 
 export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
