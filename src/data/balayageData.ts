@@ -621,6 +621,8 @@ export const SERVICES_MENU: ServiceItem[] = [
     duration: '1.5 horas',
     priceRange: 'Servicio de Mantenimiento',
     recommendedFor: 'Realizar cada 2 o 3 meses para mantener el tono impecable.',
+    popularBadge: false,
+    seoTag: 'Matizado Balayage'
   },
   {
     id: 'olaplex-treatment-full',
