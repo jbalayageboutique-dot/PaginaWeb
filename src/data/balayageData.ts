@@ -3,11 +3,11 @@ import { BeforeAfterCase, ServiceItem, GoogleBusinessInfo, GoogleReview, SeoSett
 export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
   name: 'JB Balayaje Peluqueria boutique',
   headline: 'Especialista Máster en Balayage, Morenas Iluminadas & Corrección de Color',
-  address: 'esquina Iris Muñoz - Roberto Rasmussen Fernández 187',
-  city: '6200000 Punta Arenas, Magallanes y la Antártica Chilena, Chile',
+  address: 'Alonso de Ercilla 0157',
+  city: 'Punta Arenas, Magallanes y la Antártica Chilena, Chile',
   rating: 5.0,
   totalReviews: 64,
-  googleProfileUrl: 'https://maps.google.com/?q=esquina+Iris+Mu%C3%B1oz+-+Roberto+Rasmussen+Fern%C3%A1ndez+187,+6200000+Punta+Arenas,+Magallanes+y+la+Ant%C3%A1rtica+Chilena,+Chile',
+  googleProfileUrl: 'https://maps.google.com/?q=Alonso+de+Ercilla+0157,+Punta+Arenas,+Magallanes+y+la+Ant%C3%A1rtica+Chilena,+Chile',
   phone: '+56 9 8558 0190',
   whatsappNumber: '56985580190',
   whatsappFormatted: '+56 9 8558 0190',
@@ -16,25 +16,25 @@ export const GOOGLE_BUSINESS_DATA: GoogleBusinessInfo = {
     { days: 'Sábados', hours: '09:00 - 18:00 hs' },
     { days: 'Domingos', hours: 'Cerrado' }
   ],
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2342.3!2d-70.923!3d-53.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDA5JzAwLjAiUyA3MMKwNTUnMjQuMCJX!5e0!3m2!1ses!2scl!4v1620000000000!5m2!1ses!2scl'
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2342.946!2d-70.90161!3d-53.14171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDA4JzMwLjIiUyA3MMKwNTUnMjQuMCJX!5e0!3m2!1ses!2scl!4v1620000000000!5m2!1ses!2scl'
 };
 
 export const INITIAL_SEO_SETTINGS: SeoSettings = {
   pageTitle: 'JB Balayaje Peluqueria boutique Punta Arenas | Especialista en Balayage & Coloración Profesional',
-  metaDescription: 'Estudio especializado en Balayage Rubio, Morena Iluminada y Corrección de Color en Punta Arenas, Magallanes. Ubicados en esquina Iris Muñoz - Roberto Rasmussen Fernández 187.',
+  metaDescription: 'Estudio especializado en Balayage Rubio, Morena Iluminada y Corrección de Color en Punta Arenas, Magallanes. Ubicados en Alonso de Ercilla 0157.',
   targetKeywords: [
     'Balayage Punta Arenas',
     'Peluquería Punta Arenas',
     'Especialista en Balayage Magallanes',
     'Morena iluminada Punta Arenas',
     'Colorista profesional Punta Arenas',
-    'Balayage Roberto Rasmussen Fernández 187',
-    'Peluquería Iris Muñoz Punta Arenas'
+    'Balayage Alonso de Ercilla 0157',
+    'Peluquería Alonso de Ercilla Punta Arenas'
   ],
   canonicalUrl: 'https://estudiobalayage.com',
   businessName: 'JB Balayaje Peluqueria boutique Punta Arenas',
   geoRegion: 'CL-MA',
-  placeAddress: 'esquina Iris Muñoz - Roberto Rasmussen Fernández 187, 6200000 Punta Arenas, Magallanes y la Antártica Chilena, Chile'
+  placeAddress: 'Alonso de Ercilla 0157, Punta Arenas, Magallanes y la Antártica Chilena, Chile'
 };
 
 export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
