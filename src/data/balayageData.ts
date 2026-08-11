@@ -322,43 +322,44 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   },
   {
     id: 'milena-mechas-babylights-rubio-calido',
-    title: 'Milena Rubio Cálido: mechas con papel y babylights de contorno',
+    title: 'Milena: Mechas con Papel & Babylights (Sin Matizar)',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01',
     startingBase: 'Rubio previo desgastado y opaco con crecimiento de raíz',
-    techniqueUsed: 'Mechas con papel de plata combinadas con babylights muy finas de contorno facial para máxima luminosidad',
-    finalTone: 'Rubio cálido luminoso y vibrante, altura 9',
+    techniqueUsed: 'Mechas con papel y técnica de babylights muy finitas en todo el contorno para máxima luminosidad. Aclaración limpia (altura 9) sin necesidad de matizar. Cuidado con tratamiento Olaplex, sellado de cutícula e hidratación profunda.',
+    finalTone: 'Rubio luminoso y natural, sin matizar (altura 9)',
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Retoque de contorno cada 3-4 meses',
     hairTexture: 'Cabello rubio natural con aclaración previa',
-    description: 'Milena es clienta de nuestra peluquería desde hace 3 años. En esta sesión, decidimos realizar una transición hacia un rubio más cálido y luminoso. Aplicamos mechas con papel de plata combinadas con la técnica de babylights muy finas enfocadas en el contorno del rostro (contouring) para resaltar sus rasgos. Logramos alcanzar una altura de decoloración 9, finalizando con matices cálidos espectaculares que aportan luz y vitalidad.',
+    description: 'Milena es clienta de nuestra peluquería desde hace 3 años. En esta sesión, diseñamos un trabajo de mechas con papel combinadas con muchísimas babylights extra finas de contorno. Gracias a la precisión del aclarado, alcanzamos un nivel 9 tan limpio y perfecto que no hubo necesidad de matizar el cabello. Durante todo el proceso de decoloración trabajamos con el tratamiento protector Olaplex para cuidar la salud capilar. Finalizamos con sellado de cutícula e hidratación profunda, logrando un rubio de brillo espejo espectacular y sumamente sano.',
     clientName: 'Milena',
     rating: 5,
-    clientReview: 'Feliz con el cambio a tonos cálidos y el contorno súper iluminado que destaca el rostro.',
+    clientReview: 'Feliz con el resultado de mis mechas y babylights finas, y lo mejor es que no hubo necesidad de matizar. Con Olaplex y el sellado de cutícula mi pelo quedó brillante, sano y muy suave.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01',
-        alt: 'Resultado final rubio cálido de Milena visto en espejo'
+        alt: 'Resultado final rubio y babylights sin matizar de Milena en espejo'
       },
       {
         src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01',
-        alt: 'Detalle de las mechas y babylights de contorno'
+        alt: 'Detalle de las mechas, babylights de contorno y sellado de cutícula'
       }
     ],
     videos: [
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786257631/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.mov',
-        title: 'Movimiento y brillo del rubio cálido final'
+        title: 'Movimiento y brillo natural del rubio sin matizar'
       }
     ],
     seoKeywords: [
       'mechas con papel Punta Arenas',
       'babylights rubio calido',
       'iluminacion de contorno facial',
-      'rubio altura 9',
-      'peluqueria Punta Arenas',
+      'decoloracion sin matizar',
+      'tratamiento olaplex Punta Arenas',
+      'sellado cuticula cabello',
       'JB Balayage Peluqueria boutique'
     ]
   },
