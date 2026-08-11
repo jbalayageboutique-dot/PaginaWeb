@@ -164,50 +164,51 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   },
   {
     id: 'roxana-balayage-cobrizo',
-    title: 'Roxana: Mechas con Babylights e iluminación de contorno',
+    title: 'Roxana: Mechas con Babylights & Contouring Rubio',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-portada-despues-01',
-    startingBase: 'Base natural clara',
-    techniqueUsed: 'Trabajo de mechas con papel combinadas con babylights muy finas e iluminación de contorno facial para resaltar el rostro.',
-    finalTone: 'Rubio luminoso y vibrante, muy natural',
+    startingBase: 'Base clara natural',
+    techniqueUsed: 'Mechas con papel y técnica de babylights con mechas muy finitas en todo el contorno para iluminar el rostro. Incorporación de Olaplex para cuidar la salud capilar.',
+    finalTone: 'Rubio luminoso, vibrante y muy natural',
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
     hairTexture: 'Cabello de grosor medio',
-    description: 'Roxana llegó buscando iluminar su cabello con un rubio radiante. Diseñamos un trabajo de mechas con papel y babylights muy finas con iluminación de contorno para aportar luz y relieve. Realizamos un sellado de cutícula e hidratación profunda al finalizar. El resultado es un rubio espectacular, brillante y sumamente sano.',
+    description: 'Roxana cuenta con una base clara natural. Diseñamos un trabajo de mechas con papel combinado con babylights extra finas en todo el contorno para aportar luminosidad estratégica al rostro. Durante todo el proceso de aclaración trabajamos con el tratamiento protector Olaplex para garantizar y cuidar la salud del cabello. Al finalizar, aplicamos un tratamiento de sellado de cutícula e hidratación profunda, logrando devolverle brillo, suavidad y salud excepcional a la fibra capilar.',
     clientName: 'Roxana',
     rating: 5,
-    clientReview: 'Encantada con mis mechas y babylights. El pelo me quedó súper brillante y con un contorno muy iluminado.',
+    clientReview: 'Me encantaron mis mechas y las babylights súper finitas en el contorno. Gracias a Olaplex y el sellado de cutícula, mi pelo quedó ultra brillante, sano y suave.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-01',
-        alt: 'Resultado final de mechas de Roxana visto en espejo'
+        alt: 'Resultado final de mechas rubias y babylights finas de Roxana visto en espejo'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-02',
-        alt: 'Reflejo en espejo de las mechas y babylights'
+        alt: 'Reflejo en espejo del contorno iluminado y babylights rubias'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-detalle-ia-01',
-        alt: 'Detalle de brillo y sellado de cutícula'
+        alt: 'Detalle de brillo con sellado de cutícula e hidratación'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-despues-01',
-        alt: 'Vista posterior de las mechas y babylights'
+        alt: 'Vista posterior de la melena rubia con ondas suaves'
       }
     ],
     videos: [
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786392853/maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-movimiento-01.mov',
-        title: 'Movimiento y reflejos rubios muy luminosos'
+        title: 'Brillo, movimiento y luminosidad del rubio con ondas'
       }
     ],
     seoKeywords: [
       'mechas con papel Punta Arenas',
       'babylights rubio Punta Arenas',
       'iluminacion contorno facial',
-      'peluqueria Punta Arenas',
+      'tratamiento olaplex Punta Arenas',
+      'sellado cuticula cabello',
       'JB Balayaje Peluqueria boutique'
     ]
   },
