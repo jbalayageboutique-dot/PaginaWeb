@@ -43,6 +43,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Carolina: Balayage & Babylights Rubio Cálido con Olaplex',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
+    beforeImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-portada-despues-01',
     startingBase: 'Cabello oscuro natural',
     techniqueUsed: 'Combinación de Balayage con Babylights muy finas para contorno iluminado en tonos cálidos. Protocolo con el tratamiento Olaplex integrado para cuidar la fibra capilar, seguido de sellado de cutícula e hidratación profunda.',
