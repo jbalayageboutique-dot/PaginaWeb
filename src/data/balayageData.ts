@@ -362,7 +362,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01',
+    afterImage: 'maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03',
     startingBase: 'Castaño oscuro natural con cabello crespo extralargo',
     techniqueUsed: 'Balayage manual diseñado específicamente para definir y resaltar la estructura tridimensional del rizo. Protocolo de protección molecular activa Olaplex integrado en la decoloración, seguido de masaje de cutícula y superhidratación.',
     finalTone: 'Rubio luminoso multidimensional en rizos definidos',
@@ -383,8 +383,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         alt: 'Brillo y volumen de melena crespa extralarga'
       },
       {
-        src: 'maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03',
-        alt: 'Vista posterior del balayage rubio en cabello rizado'
+        src: 'maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01',
+        alt: 'Resultado final rubio brillante del rizo'
       }
     ],
     videos: [
