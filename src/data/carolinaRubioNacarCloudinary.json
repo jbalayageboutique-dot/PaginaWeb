@@ -1,0 +1,149 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas",
+  "uploaded_at": "2026-08-12T15:33:28.575Z",
+  "case": {
+    "id": "carolina-balayage-rubio-nacar",
+    "title": "Balayage Rubio Nacar con Olaplex Carolina Rubio Nacar",
+    "before_public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2683,
+      "height": 3928,
+      "bytes": 3647949,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548787/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01.jpg",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 1750997,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548789/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02.jpg",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 1802583,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548790/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03.jpg",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4483675,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548791/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "mirror-ia",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01.png",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01",
+      "resource_type": "image",
+      "format": "png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2735679,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548794/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01.png",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4855557,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786548795/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.mov",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 17246109,
+      "duration": 8.673333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548798/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548798/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.mov",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1646,
+      "bytes": 7506172,
+      "duration": 5.103333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548800/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548800/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.mov",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1678,
+      "bytes": 4556917,
+      "duration": 3.135011,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548802/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548802/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.mov",
+      "public_id": "maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 44025554,
+      "duration": 60.045,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548806/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786548806/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}
