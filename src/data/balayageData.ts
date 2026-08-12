@@ -402,25 +402,6 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
-    id: 'case-4',
-    title: 'Cobrizo Cálido & Warm Balayage Melt',
-    category: 'cobrizo-warm',
-    categoryLabel: 'Cobrizo Cálido',
-    beforeImage: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1584297091622-af8e5fda2a2f?q=80&w=800&auto=format&fit=crop',
-    startingBase: 'Castaño Medio virgen',
-    techniqueUsed: 'Color Melt con pigmentación orgánica & destellos cobrizos',
-    finalTone: 'Cobre Dorado Dulce con degradado sutil',
-    durationHours: '3.8 horas',
-    maintenanceFrequency: 'Bañador de brillo cada 3 meses',
-    hairTexture: 'Ondas suaves',
-    description: 'Ideal para quienes desean reflejos vibrantes pero elegantes. Aporta calidez a la tez del rostro con una técnica de degradado sin demarcación.',
-    clientName: 'Sofía B.',
-    rating: 5,
-    clientReview: 'El color cobre tiene un brillo increíble. En la luz del sol se ve radiante y súper sano.',
-    seoKeywords: ['balayage cobrizo', 'color melt cobre', 'reflejos calidos']
-  },
-  {
     id: 'valentina-balayage-rubio-luminoso',
     title: 'Valentina: Balayage Rubio Ultra Luminoso',
     category: 'balayage-rubio',
@@ -456,25 +437,6 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'peluqueria cerca de rasmussen',
       'JB Balayage Peluqueria boutique'
     ]
-  },
-  {
-    id: 'case-2',
-    title: 'Morena Iluminada Caramelo & Avellana',
-    category: 'morena-iluminada',
-    categoryLabel: 'Morena Iluminada',
-    beforeImage: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop',
-    startingBase: 'Base natural Castaño Profundo sin decoloraciones previas',
-    techniqueUsed: 'Balayage a mano alzada (Freehand) & Gloss tonalizador',
-    finalTone: 'Caramelo Cálido, Bronce y Avellana',
-    durationHours: '3.5 horas',
-    maintenanceFrequency: 'Cada 6 meses',
-    hairTexture: 'Lacio natural / Cabello abundante',
-    description: 'Aportamos dimensión y movimiento al cabello oscuro mediante puntos de luz estratégicos en el contorno del rostro (Face Framing) sin alterar la base natural.',
-    clientName: 'Carolina M.',
-    rating: 5,
-    clientReview: 'Buscaba luz para mi pelo oscuro sin pasar a rubio. Ella entendió perfecto el tono caramelo exacto que quería.',
-    seoKeywords: ['morena iluminada caramelo', 'face framing castaño', 'balayage pelo oscuro']
   },
   {
     id: 'ninoska-balayage-babylights-miel',
@@ -524,25 +486,6 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'hidratacion profunda Punta Arenas',
       'JB Balayage Peluqueria boutique'
     ]
-  },
-  {
-    id: 'case-3',
-    title: 'Corrección de Color & Balayage Beige Icy',
-    category: 'correccion-color',
-    categoryLabel: 'Corrección de Color',
-    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop',
-    afterImage: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop',
-    startingBase: 'Tinte de caja acumulado con manchas cobrizas amarillentas',
-    techniqueUsed: 'Limpieza de color suave, Babylights micro-tejidas & Tonalización K18',
-    finalTone: 'Rubio Beige Ceniza Nacarado con transición continua',
-    durationHours: '5.5 horas',
-    maintenanceFrequency: 'Matizado cada 2 meses',
-    hairTexture: 'Fino / Ligeramente poroso',
-    description: 'Diagnóstico minucioso para eliminar bandas de tinte viejo. Se neutralizaron tonos amarillentos y se reconstruyó la estructura capilar con péptidos.',
-    clientName: 'Lucía G.',
-    rating: 5,
-    clientReview: 'Me habían arruinado el pelo en otro lugar con manchas naranjas. Ella salvó mi cabello y me dejó el beige soñado.',
-    seoKeywords: ['correccion de color tinte', 'neutralizar cobrizo', 'rubio beige ceniza']
   },
   {
     id: 'milena-mechas-babylights-rubio-calido',
@@ -636,6 +579,25 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'case-4',
+    title: 'Cobrizo Cálido & Warm Balayage Melt',
+    category: 'cobrizo-warm',
+    categoryLabel: 'Cobrizo Cálido',
+    beforeImage: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1584297091622-af8e5fda2a2f?q=80&w=800&auto=format&fit=crop',
+    startingBase: 'Castaño Medio virgen',
+    techniqueUsed: 'Color Melt con pigmentación orgánica & destellos cobrizos',
+    finalTone: 'Cobre Dorado Dulce con degradado sutil',
+    durationHours: '3.8 horas',
+    maintenanceFrequency: 'Bañador de brillo cada 3 meses',
+    hairTexture: 'Ondas suaves',
+    description: 'Ideal para quienes desean reflejos vibrantes pero elegantes. Aporta calidez a la tez del rostro con una técnica de degradado sin demarcación.',
+    clientName: 'Sofía B.',
+    rating: 5,
+    clientReview: 'El color cobre tiene un brillo increíble. En la luz del sol se ve radiante y súper sano.',
+    seoKeywords: ['balayage cobrizo', 'color melt cobre', 'reflejos calidos']
+  },
+  {
     id: 'case-1',
     title: 'Balayage Rubio Miel Dimensión Signature',
     category: 'balayage-rubio',
@@ -653,6 +615,44 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     rating: 5,
     clientReview: 'El resultado superó mis expectativas. Mi pelo quedó súper brillante y el degradado es tan suave que no parece que tenga raíz crecida.',
     seoKeywords: ['balayage rubio miel', 'decoloracion sin daño', 'esfumado de raiz']
+  },
+  {
+    id: 'case-2',
+    title: 'Morena Iluminada Caramelo & Avellana',
+    category: 'morena-iluminada',
+    categoryLabel: 'Morena Iluminada',
+    beforeImage: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop',
+    startingBase: 'Base natural Castaño Profundo sin decoloraciones previas',
+    techniqueUsed: 'Balayage a mano alzada (Freehand) & Gloss tonalizador',
+    finalTone: 'Caramelo Cálido, Bronce y Avellana',
+    durationHours: '3.5 horas',
+    maintenanceFrequency: 'Cada 6 meses',
+    hairTexture: 'Lacio natural / Cabello abundante',
+    description: 'Aportamos dimensión y movimiento al cabello oscuro mediante puntos de luz estratégicos en el contorno del rostro (Face Framing) sin alterar la base natural.',
+    clientName: 'Carolina M.',
+    rating: 5,
+    clientReview: 'Buscaba luz para mi pelo oscuro sin pasar a rubio. Ella entendió perfecto el tono caramelo exacto que quería.',
+    seoKeywords: ['morena iluminada caramelo', 'face framing castaño', 'balayage pelo oscuro']
+  },
+  {
+    id: 'case-3',
+    title: 'Corrección de Color & Balayage Beige Icy',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop',
+    startingBase: 'Tinte de caja acumulado con manchas cobrizas amarillentas',
+    techniqueUsed: 'Limpieza de color suave, Babylights micro-tejidas & Tonalización K18',
+    finalTone: 'Rubio Beige Ceniza Nacarado con transición continua',
+    durationHours: '5.5 horas',
+    maintenanceFrequency: 'Matizado cada 2 meses',
+    hairTexture: 'Fino / Ligeramente poroso',
+    description: 'Diagnóstico minucioso para eliminar bandas de tinte viejo. Se neutralizaron tonos amarillentos y se reconstruyó la estructura capilar con péptidos.',
+    clientName: 'Lucía G.',
+    rating: 5,
+    clientReview: 'Me habían arruinado el pelo en otro lugar con manchas naranjas. Ella salvó mi cabello y me dejó el beige soñado.',
+    seoKeywords: ['correccion de color tinte', 'neutralizar cobrizo', 'rubio beige ceniza']
   },
   {
     id: 'case-5',
@@ -674,6 +674,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
