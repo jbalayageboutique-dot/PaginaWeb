@@ -186,7 +186,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-02',
-        alt: 'Reflejo en espejo del contorno iluminado y babylights rubias'
+        alt: 'Reflejo en espejo del contorno iluminado and babylights rubias'
       },
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-detalle-ia-01',
@@ -209,6 +209,45 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'iluminacion contorno facial',
       'tratamiento olaplex Punta Arenas',
       'sellado cuticula cabello',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
+    id: 'barrido-color-turquesa-corte-escalonado',
+    title: 'Elena: Barrido de Color Turquesa & Corte Escalonado',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858',
+    afterImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870',
+    startingBase: 'Cabello castaño previo con restos de tinturas anteriores y tono desigual',
+    techniqueUsed: 'Barrido de color completo para una aclaración limpia y uniforme a altura 9-10. Aplicación de tono turquesa parejo. Corte escalonado técnico diseñado a medida para dar volumen, ligereza y destacar el movimiento del nuevo color.',
+    finalTone: 'Turquesa pastel parejo, vibrante y de gran movimiento',
+    durationHours: '6 horas',
+    maintenanceFrequency: 'Retoque de raíz y matización cada 1.5 a 2 meses',
+    hairTexture: 'Cabello de grosor medio con corte escalonado',
+    description: 'Elena buscaba un cambio de impacto con un tono turquesa parejo y vibrante. Para lograrlo, realizamos un barrido de color técnico completo, logrando llevar su base oscura a una altura de decoloración limpia entre 9 y 10 de forma totalmente uniforme. Sobre esta base perfecta, aplicamos el pigmento turquesa fantasía. Finalmente, realizamos un corte de cabello escalonado técnico diseñado específicamente para resaltar la fluidez, volumen y brillo tridimensional del nuevo tono.',
+    clientName: 'Elena',
+    rating: 5,
+    clientReview: 'Increíble el trabajo que me hicieron. El color turquesa quedó súper parejo y brillante, y el corte escalonado le dio un movimiento hermoso al pelo. Recomiendo totalmente el salón en Punta Arenas!',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872',
+        alt: 'Resultado del barrido turquesa en detalle'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875',
+        alt: 'Brillo y uniformidad del tono turquesa'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877',
+        alt: 'Movimiento del corte escalonado turquesa'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color turquesa',
+      'decoloracion altura 10',
+      'corte escalonado Punta Arenas',
+      'color de fantasia turquesa',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -270,7 +309,56 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'JB Balayage Peluqueria boutique'
     ]
   },
-{
+  {
+    id: 'gisela-barrido-color-borgona',
+    title: 'Gisela: barrido de color en tono borgoña',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
+    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
+    techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
+    durationHours: '5.5 horas',
+    maintenanceFrequency: 'Baño de color y brillo cada 1.5 a 2 meses',
+    hairTexture: 'Cabello muy abundante y extralargo',
+    description: 'Gisela llegó con una melena espectacularmente larga y voluptuosa, pero con acumulaciones de tinturas previas que daban un tono desigual. Realizamos un barrido de color técnico para limpiar las zonas oscuras y homogeneizar la fibra. Luego, aplicamos un borgoña intenso de alta luminosidad. Finalizamos con sellado de cutícula e hidratación profunda. Los resultados saltan a la vista: una melena sana, con un brillo extraordinario y un tono borgoña lleno de reflejos.',
+    clientName: 'Gisela',
+    rating: 5,
+    clientReview: 'Espectacular el brillo y la uniformidad del color. Mi melena larga se siente súper sedosa y el borgoña le dio mucha vida.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01',
+        alt: 'Melena larga borgoña vista de espalda con ondas'
+      },
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02',
+        alt: 'Retrato de perfil mostrando el brillo tridimensional borgoña'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov',
+        title: 'Brillo y movimiento tridimensional borgoña'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov',
+        title: 'Movimiento en cabello extralargo'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov',
+        title: 'Resultado de brillo espejo final'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color Punta Arenas',
+      'cabello color borgona',
+      'cabello largo borgoña',
+      'peluqueria Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'ninoska-balayage-babylights-miel',
     title: 'Ninoska: Balayage y Babylights',
     category: 'balayage-rubio',
@@ -286,7 +374,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     description: 'Ninoska buscaba iluminar su rostro con un cambio sutil pero sumamente elegante. Diseñamos un trabajo combinado de balayage y babylights ultra finas de contorno en un tono miel, que es furor en esta temporada. Para nosotros, cuidar la salud del cabello es fundamental: finalizamos con un tratamiento completo de sellado de cutícula seguido de una hidratación profunda. El resultado es un cabello sumamente sedoso, con brillo espejo y un color miel perfectamente integrado.',
     clientName: 'Ninoska',
     rating: 5,
-    clientReview: 'Feliz con mi color miel y el brillo increíble de mi pelo. Se siente muy sano e hidratado.',
+    clientReview: 'Feliz con mi color miel and el brillo increíble de mi pelo. Se siente muy sano e hidratado.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01',
@@ -340,7 +428,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     galleryImages: [
       {
         src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01',
-        alt: 'Resultado final rubio y babylights sin matizar de Milena en espejo'
+        alt: 'Resultado final rubio and babylights sin matizar de Milena en espejo'
       },
       {
         src: 'maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01',
@@ -389,7 +477,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     videos: [
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464071/maison-balayage/casos/clienta-africa-expedicion/IMG_1380.mov',
-        title: 'Brillo y movimiento natural del rubio sin matizar'
+        title: 'Brillo and movimiento natural del rubio sin matizar'
       },
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464077/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.mov',
@@ -410,61 +498,12 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
-    id: 'gisela-barrido-color-borgona',
-    title: 'Gisela: barrido de color en tono borgoña',
-    category: 'correccion-color',
-    categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
-    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
-    techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
-    finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
-    durationHours: '5.5 horas',
-    maintenanceFrequency: 'Baño de color y brillo cada 1.5 a 2 meses',
-    hairTexture: 'Cabello muy abundante y extralargo',
-    description: 'Gisela llegó con una melena espectacularmente larga y voluptuosa, pero con acumulaciones de tinturas previas que daban un tono desigual. Realizamos un barrido de color técnico para limpiar las zonas oscuras y homogeneizar la fibra. Luego, aplicamos un borgoña intenso de alta luminosidad. Finalizamos con sellado de cutícula e hidratación profunda. Los resultados saltan a la vista: una melena sana, con un brillo extraordinario y un tono borgoña lleno de reflejos.',
-    clientName: 'Gisela',
-    rating: 5,
-    clientReview: 'Espectacular el brillo y la uniformidad del color. Mi melena larga se siente súper sedosa y el borgoña le dio mucha vida.',
-    galleryImages: [
-      {
-        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01',
-        alt: 'Melena larga borgoña vista de espalda con ondas'
-      },
-      {
-        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02',
-        alt: 'Retrato de perfil mostrando el brillo tridimensional borgoña'
-      }
-    ],
-    videos: [
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov',
-        title: 'Brillo y movimiento tridimensional borgoña'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov',
-        title: 'Movimiento en cabello extralargo'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov',
-        title: 'Resultado de brillo espejo final'
-      }
-    ],
-    seoKeywords: [
-      'barrido de color Punta Arenas',
-      'cabello color borgona',
-      'cabello largo borgoña',
-      'peluqueria Punta Arenas',
-      'JB Balayage Peluqueria boutique'
-    ]
-  },
-  {
     id: 'case-1',
     title: 'Balayage Rubio Miel Dimensión Signature',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    beforeImage: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop', // Dark uneven hair
-    afterImage: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=800&auto=format&fit=crop', // Beautiful golden balayage waves
+    beforeImage: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=800&auto=format&fit=crop',
     startingBase: 'Castaño Oscuro (Altura 4) con reflejos oxidados',
     techniqueUsed: 'Foilayage manual con matiz personalizado & esfumado de raíz',
     finalTone: 'Rubio Miel y Manteca Dimensión 3D (Altura 9)',
@@ -482,15 +521,15 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Morena Iluminada Caramelo & Avellana',
     category: 'morena-iluminada',
     categoryLabel: 'Morena Iluminada',
-    beforeImage: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop', // Natural dark hair
-    afterImage: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop', // Shiny warm highlighted dark hair
+    beforeImage: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop',
     startingBase: 'Base natural Castaño Profundo sin decoloraciones previas',
     techniqueUsed: 'Balayage a mano alzada (Freehand) & Gloss tonalizador',
     finalTone: 'Caramelo Cálido, Bronce y Avellana',
     durationHours: '3.5 horas',
     maintenanceFrequency: 'Cada 6 meses',
     hairTexture: 'Lacio natural / Cabello abundante',
-    description: 'Aportamos dimensión y movimiento al cabello oscuro mediante puntos de luz estratégicos en el contorno del rostro (Face Framing) sin alterar la base natural.',
+    description: 'Aportamos dimensión and movimiento al cabello oscuro mediante puntos de luz estratégicos en el contorno del rostro (Face Framing) sin alterar la base natural.',
     clientName: 'Carolina M.',
     rating: 5,
     clientReview: 'Buscaba luz para mi pelo oscuro sin pasar a rubio. Ella entendió perfecto el tono caramelo exacto que quería.',
@@ -501,8 +540,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Corrección de Color & Balayage Beige Icy',
     category: 'correccion-color',
     categoryLabel: 'Corrección de Color',
-    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop', // Brassiness/yellow tint
-    afterImage: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop', // Clean ash beige blonde
+    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop',
     startingBase: 'Tinte de caja acumulado con manchas cobrizas amarillentas',
     techniqueUsed: 'Limpieza de color suave, Babylights micro-tejidas & Tonalización K18',
     finalTone: 'Rubio Beige Ceniza Nacarado con transición continua',
@@ -520,8 +559,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Cobrizo Cálido & Warm Balayage Melt',
     category: 'cobrizo-warm',
     categoryLabel: 'Cobrizo Cálido',
-    beforeImage: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop', // Straight dark hair
-    afterImage: 'https://images.unsplash.com/photo-1584297091622-af8e5fda2a2f?q=80&w=800&auto=format&fit=crop', // Shiny copper balayage
+    beforeImage: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1584297091622-af8e5fda2a2f?q=80&w=800&auto=format&fit=crop',
     startingBase: 'Castaño Medio virgen',
     techniqueUsed: 'Color Melt con pigmentación orgánica & destellos cobrizos',
     finalTone: 'Cobre Dorado Dulce con degradado sutil',
@@ -539,60 +578,23 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Babylights & Melt Rubio Platinado Vainilla',
     category: 'babylights-melt',
     categoryLabel: 'Babylights & Melt',
-    beforeImage: 'https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?q=80&w=800&auto=format&fit=crop', // Dull brown root
-    afterImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop', // Radiant blonde hair
+    beforeImage: 'https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?q=80&w=800&auto=format&fit=crop',
+    afterImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop',
     startingBase: 'Rubio Oscuro natural (Altura 6)',
     techniqueUsed: 'Técnica Babylights micro-finas en todo el contorno + Esfumado de raíz',
     finalTone: 'Platinado Vainilla Luminoso con efecto solar',
     durationHours: '4.8 horas',
     maintenanceFrequency: 'Cada 5 meses',
-    hairTexture: 'Liso medio',
+    hairTexture: 'Liso medium',
     description: 'Efecto de aclarado máximo simulando los reflejos que genera el sol de verano. Técnica de tejido ultra fino que no deja líneas marcadas.',
     clientName: 'Mariana P.',
     rating: 5,
     clientReview: 'Es increíble la técnica que usa. El crecimiento de mi raíz pasa totalmente desapercibido.',
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
-  },
-  {
-    id: 'barrido-color-turquesa-corte-escalonado',
-    title: 'Elena: Barrido de Color Turquesa & Corte Escalonado',
-    category: 'correccion-color',
-    categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858',
-    afterImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870',
-    startingBase: 'Cabello castaño previo con restos de tinturas anteriores y tono desigual',
-    techniqueUsed: 'Barrido de color completo para una aclaración limpia y uniforme a altura 9-10. Aplicación de tono turquesa parejo. Corte escalonado técnico diseñado a medida para dar volumen, ligereza y destacar el movimiento del nuevo color.',
-    finalTone: 'Turquesa pastel parejo, vibrante y de gran movimiento',
-    durationHours: '6 horas',
-    maintenanceFrequency: 'Retoque de raíz y matización cada 1.5 a 2 meses',
-    hairTexture: 'Cabello de grosor medio con corte escalonado',
-    description: 'Elena buscaba un cambio de impacto con un tono turquesa parejo y vibrante. Para lograrlo, realizamos un barrido de color técnico completo, logrando llevar su base oscura a una altura de decoloración limpia entre 9 y 10 de forma totalmente uniforme. Sobre esta base perfecta, aplicamos el pigmento turquesa fantasía. Finalmente, realizamos un corte de cabello escalonado técnico diseñado específicamente para resaltar la fluidez, volumen y brillo tridimensional del nuevo tono.',
-    clientName: 'Elena',
-    rating: 5,
-    clientReview: 'Increíble el trabajo que me hicieron. El color turquesa quedó súper parejo y brillante, y el corte escalonado le dio un movimiento hermoso al pelo. Recomiendo totalmente el salón en Punta Arenas!',
-    galleryImages: [
-      {
-        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872',
-        alt: 'Resultado del barrido turquesa en detalle'
-      },
-      {
-        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875',
-        alt: 'Brillo y uniformidad del tono turquesa'
-      },
-      {
-        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877',
-        alt: 'Movimiento del corte escalonado turquesa'
-      }
-    ],
-    seoKeywords: [
-      'barrido de color turquesa',
-      'decoloracion altura 10',
-      'corte escalonado Punta Arenas',
-      'color de fantasia turquesa',
-      'JB Balayage Peluqueria boutique'
-    ]
   }
 ];
+
+
 
 export const SERVICES_MENU: ServiceItem[] = [
   {
