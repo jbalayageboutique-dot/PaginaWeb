@@ -255,7 +255,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Carolina: Balayage con Babylights en Tonos Cálidos y Miel',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01',
+    afterImage: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01',
     startingBase: 'Cabello natural oscuro',
     techniqueUsed: 'Técnica de mechas con papel combinadas con babylights extra finas en todo el contorno para iluminar el rostro (contouring) en tonos cálidos y miel. Protocolo completo de Olaplex integrado en la aclaración para el cuidado capilar, finalizando con sellado de cutícula e hidratación profunda.',
     finalTone: 'Rubio cálido y miel, luminoso, saludable y de gran brillo',
@@ -268,7 +268,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     clientReview: 'Me encantaron las babylights súper finas de contorno en tonos miel. El pelo me quedó sanísimo gracias a Olaplex y con un brillo espectacular por el sellado de cutícula.',
     galleryImages: [
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01',
+        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01',
         alt: 'Reflejo del balayage rubio cálido y miel de Carolina'
       },
       {
