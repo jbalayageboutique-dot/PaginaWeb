@@ -309,51 +309,39 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
-    id: 'gisela-barrido-color-borgona',
-    title: 'Gisela: barrido de color en tono borgoña',
+    id: 'nicole-morena-iluminada-peru',
+    title: 'Nicole: Balayage Morena Iluminada',
     category: 'correccion-color',
     categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
-    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
-    techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
-    finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
-    durationHours: '5.5 horas',
-    maintenanceFrequency: 'Baño de color y brillo cada 1.5 a 2 meses',
-    hairTexture: 'Cabello muy abundante y extralargo',
-    description: 'Gisela llegó con una melena espectacularmente larga y voluptuosa, pero con acumulaciones de tinturas previas que daban un tono desigual. Realizamos un barrido de color técnico para limpiar las zonas oscuras y homogeneizar la fibra. Luego, aplicamos un borgoña intenso de alta luminosidad. Finalizamos con sellado de cutícula e hidratación profunda. Los resultados saltan a la vista: una melena sana, con un brillo extraordinario y un tono borgoña lleno de reflejos.',
-    clientName: 'Gisela',
+    beforeImage: 'nicole-morena-iluminada-peru-punta-arenas/fotos/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01',
+    afterImage: 'nicole-morena-iluminada-peru-punta-arenas/fotos/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01',
+    startingBase: 'Castaño oscuro natural con alta densidad',
+    techniqueUsed: 'Técnica de balayage con papel de plata para un aclarado limpio y uniforme. Diseño estratégico de mechas para morena iluminada, masaje de sellado de cutícula e hidratación capilar.',
+    finalTone: 'Castaño avellana y caramelo suave tridimensional',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de puntos de luz cada 4-5 meses',
+    hairTexture: 'Cabello castaño oscuro abundante',
+    description: 'Nicole nos visitó desde el Perú a nuestro salón en Punta Arenas. Diseñamos para ella una técnica de balayage con papeles de plata para lograr una morena iluminada súper sutil y elegante en tonos avellana y caramelo. Cuidamos al máximo la fibra capilar, finalizando el proceso con un sellado de cutícula profundo para dejar el cabello ultra suave, dócil y con un brillo espectacular.',
+    clientName: 'Nicole',
     rating: 5,
-    clientReview: 'Espectacular el brillo y la uniformidad del color. Mi melena larga se siente súper sedosa y el borgoña le dio mucha vida.',
+    clientReview: 'Vine a Punta Arenas desde el Perú y busqué el mejor salón para una morena iluminada. El trabajo con papeles de plata quedó perfecto, mi pelo se siente muy suave y brillante.',
     galleryImages: [
       {
-        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01',
-        alt: 'Melena larga borgoña vista de espalda con ondas'
-      },
-      {
-        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02',
-        alt: 'Retrato de perfil mostrando el brillo tridimensional borgoña'
+        src: 'nicole-morena-iluminada-peru-punta-arenas/fotos/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01',
+        alt: 'Balayage morena iluminada en detalle'
       }
     ],
     videos: [
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov',
-        title: 'Brillo y movimiento tridimensional borgoña'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov',
-        title: 'Movimiento en cabello extralargo'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov',
-        title: 'Resultado de brillo espejo final'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786549580/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.mov',
+        title: 'Movimiento y caída del balayage caramelo'
       }
     ],
     seoKeywords: [
-      'barrido de color Punta Arenas',
-      'cabello color borgona',
-      'cabello largo borgoña',
-      'peluqueria Punta Arenas',
+      'morena iluminada Punta Arenas',
+      'balayage avellana Punta Arenas',
+      'tecnica papel de plata balayage',
+      'peluqueria cerca de rasmussen',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -404,6 +392,55 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'iluminacion contorno rostro',
       'sellado cuticula cabello',
       'hidratacion profunda Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
+    id: 'gisela-barrido-color-borgona',
+    title: 'Gisela: barrido de color en tono borgoña',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
+    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
+    techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
+    finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
+    durationHours: '5.5 horas',
+    maintenanceFrequency: 'Baño de color y brillo cada 1.5 a 2 meses',
+    hairTexture: 'Cabello muy abundante y extralargo',
+    description: 'Gisela llegó con una melena espectacularmente larga y voluptuosa, pero con acumulaciones de tinturas previas que daban un tono desigual. Realizamos un barrido de color técnico para limpiar las zonas oscuras y homogeneizar la fibra. Luego, aplicamos un borgoña intenso de alta luminosidad. Finalizamos con sellado de cutícula e hidratación profunda. Los resultados saltan a la vista: una melena sana, con un brillo extraordinario y un tono borgoña lleno de reflejos.',
+    clientName: 'Gisela',
+    rating: 5,
+    clientReview: 'Espectacular el brillo y la uniformidad del color. Mi melena larga se siente súper sedosa y el borgoña le dio mucha vida.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01',
+        alt: 'Melena larga borgoña vista de espalda con ondas'
+      },
+      {
+        src: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02',
+        alt: 'Retrato de perfil mostrando el brillo tridimensional borgoña'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov',
+        title: 'Brillo y movimiento tridimensional borgoña'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov',
+        title: 'Movimiento en cabello extralargo'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov',
+        title: 'Resultado de brillo espejo final'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color Punta Arenas',
+      'cabello color borgona',
+      'cabello largo borgoña',
+      'peluqueria Punta Arenas',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -592,6 +629,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 

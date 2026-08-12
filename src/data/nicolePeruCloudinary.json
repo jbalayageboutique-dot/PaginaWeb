@@ -1,0 +1,68 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas",
+  "uploaded_at": "2026-08-12T15:46:22.255Z",
+  "case": {
+    "id": "nicole-morena-iluminada-peru",
+    "title": "Morena Iluminada Nicole Peru",
+    "before_public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2591,
+      "height": 3703,
+      "bytes": 4213798,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786549576/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01.jpg",
+      "public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4240268,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786549577/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01.png",
+      "public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01",
+      "resource_type": "image",
+      "format": "png",
+      "width": 1111,
+      "height": 1415,
+      "bytes": 2299613,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786549578/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01.png",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.mov",
+      "public_id": "maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 11088104,
+      "duration": 5.536667,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786549580/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786549580/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}
