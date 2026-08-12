@@ -454,8 +454,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Sarah: Babylights Rubias (Sin Matizar) - Expedición África',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    beforeImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2',
-    afterImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
+    afterImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2',
     startingBase: 'Rubio oscuro natural con puntas desgastadas por el sol y la sal marina',
     techniqueUsed: 'Micro-babylights ultra finas de alta densidad en todo el contorno y melena. Decoloración limpia (altura 9) sin necesidad de matizar. Tratamiento reconstructor Olaplex incorporado y sellado de cutícula profundo.',
     finalTone: 'Rubio natural, ultra luminoso y sin matiz',
@@ -467,6 +466,10 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     rating: 5,
     clientReview: 'I found JB Balayage on Google while sailing on a maritime expedition from Africa to Patagonia. I needed a professional to brighten my hair in Punta Arenas, and the results exceeded all my expectations! The micro-babylights are extremely fine, and we did not even need to tone it. Thanks to the Olaplex treatment and cuticle sealing, my hair feels incredibly healthy, soft, and shiny despite the harsh sea conditions. An absolute gem of a salon in Patagonia!',
     galleryImages: [
+      {
+        src: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
+        alt: 'Resultado de babylights rubias sin matizar'
+      },
       {
         src: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1387 2',
         alt: 'Resultado de babylights rubias sin matizar visto desde atrás'
