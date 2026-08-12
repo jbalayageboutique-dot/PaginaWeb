@@ -1,0 +1,81 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas",
+  "uploaded_at": "2026-08-12T16:51:13.811Z",
+  "case": {
+    "id": "valentina-balayage-rubio-luminoso",
+    "title": "Valentina: Balayage Rubio Luminoso",
+    "before_public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 3118121,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786553464/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01.jpg",
+      "public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2616,
+      "height": 4002,
+      "bytes": 2961869,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786553465/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02.jpg",
+      "public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2328,
+      "height": 4032,
+      "bytes": 2779411,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786553466/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2673,
+      "height": 4006,
+      "bytes": 5957757,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786553470/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-valentina-balayage-rubio-movimiento-01.mp4",
+      "public_id": "maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-movimiento-01",
+      "resource_type": "video",
+      "format": "mp4",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 12126278,
+      "duration": 6.07,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786553472/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-movimiento-01.mp4",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786553472/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-movimiento-01.mp4",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-movimiento-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}
