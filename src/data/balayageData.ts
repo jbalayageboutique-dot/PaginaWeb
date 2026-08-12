@@ -515,14 +515,14 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   },
   {
     id: 'clienta-africa-expedicion',
-    title: 'Sarah: Babylights Platinadas (Sin Matizar) - Expedición África',
+    title: 'Sarah: Babylights Rubias (Sin Matizar) - Expedición África',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1392 2',
     afterImage: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
     startingBase: 'Rubio oscuro natural con puntas desgastadas por el sol y la sal marina',
     techniqueUsed: 'Micro-babylights ultra finas de alta densidad en todo el contorno y melena. Decoloración limpia (altura 9) sin necesidad de matizar. Tratamiento reconstructor Olaplex incorporado y sellado de cutícula profundo.',
-    finalTone: 'Rubio platino nórdico natural, ultra luminoso y sin matiz',
+    finalTone: 'Rubio natural, ultra luminoso y sin matiz',
     durationHours: '5 horas',
     maintenanceFrequency: 'Retoque de crecimiento a los 4-6 meses',
     hairTexture: 'Cabello expuesto a condiciones extremas de navegación',
@@ -547,12 +547,12 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464082/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.mov',
-        title: 'Movimiento y caída del rubio platino tridimensional'
+        title: 'Movimiento y caída del rubio tridimensional'
       }
     ],
     seoKeywords: [
       'babylights sin matizar Punta Arenas',
-      'rubio platino natural',
+      'rubio natural',
       'decoloracion limpia sin daño',
       'tratamiento olaplex Punta Arenas',
       'peluqueria cerca del puerto',
