@@ -1,0 +1,78 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/barrido-color-turquesa-punta-arenas",
+  "uploaded_at": "2026-08-12T14:57:12.396Z",
+  "case": {
+    "id": "barrido-color-turquesa-corte-escalonado",
+    "title": "Barrido de Color Turquesa con Corte Escalonado",
+    "before_public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858",
+    "after_public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "IMG_1858.JPG",
+      "public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 5033693,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786546625/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "IMG_1870.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2354,
+      "height": 4032,
+      "bytes": 4379741,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786546626/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1872.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2338,
+      "height": 4032,
+      "bytes": 3266039,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786546627/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1875.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2291,
+      "height": 4032,
+      "bytes": 3539943,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786546630/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "IMG_1877.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2056,
+      "height": 4032,
+      "bytes": 2931249,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786546631/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877?_a=BAMAPqWQ0"
+    }
+  ]
+}

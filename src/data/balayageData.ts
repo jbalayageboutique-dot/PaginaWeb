@@ -552,6 +552,45 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     rating: 5,
     clientReview: 'Es increíble la técnica que usa. El crecimiento de mi raíz pasa totalmente desapercibido.',
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
+  },
+  {
+    id: 'barrido-color-turquesa-corte-escalonado',
+    title: 'Elena: Barrido de Color Turquesa & Corte Escalonado',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1858',
+    afterImage: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1870',
+    startingBase: 'Cabello castaño previo con restos de tinturas anteriores y tono desigual',
+    techniqueUsed: 'Barrido de color completo para una aclaración limpia y uniforme a altura 9-10. Aplicación de tono turquesa parejo. Corte escalonado técnico diseñado a medida para dar volumen, ligereza y destacar el movimiento del nuevo color.',
+    finalTone: 'Turquesa pastel parejo, vibrante y de gran movimiento',
+    durationHours: '6 horas',
+    maintenanceFrequency: 'Retoque de raíz y matización cada 1.5 a 2 meses',
+    hairTexture: 'Cabello de grosor medio con corte escalonado',
+    description: 'Elena buscaba un cambio de impacto con un tono turquesa parejo y vibrante. Para lograrlo, realizamos un barrido de color técnico completo, logrando llevar su base oscura a una altura de decoloración limpia entre 9 y 10 de forma totalmente uniforme. Sobre esta base perfecta, aplicamos el pigmento turquesa fantasía. Finalmente, realizamos un corte de cabello escalonado técnico diseñado específicamente para resaltar la fluidez, volumen y brillo tridimensional del nuevo tono.',
+    clientName: 'Elena',
+    rating: 5,
+    clientReview: 'Increíble el trabajo que me hicieron. El color turquesa quedó súper parejo y brillante, y el corte escalonado le dio un movimiento hermoso al pelo. Recomiendo totalmente el salón en Punta Arenas!',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1872',
+        alt: 'Resultado del barrido turquesa en detalle'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1875',
+        alt: 'Brillo y uniformidad del tono turquesa'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-turquesa-punta-arenas/IMG_1877',
+        alt: 'Movimiento del corte escalonado turquesa'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color turquesa',
+      'decoloracion altura 10',
+      'corte escalonado Punta Arenas',
+      'color de fantasia turquesa',
+      'JB Balayage Peluqueria boutique'
+    ]
   }
 ];
 
