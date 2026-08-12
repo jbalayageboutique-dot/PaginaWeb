@@ -163,48 +163,57 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                       referrerPolicy="no-referrer"
                       loading="lazy"
                     />
-                    <div className="absolute top-3 right-3 bg-black/85 backdrop-blur-sm text-amber-200 px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider border border-amber-300/30">
-                      DESPUÉS
-                    </div>
 
-                    {/* BEFORE Image Overlay (Cloudinary Streamed) */}
-                    <div
-                      className="absolute top-0 left-0 bottom-0 overflow-hidden border-r-2 border-white shadow-xl"
-                      style={{ width: `${sliderVal}%` }}
-                    >
-                      <img
-                        src={optimizedBefore}
-                        alt={`Antes: ${item.title}`}
-                        className="absolute top-0 left-0 h-full object-cover max-w-none"
-                        style={{ width: '100%', height: '100%' }}
-                        referrerPolicy="no-referrer"
-                        loading="lazy"
-                      />
-                      <div className="absolute top-3 left-3 bg-stone-950/90 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider">
-                        ANTES
+                    {item.beforeImage ? (
+                      <>
+                        <div className="absolute top-3 right-3 bg-black/85 backdrop-blur-sm text-amber-200 px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider border border-amber-300/30">
+                          DESPUÉS
+                        </div>
+
+                        {/* BEFORE Image Overlay (Cloudinary Streamed) */}
+                        <div
+                          className="absolute top-0 left-0 bottom-0 overflow-hidden border-r-2 border-white shadow-xl"
+                          style={{ width: `${sliderVal}%` }}
+                        >
+                          <img
+                            src={optimizedBefore}
+                            alt={`Antes: ${item.title}`}
+                            className="absolute top-0 left-0 h-full object-cover max-w-none"
+                            style={{ width: '100%', height: '100%' }}
+                            referrerPolicy="no-referrer"
+                            loading="lazy"
+                          />
+                          <div className="absolute top-3 left-3 bg-stone-950/90 text-white px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider">
+                            ANTES
+                          </div>
+                        </div>
+
+                        {/* Slider Range Control */}
+                        <input
+                          type="range"
+                          min="0"
+                          max="100"
+                          value={sliderVal}
+                          onChange={(e) => handleSliderChange(item.id, Number(e.target.value))}
+                          className="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20"
+                          aria-label="Deslizar para comparar antes y después"
+                        />
+
+                        {/* Visual Divider Line */}
+                        <div 
+                          className="absolute top-0 bottom-0 w-1 bg-white z-10 pointer-events-none flex items-center justify-center shadow-md"
+                          style={{ left: `${sliderVal}%` }}
+                        >
+                          <div className="w-7 h-7 rounded-full bg-[#171717] text-[#BFA181] border border-[#BFA181] flex items-center justify-center text-xs font-bold shadow-lg">
+                            ↔
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <div className="absolute top-3 right-3 bg-black/85 backdrop-blur-sm text-[#BFA181] px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider border border-[#BFA181]/30">
+                        DISEÑO
                       </div>
-                    </div>
-
-                    {/* Slider Range Control */}
-                    <input
-                      type="range"
-                      min="0"
-                      max="100"
-                      value={sliderVal}
-                      onChange={(e) => handleSliderChange(item.id, Number(e.target.value))}
-                      className="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20"
-                      aria-label="Deslizar para comparar antes y después"
-                    />
-
-                    {/* Visual Divider Line */}
-                    <div 
-                      className="absolute top-0 bottom-0 w-1 bg-white z-10 pointer-events-none flex items-center justify-center shadow-md"
-                      style={{ left: `${sliderVal}%` }}
-                    >
-                      <div className="w-7 h-7 rounded-full bg-[#171717] text-[#BFA181] border border-[#BFA181] flex items-center justify-center text-xs font-bold shadow-lg">
-                        ↔
-                      </div>
-                    </div>
+                    )}
 
                     {/* Zoom / Full Details Button */}
                     <button
@@ -305,20 +314,22 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
             {/* Modal Body */}
             <div className="p-6 space-y-6 max-h-[80vh] overflow-y-auto">
               
-              {/* Dual Before / After Image comparison side by side */}
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="relative rounded-xl overflow-hidden border border-[#2A2A2A]">
-                  <img
-                    src={getCloudinaryUrl(activeModalCase.beforeImage, { width: 800, quality: 'auto', format: 'auto' })}
-                    alt="Antes"
-                    className="w-full h-64 object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                  <span className="absolute top-2 left-2 bg-stone-950/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase border border-stone-800">
-                    Estado Inicial (Antes)
-                  </span>
-                </div>
-                <div className="relative rounded-xl overflow-hidden border border-[#BFA181]">
+              {/* Dual Before / After Image comparison side by side or single image */}
+              <div className={activeModalCase.beforeImage ? "grid sm:grid-cols-2 gap-4" : "flex justify-center"}>
+                {activeModalCase.beforeImage && (
+                  <div className="relative rounded-xl overflow-hidden border border-[#2A2A2A] w-full">
+                    <img
+                      src={getCloudinaryUrl(activeModalCase.beforeImage, { width: 800, quality: 'auto', format: 'auto' })}
+                      alt="Antes"
+                      className="w-full h-64 object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                    <span className="absolute top-2 left-2 bg-stone-950/90 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase border border-stone-800">
+                      Estado Inicial (Antes)
+                    </span>
+                  </div>
+                )}
+                <div className={`relative rounded-xl overflow-hidden border border-[#BFA181] ${activeModalCase.beforeImage ? 'w-full' : 'max-w-md w-full'}`}>
                   <img
                     src={getCloudinaryUrl(activeModalCase.afterImage, { width: 800, quality: 'auto', format: 'auto' })}
                     alt="Después"
@@ -364,6 +375,45 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                     <span>★ Opinión de {activeModalCase.clientName || 'Cliente'}:</span>
                   </div>
                   <p>"{activeModalCase.clientReview}"</p>
+                </div>
+              )}
+
+              {activeModalCase.galleryImages && activeModalCase.galleryImages.length > 0 && (
+                <div className="space-y-3">
+                  <h4 className="font-semibold text-white text-sm">Más fotos del caso:</h4>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    {activeModalCase.galleryImages.map((image) => (
+                      <img
+                        key={image.src}
+                        src={getCloudinaryUrl(image.src, { width: 420, height: 520, quality: 'auto', format: 'auto' })}
+                        alt={image.alt}
+                        className="h-40 w-full rounded-xl object-cover border border-[#2A2A2A]"
+                        referrerPolicy="no-referrer"
+                        loading="lazy"
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {activeModalCase.videos && activeModalCase.videos.length > 0 && (
+                <div className="space-y-3">
+                  <h4 className="font-semibold text-white text-sm">Videos del resultado:</h4>
+                  <div className="grid sm:grid-cols-3 gap-3">
+                    {activeModalCase.videos.map((video) => (
+                      <div key={video.src} className="space-y-2">
+                        <video
+                          src={video.src}
+                          poster={video.poster}
+                          className="h-48 w-full rounded-xl object-cover border border-[#2A2A2A] bg-black"
+                          controls
+                          playsInline
+                          preload="metadata"
+                        />
+                        <p className="text-[11px] text-stone-400">{video.title}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
