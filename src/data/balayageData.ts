@@ -426,7 +426,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     beforeImage: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-portada-despues-01',
+    afterImage: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01',
     startingBase: 'Cabello castaño oscuro natural',
     techniqueUsed: 'Balayage de alta precisión con mechas difuminadas para evitar marcas. Tratamiento de nutrición capilar profunda y sellado térmico de cutícula.',
     finalTone: 'Rubio extra claro luminoso, sedoso y con brillo espejo',
@@ -438,10 +438,6 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     rating: 5,
     clientReview: 'El resultado final de mi balayage es maravilloso. Mi pelo se ve súper rubio y brillante, pero con una textura increíblemente suave y sana.',
     galleryImages: [
-      {
-        src: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-01',
-        alt: 'Balayage rubio ultra luminoso visto de perfil'
-      },
       {
         src: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-02',
         alt: 'Brillo espejo y suavidad de Valentina de espaldas'
