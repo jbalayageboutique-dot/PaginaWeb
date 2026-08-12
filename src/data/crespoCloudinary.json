@@ -1,0 +1,94 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas",
+  "uploaded_at": "2026-08-12T16:24:40.284Z",
+  "case": {
+    "id": "gabriela-balayage-crespo-largo",
+    "title": "Balayage Rubio Crespo y Extralargo Gabriela",
+    "before_public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 3750651,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786551870/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-01.jpg",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2314,
+      "height": 3982,
+      "bytes": 2121447,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786551871/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-02.jpg",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2056,
+      "height": 4032,
+      "bytes": 2921133,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786551872/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03.jpg",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2069,
+      "height": 4032,
+      "bytes": 2642842,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786551873/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2046,
+      "height": 4032,
+      "bytes": 2882831,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786551876/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-gabriela-balayage-crespo-movimiento-01.mp4",
+      "public_id": "maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-movimiento-01",
+      "resource_type": "video",
+      "format": "mp4",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 18288808,
+      "duration": 9.238345,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786551878/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-movimiento-01.mp4",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786551878/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-movimiento-01.mp4",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gabriela-balayage-crespo-largo-punta-arenas/maison-balayage-punta-arenas-gabriela-balayage-crespo-movimiento-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}
