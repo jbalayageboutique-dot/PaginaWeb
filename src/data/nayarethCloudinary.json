@@ -1,0 +1,115 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas",
+  "uploaded_at": "2026-08-13T18:45:23.145Z",
+  "case": {
+    "id": "nayareth-balayage-contorno-iluminado-caramelo-miel",
+    "title": "Nayareth: Balayage & Contorno Iluminado Caramelo Miel",
+    "after_public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01"
+  },
+  "photos": [
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-01.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2072,
+      "height": 4032,
+      "bytes": 4945231,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646711/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-02.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2219,
+      "height": 3978,
+      "bytes": 3522606,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646712/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-03.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2112,
+      "height": 3950,
+      "bytes": 3613907,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646713/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-04.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-04",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1876,
+      "height": 4021,
+      "bytes": 2903996,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646715/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-04.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-04?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-04?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-05.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-05",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1692,
+      "height": 3088,
+      "bytes": 1882554,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646716/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-05.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-05?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-05?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-06.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-06",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1562,
+      "height": 3084,
+      "bytes": 2634146,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646717/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-06.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-06?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-06?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-nayareth-despues-07.jpg",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-07",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2053,
+      "height": 2972,
+      "bytes": 2781654,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786646718/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-07.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-07?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-07?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "original_filename": "maison-balayage-punta-arenas-nayareth-movimiento-01.mp4",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-01",
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786646719/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-01.mp4"
+    },
+    {
+      "original_filename": "maison-balayage-punta-arenas-nayareth-movimiento-02.mp4",
+      "public_id": "maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-02",
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786646721/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-02.mp4"
+    }
+  ]
+}

@@ -107,7 +107,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     description: 'Carolina llegó buscando un cobrizo que no le habían podido lograr. Se realizó un barrido de color para retirar pigmentos negros y rojos, dos de los tonos más difíciles de limpiar, trabajando la fibra con paciencia hasta lograr una base pareja. El resultado fue un cobrizo uniforme, luminoso y muy favorecedor.',
     clientName: 'Carolina',
     rating: 5,
-    clientReview: 'Se fue muy conforme and feliz porque se logró el color cobrizo que quería.',
+    clientReview: 'Se fue muy conforme y feliz porque se logró el color cobrizo que quería.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01',
@@ -780,7 +780,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     id: 'antonia-balayage-caramelo-miel-beige-calido',
     title: 'Antonia: Balayage Caramelo Miel o Beige Cálido',
     category: 'cobrizo-warm',
-    categoryLabel: 'Cobrizos & Cálivos',
+    categoryLabel: 'Cobrizos & Cálidos',
     afterImage: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-01',
     startingBase: 'Cabello castaño natural',
     techniqueUsed: 'Balayage de precisión combinado con baby lights muy finitas en todo el contorno facial (contouring) para aportar una luminosidad estratégica al rostro.',
@@ -798,7 +798,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         alt: 'Detalle de las ondas y relieve de contorno rubio beige'
       },
       {
-        src: 'maison-balayage/casos/antonia-balamiel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-03',
+        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-03',
         alt: 'Brillo tridimensional y suavidad capilar'
       },
       {
@@ -1103,6 +1103,66 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'nayareth-balayage-contorno-iluminado-caramelo-miel',
+    title: 'Nayareth: Balayage & Contorno Iluminado Caramelo Miel',
+    category: 'cobrizo-warm',
+    categoryLabel: 'Cobrizos & Cálidos',
+    afterImage: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01',
+    startingBase: 'Castaño oscuro natural con deseo de iluminación y calidez',
+    techniqueUsed: 'Técnica de balayage difuminado combinada con contorno iluminado (contouring) facial en tonos caramelo y miel para aportar brillo y relieve. Protocolo final de sellado capilar e hidratación.',
+    finalTone: 'Caramelo miel cálido, luminoso, con relieve tridimensional y brillo espejo',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Retoque de contorno a los 3-4 meses y retoque de balayage a los 6 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Nayareth nos visitó para iluminar su melena con tonos cálidos y naturales. Diseñamos un trabajo personalizado de balayage difuminado en tonos caramelo y miel, agregando un contorno iluminado (contouring) para enmarcar su rostro y resaltar su belleza. El trabajo de color respeta y aporta relieve tridimensional, logrando el tono cálido caramelo miel exacto que ella buscaba. Cerramos la sesión con un tratamiento intensivo de nutrición y sellado de cutículas para un acabado sedoso.',
+    clientName: 'Nayareth',
+    rating: 5,
+    clientReview: 'Feliz con mi balayage y el contorno caramelo miel. El color quedó precioso y súper natural, y el cabello con un brillo y suavidad increíbles.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-02',
+        alt: 'Relieve tridimensional del balayage caramelo miel de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-03',
+        alt: 'Detalle de las ondas y brillo del rubio caramelo'
+      },
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-04',
+        alt: 'Caída y brillo tridimensional del cabello'
+      },
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-05',
+        alt: 'Ondas suaves y relieve caramelo miel posterior'
+      },
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-06',
+        alt: 'Luz y dimensión del degradado de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-07',
+        alt: 'Detalle de puntas y caída natural'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786646719/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-01.mp4',
+        title: 'Movimiento y caída del balayage caramelo miel'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786646721/maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-movimiento-02.mp4',
+        title: 'Brillo espejo y elasticidad al movimiento'
+      }
+    ],
+    seoKeywords: [
+      'balayage caramelo miel Punta Arenas',
+      'contorno iluminado caramelo',
+      'contouring facial Punta Arenas',
+      'Maison Balayage Studio',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'case-4',
     title: 'Cobrizo Cálido & Warm Balayage Melt',
     category: 'cobrizo-warm',
@@ -1198,6 +1258,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
