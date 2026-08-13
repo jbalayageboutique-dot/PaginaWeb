@@ -262,7 +262,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
     hairTexture: 'Cabello natural de grosor medio',
-    description: 'En esta sesión de diseño para Carolina, realizamos un trabajo detallado de mechas con papel combinadas con babylights extra finas para aportar iluminación cálida y tonos miel en todo el contorno de su rostro. Cuidando estrictamente la salud de su cabello, incorporamos el tratamiento de Olaplex durante todo el proceso de aclarado. Para coronar la transformación, aplicamos un protocolo de sellado de cutícula e hidratación profunda, dando como resultado una melena rubia extremadamente brillante, sedosa y en perfectas tonalidades cálidas.',
+    description: 'En esta sesión de diseño para Carolina, realizamos un trabajo de mechas con papel combinadas con babylights extra finas para aportar iluminación cálida y tonos miel en todo el contorno de su rostro. Cuidando estrictamente la salud de su cabello, incorporamos el tratamiento de Olaplex durante todo el proceso de aclarado. Para coronar la transformación, aplicamos un protocolo de sellado de cutícula e hidratación profunda, dando como resultado una melena rubia extremadamente brillante, sedosa y en perfectas tonalidades cálidas.',
     clientName: 'Carolina',
     rating: 5,
     clientReview: 'Me encantaron las babylights súper finas de contorno en tonos miel. El pelo me quedó sanísimo gracias a Olaplex y con un brillo espectacular por el sellado de cutícula.',
@@ -314,7 +314,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     categoryLabel: 'Corrección de Color',
     beforeImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01',
     afterImage: 'maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01',
-    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintes previos desiguales',
+    startingBase: 'Melena voluptuosa y muy larga con acumulación de tintures previos desiguales',
     techniqueUsed: 'Barrido de color completo para homogeneizar la base, aplicación de color borgoña intenso formulado a medida, sellado de cutícula y tratamiento de hidratación profunda.',
     finalTone: 'Borgoña vibrante, profundo, luminoso y tridimensional',
     durationHours: '5.5 horas',
@@ -550,7 +550,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     finalTone: 'Caramelo miel sumamente luminoso, elegante, limpio y sin reflejos naranjos',
     durationHours: '6 horas',
     maintenanceFrequency: 'Retoque de raíz y matización cada 3 meses',
-    hairTexture: 'Cabello procesado con acumulación de tinte',
+    hairTexture: 'Cabello teñido con acumulación de tinte',
     description: 'Nuestra clienta llegó buscando remover un tono guinda artificial acumulado por más de 3 años. Llevamos a cabo un minucioso barrido de color y diseño de mechas finas, logrando un tono caramelo miel sumamente elegante, lleno de luz y libre de reflejos naranjos no deseados. Para cuidar la integridad y salud de la fibra capilar, integramos el tratamiento completo de Olaplex en la decoloración, cerrando la sesión con un sellado térmico de cutículas para garantizar máxima suavidad y un brillo espectacular.',
     clientName: 'Corrección de Color',
     rating: 5,
@@ -642,6 +642,52 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'fernanda-balayage-caramelo-miel-dorado',
+    title: 'Fernanda: Balayage Caramelo Miel Dorado',
+    category: 'cobrizo-warm',
+    categoryLabel: 'Cobrizos & Cálidos',
+    afterImage: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05',
+    startingBase: 'Castaño medio natural con deseo de iluminación cálida',
+    techniqueUsed: 'Balayage completo combinado con babylights muy finas de contorno facial (contouring) en tonos cálidos caramelo miel dorado. Masaje de sellado de cutícula y tratamiento reconstructor de enlaces.',
+    finalTone: 'Caramelo miel dorado tridimensional, sumamente luminoso y con brillo espejo',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de contorno a los 3-4 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Fernanda buscaba iluminar su rostro con reflejos cálidos pero súper elegantes. Diseñamos un balayage completo combinado con babylights ultra finas en el contorno del rostro (contouring) para resaltar sus facciones. Llevamos el aclarado hacia un precioso caramelo miel dorado tridimensional. Finalizamos con un protocolo de sellado de cutículas y tratamiento reconstructor, logrando una melena extremadamente suave, dócil y con brillo espejo.',
+    clientName: 'Fernanda',
+    rating: 5,
+    clientReview: 'Feliz con mi balayage caramelo miel dorado. El contorno iluminado destaca muchísimo mis facciones y el cabello quedó súper suave y sano.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01',
+        alt: 'Resultado final del balayage caramelo de espaldas',
+        angle: 90
+      },
+      {
+        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02',
+        alt: 'Detalle de las ondas y brillo caramelo miel dorado',
+        angle: 90
+      },
+      {
+        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03',
+        alt: 'Luz y dimensión del degradado cálido de perfil',
+        angle: 90
+      },
+      {
+        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04',
+        alt: 'Caída natural y suavidad del cabello',
+        angle: 90
+      }
+    ],
+    seoKeywords: [
+      'balayage caramelo Punta Arenas',
+      'balayage miel dorado Punta Arenas',
+      'babylights contorno facial',
+      'decoloracion sin daño Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'milena-mechas-babylights-rubio-calido',
     title: 'Milena: Mechas con Papel & Babylights (Sin Matizar)',
     category: 'balayage-rubio',
@@ -716,7 +762,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464077/maison-balayage/casos/clienta-africa-expedicion/IMG_1390.mov',
-        title: 'Detalle de la elasticidad y suavidad con Olaplex'
+        title: 'Detalle de la elasticidad and suavidad con Olaplex'
       },
       {
         src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786464082/maison-balayage/casos/clienta-africa-expedicion/IMG_1393.mov',
@@ -828,6 +874,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 

@@ -1,0 +1,78 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas",
+  "uploaded_at": "2026-08-13T15:50:26.188Z",
+  "case": {
+    "id": "fernanda-balayage-caramelo-miel-dorado",
+    "title": "Fernanda: Balayage Caramelo Miel Dorado",
+    "after_public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05"
+  },
+  "photos": [
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01.jpg",
+      "public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 3898120,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786636217/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02.jpg",
+      "public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4748294,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786636219/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03.jpg",
+      "public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4976410,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786636220/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04.jpg",
+      "public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4055857,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786636223/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-04?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05.jpg",
+      "public_id": "maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1170,
+      "height": 2016,
+      "bytes": 2436474,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786636224/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": []
+}
