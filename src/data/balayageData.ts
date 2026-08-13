@@ -730,6 +730,53 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'alaska-babylights-rubio-luminoso',
+    title: 'Sarah: Babylights & Contouring Rubio (Cliente de Alaska)',
+    category: 'babylights-melt',
+    categoryLabel: 'Babylights & Melt',
+    afterImage: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-01',
+    startingBase: 'Castaño claro natural con reflejos dorados y crecimiento',
+    techniqueUsed: 'Técnica de micro-babylights ultra finas de alta densidad combinadas con contorno iluminado (contouring) facial, logrando una decoloración limpia y perfecta a altura 9-10. Hidratación profunda y sellado de cutícula.',
+    finalTone: 'Rubio perlado manteca extra claro (altura 9-10), sumamente luminoso, tridimensional y dócil',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de contorno cada 4 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Sarah, quien viajó desde Alaska, nos contactó a través de Google para realizarse un cambio de luminosidad total durante su estancia en Punta Arenas. Diseñamos para ella un trabajo minucioso de babylights ultra finas y un contorno iluminado (contouring) para enmarcar su rostro y resaltar sus bonitas facciones. Alcanzamos una altura de decoloración limpia de nivel 9-10 que le otorga un rubio manteca espectacular y fácil de mantener. Finalizamos el proceso con un sellado de cutícula profundo para dejar el cabello extremadamente brillante, suave y con un movimiento espectacular.',
+    clientName: 'Sarah (Alaska)',
+    rating: 5,
+    clientReview: 'I traveled from Alaska and found JB Balayage on Google. The babylights and contouring look amazing and natural, and my hair feels incredibly soft and healthy. She is a true artist in Patagonia!',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-02',
+        alt: 'Resultado final de babylights y contorno de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-03',
+        alt: 'Detalle de la caída y brillo tridimensional rubio'
+      },
+      {
+        src: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-04',
+        alt: 'Suavidad y textura del cabello con sellado de cutícula'
+      },
+      {
+        src: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-05',
+        alt: 'Ondas suaves y relieve del rubio claro natural'
+      },
+      {
+        src: 'maison-balayage/casos/alaska-babylights-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-alaska-babylights-despues-06',
+        alt: 'Retrato de Sarah mostrando su rostro y contorno iluminado',
+        angle: 90
+      }
+    ],
+    seoKeywords: [
+      'babylights rubio Punta Arenas',
+      'contorno iluminado rubio',
+      'contouring facial Punta Arenas',
+      'clienta de alaska punta arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'clienta-africa-expedicion',
     title: 'Sarah: Babylights Rubias (Sin Matizar) - Expedición África',
     category: 'balayage-rubio',
@@ -874,6 +921,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
