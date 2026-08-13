@@ -1060,7 +1060,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Paula Turina: Balayage & Babylights con Olaplex',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-despues-01',
+    afterImage: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-portada-frente-ia',
     startingBase: 'Castaño claro natural',
     techniqueUsed: 'Balayage completo y babylights muy finas de contorno facial para una iluminación estratégica enmarcando el rostro. Realizado íntegramente con el tratamiento protector de enlaces Olaplex.',
     finalTone: 'Rubio claro luminoso y tridimensional con máxima salud de la fibra capilar',
