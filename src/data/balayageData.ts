@@ -837,11 +837,11 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     clientReview: 'I found JB Balayage on Google while sailing on a maritime expedition from Africa to Patagonia. I needed a professional to brighten my hair in Punta Arenas, and the results exceeded all my expectations! The micro-babylights are extremely fine, and we did not even need to tone it. Thanks to the Olaplex treatment and cuticle sealing, my hair feels incredibly healthy, soft, and shiny despite the harsh sea conditions. An absolute gem of a salon in Patagonia!',
     galleryImages: [
       {
-        src: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
+        src: 'https://res.cloudinary.com/apssuuqy/image/upload/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1381',
         alt: 'Resultado de babylights rubias sin matizar'
       },
       {
-        src: 'maison-balayage/casos/clienta-africa-expedicion/IMG_1387 2',
+        src: 'https://res.cloudinary.com/apssuuqy/image/upload/v1/maison-balayage/casos/clienta-africa-expedicion/IMG_1387 2',
         alt: 'Resultado de babylights rubias sin matizar visto desde atrás'
       }
     ],
@@ -1114,7 +1114,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Retoque de contorno a los 3-4 meses y retoque de balayage a los 6 meses',
     hairTexture: 'Cabello natural de grosor medio',
-    description: 'Nayareth nos visitó para iluminar su melena con tonos cálidos y naturales. Diseñamos un trabajo personalizado de balayage difuminado en tonos caramelo y miel, agregando un contorno iluminado (contouring) para enmarcar su rostro y resaltar su belleza. El trabajo de color respeta y aporta relieve tridimensional, logrando el tono cálido caramelo miel exacto que ella buscaba. Cerramos la sesión con un tratamiento intensivo de nutrición y sellado de cutículas para un acabado sedoso.',
+    description: 'Diseñamos un trabajo personalizado de balayage difuminado en tonos caramelo y miel, agregando un contorno iluminado (contouring) para enmarcar su rostro y resaltar su belleza. El trabajo de color respeta y aporta relieve tridimensional, logrando el tono cálido caramelo miel exacto que ella buscaba. Cerramos la sesión con un tratamiento intensivo de nutrición y sellado de cutículas para un acabado sedoso.',
     clientName: 'Nayareth',
     rating: 5,
     clientReview: 'Feliz con mi balayage y el contorno caramelo miel. El color quedó precioso y súper natural, y el cabello con un brillo y suavidad increíbles.',
@@ -1159,6 +1159,56 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'contorno iluminado caramelo',
       'contouring facial Punta Arenas',
       'Maison Balayage Studio',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
+    id: 'samy-matiz-mechas-olaplex',
+    title: 'Samy: Matización de Mechas & Tratamiento Olaplex',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-01',
+    startingBase: 'Mechas rubias previas oxidadas y con pérdida de tono',
+    techniqueUsed: 'Matización técnica para refrescar el rubio y eliminar reflejos no deseados. Tratamiento de reconstrucción de enlaces Olaplex completo para reestructurar la fibra capilar.',
+    finalTone: 'Rubio frío perlado luminoso, extremadamente suave y con brillo tridimensional',
+    durationHours: '3 horas',
+    maintenanceFrequency: 'Matización técnica cada 1.5 a 2 meses',
+    hairTexture: 'Cabello decolorado de grosor medio',
+    description: 'Diseñamos un servicio especial para Samy enfocado en refrescar su color y devolverle la vitalidad a su cabello. Realizamos una matización técnica para perfeccionar el reflejo de sus mechas y, como paso fundamental, aplicamos el protocolo completo de Olaplex. El tratamiento Olaplex es esencial en cabellos decolorados ya que trabaja a nivel molecular reconstruyendo los puentes de disulfuro rotos por procesos químicos. Esto restaura la elasticidad, fuerza y salud interna del cabello, dando como resultado una melena rubia extremadamente brillante, sedosa y resistente.',
+    clientName: 'Samy',
+    rating: 5,
+    clientReview: 'Espectacular el resultado del matiz y del tratamiento Olaplex. Mi rubio se ve súper limpio y el cabello recuperó una suavidad y fuerza increíbles. Se siente muy sano.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-02',
+        alt: 'Brillo espejo y caída suave de las mechas de Samy'
+      },
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-03',
+        alt: 'Detalle del matiz rubio frío perlado'
+      },
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-04',
+        alt: 'Movimiento y relieve del rubio con Olaplex'
+      },
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-05',
+        alt: 'Luz y relieve de las ondas de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-06',
+        alt: 'Textura suave y brillo tridimensional'
+      },
+      {
+        src: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-07',
+        alt: 'Detalle de puntas y caída natural con Olaplex'
+      }
+    ],
+    seoKeywords: [
+      'matizacion de mechas Punta Arenas',
+      'tratamiento olaplex Punta Arenas',
+      'reconstruccion molecular de cabello',
+      'mechas rubio frio perlado',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -1258,6 +1308,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
