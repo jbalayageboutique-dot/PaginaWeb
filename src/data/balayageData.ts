@@ -107,7 +107,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     description: 'Carolina llegó buscando un cobrizo que no le habían podido lograr. Se realizó un barrido de color para retirar pigmentos negros y rojos, dos de los tonos más difíciles de limpiar, trabajando la fibra con paciencia hasta lograr una base pareja. El resultado fue un cobrizo uniforme, luminoso y muy favorecedor.',
     clientName: 'Carolina',
     rating: 5,
-    clientReview: 'Se fue muy conforme y feliz porque se logró el color cobrizo que quería.',
+    clientReview: 'Se fue muy conforme and feliz porque se logró el color cobrizo que quería.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01',
@@ -780,7 +780,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     id: 'antonia-balayage-caramelo-miel-beige-calido',
     title: 'Antonia: Balayage Caramelo Miel o Beige Cálido',
     category: 'cobrizo-warm',
-    categoryLabel: 'Cobrizos & Cálidos',
+    categoryLabel: 'Cobrizos & Cálivos',
     afterImage: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-01',
     startingBase: 'Cabello castaño natural',
     techniqueUsed: 'Balayage de precisión combinado con baby lights muy finitas en todo el contorno facial (contouring) para aportar una luminosidad estratégica al rostro.',
@@ -798,7 +798,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         alt: 'Detalle de las ondas y relieve de contorno rubio beige'
       },
       {
-        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-03',
+        src: 'maison-balayage/casos/antonia-balamiel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-03',
         alt: 'Brillo tridimensional y suavidad capilar'
       },
       {
@@ -937,7 +937,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         title: 'Movimiento y caída del camuflaje de canas'
       },
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786641788/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-02.mp4',
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786641788/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-02.mp4',
         title: 'Detalle del difuminado de raíces y canas'
       }
     ],
@@ -954,7 +954,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Dinka: Tonalización de Mechas & Hidratación Extrema',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-05',
+    afterImage: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-02',
     startingBase: 'Mechas rubias previas con pérdida de matiz y deshidratación',
     techniqueUsed: 'Tonalización de precisión para refrescar y resaltar las mechas rubias en tono ceniza perlado extra claro. Protocolo profundo de hidratación extrema y sellado térmico de cutícula para restaurar la fibra y activar el reflejo de luz capilar.',
     finalTone: 'Rubio ceniza perlado extra claro, extremadamente brillante, suave y sedoso',
@@ -996,6 +996,109 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'sellado de cuticula cabello',
       'hidratacion profunda Punta Arenas',
       'mechas ceniza perlado Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
+    id: 'balayage-rubio-miel-dorado-calido',
+    title: 'Balayage Rubio Miel Dorado Cálido',
+    category: 'cobrizo-warm',
+    categoryLabel: 'Cobrizos & Cálidos',
+    afterImage: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-06',
+    startingBase: 'Castaño oscuro natural con deseo de reflejos cálidos e iluminación',
+    techniqueUsed: 'Balayage completo a mano alzada y difuminado natural con decoloración controlada alcanzando una altura de 8 a 9. Masaje de sellado de cutícula y nutrición intensiva.',
+    finalTone: 'Rubio cálido miel dorado sumamente brillante, suave y elegante (altura 8-9)',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de balayage cada 5-6 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Nuestra clienta llegó buscando un cambio luminoso pero súper cálido y elegante en tonalidades miel. Diseñamos un balayage completo con difuminado natural, alcanzando una altura de decoloración muy limpia de nivel 8 a 9. Logramos un rubio miel dorado sumamente cálido y lleno de relieve, tal como ella quería. Cerramos el proceso con sellado de cutículas e hidratación para dejar el pelo extremadamente sedoso, brillante y con ondas definidas.',
+    clientName: 'Miel Dorado',
+    rating: 5,
+    clientReview: 'Buscaba un tono cálido color miel dorado y quedó exactamente lo que quería. Las mechas se aprecian hermosas y el cabello se siente muy suave y brillante.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-01',
+        alt: 'Relieve tridimensional del balayage miel dorado de perfil',
+        angle: 90
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-02',
+        alt: 'Detalle de las ondas y brillo del rubio miel dorado'
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-03',
+        alt: 'Caída suave y brillo con sellado de cutícula'
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-04',
+        alt: 'Luz y dimensión del degradado cálido posterior'
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-05',
+        alt: 'Relieve de las ondas y color tridimensional'
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-07',
+        alt: 'Ondas definidas y reflejo dorado'
+      },
+      {
+        src: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-08',
+        alt: 'Detalle de las puntas y caída natural'
+      }
+    ],
+    seoKeywords: [
+      'balayage miel dorado Punta Arenas',
+      'balayage color calido',
+      'decoloracion altura 9 Punta Arenas',
+      'Maison Balayage Studio',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
+    id: 'paula-turina-balayage-babylights-olaplex',
+    title: 'Paula Turina: Balayage & Babylights con Olaplex',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-despues-01',
+    startingBase: 'Castaño claro natural',
+    techniqueUsed: 'Balayage completo y babylights muy finas de contorno facial para una iluminación estratégica enmarcando el rostro. Realizado íntegramente con el tratamiento protector de enlaces Olaplex.',
+    finalTone: 'Rubio claro luminoso y tridimensional con máxima salud de la fibra capilar',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de contorno a los 3-4 meses y matización regular',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Diseño personalizado de iluminación completa para Paula Turina. Combinamos la técnica de balayage difuminado con baby lights extra finas en el contorno del rostro. Todo el proceso de aclarado se realizó con el sistema de reconstrucción molecular Olaplex para asegurar la máxima protección y elasticidad del cabello, finalizando con un tratamiento de nutrición y sellado.',
+    clientName: 'Paula Turina',
+    rating: 5,
+    clientReview: 'El trabajo con las babylights y Olaplex quedó espectacular. Mi pelo se ve súper rubio y brillante, pero sobre todo se siente sanísimo y muy suave.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-despues-02',
+        alt: 'Relieve y ondas del rubio de perfil de Paula Turina'
+      },
+      {
+        src: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-despues-03',
+        alt: 'Detalle de brillo y caída de las babylights rubias'
+      },
+      {
+        src: 'maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-despues-04',
+        alt: 'Vista posterior mostrando la uniformidad del color rubio'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786646109/maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-movimiento-01.mov',
+        title: 'Movimiento y brillo del rubio con Olaplex'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786646111/maison-balayage/casos/paula-turina-balayage-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-turina-movimiento-02.mov',
+        title: 'Suavidad y textura dócil del cabello con Olaplex'
+      }
+    ],
+    seoKeywords: [
+      'balayage Punta Arenas',
+      'babylights Paula Turina',
+      'tratamiento Olaplex Punta Arenas',
+      'peluqueria boutique rasmussen',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -1095,6 +1198,10 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
+
+
 
 
 
