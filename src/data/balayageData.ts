@@ -911,7 +911,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Dinka: Tonalización de Mechas & Hidratación Extrema',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-01',
+    afterImage: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-02',
     startingBase: 'Mechas rubias previas con pérdida de matiz y deshidratación',
     techniqueUsed: 'Tonalización de precisión para refrescar y resaltar las mechas rubias en tono ceniza perlado extra claro. Protocolo profundo de hidratación extrema y sellado térmico de cutícula para restaurar la fibra y activar el reflejo de luz capilar.',
     finalTone: 'Rubio ceniza perlado extra claro, extremadamente brillante, suave y sedoso',
