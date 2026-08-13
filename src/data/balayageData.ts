@@ -1167,7 +1167,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Samy: Matización de Mechas & Tratamiento Olaplex',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-01',
+    afterImage: 'maison-balayage/casos/samy-matiz-mechas-olaplex-punta-arenas/maison-balayage-punta-arenas-samy-despues-04',
     startingBase: 'Mechas rubias previas oxidadas y con pérdida de tono',
     techniqueUsed: 'Matización técnica para refrescar el rubio y eliminar reflejos no deseados. Tratamiento de reconstrucción de enlaces Olaplex completo para reestructurar la fibra capilar.',
     finalTone: 'Rubio frío perlado luminoso, extremadamente suave y con brillo tridimensional',
