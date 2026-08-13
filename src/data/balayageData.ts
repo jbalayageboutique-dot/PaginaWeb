@@ -594,7 +594,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   },
   {
     id: 'ninoska-balayage-babylights-miel',
-    title: 'Ninoska: Balayage y Babylights',
+    title: 'Ninoska: Balayage y Babylights Color Caramelo Miel',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
     afterImage: 'maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01',
