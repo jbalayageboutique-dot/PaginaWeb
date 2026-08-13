@@ -153,7 +153,20 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                   className="bg-[#171717] rounded-2xl border border-[#2A2A2A] overflow-hidden shadow-sm hover:border-[#BFA181]/40 transition-all flex flex-col"
                 >
                   {/* Before / After Interactive Slider Container */}
-                  <div className="relative w-full h-80 overflow-hidden select-none bg-stone-950 group">
+                  <div 
+                    className={`relative w-full h-80 overflow-hidden select-none bg-stone-950 group ${item.beforeImage ? 'cursor-ew-resize touch-none' : ''}`}
+                    onPointerMove={(e) => {
+                      if (!item.beforeImage) return;
+                      const rect = e.currentTarget.getBoundingClientRect();
+                      const x = e.clientX - rect.left;
+                      const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+                      handleSliderChange(item.id, percentage);
+                    }}
+                    onPointerLeave={() => {
+                      if (!item.beforeImage) return;
+                      handleSliderChange(item.id, 50);
+                    }}
+                  >
                     
                     {/* AFTER Image (Cloudinary Streamed) */}
                     <img
@@ -179,7 +192,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                             src={optimizedBefore}
                             alt={`Antes: ${item.title}`}
                             className="absolute top-0 left-0 h-full object-cover max-w-none"
-                            style={{ width: '100%', height: '100%' }}
+                            style={{ width: '100%', height: '100%', maxWidth: 'none' }}
                             referrerPolicy="no-referrer"
                             loading="lazy"
                           />
@@ -187,17 +200,6 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                             ANTES
                           </div>
                         </div>
-
-                        {/* Slider Range Control */}
-                        <input
-                          type="range"
-                          min="0"
-                          max="100"
-                          value={sliderVal}
-                          onChange={(e) => handleSliderChange(item.id, Number(e.target.value))}
-                          className="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20"
-                          aria-label="Deslizar para comparar antes y después"
-                        />
 
                         {/* Visual Divider Line */}
                         <div 
