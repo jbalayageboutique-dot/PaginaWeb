@@ -177,7 +177,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     description: 'Roxana cuenta con una base clara natural. Diseñamos un trabajo de mechas con papel combinado con babylights extra finas en todo el contorno para aportar luminosidad estratégica al rostro. Durante todo el proceso de aclaración trabajamos con el tratamiento protector Olaplex para garantizar y cuidar la salud del cabello. Al finalizar, aplicamos un tratamiento de sellado de cutícula e hidratación profunda, logrando devolverle brillo, suavidad y salud excepcional a la fibra capilar.',
     clientName: 'Roxana',
     rating: 5,
-    clientReview: 'Me encantaron mis mechas y las babylights súper finitas en el contorno. Gracias a Olaplex y el sellado de cutícula, mi pelo quedó ultra brillante, sano y suave.',
+    clientReview: 'Me encantaron mis mechas y las babylights súper finitas en el contorno. Gracias a Olaplex and el sellado de cutícula, mi pelo quedó ultra brillante, sano y suave.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-01',
@@ -654,7 +654,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     durationHours: '5 horas',
     maintenanceFrequency: 'Retoque de contorno a los 3-4 meses',
     hairTexture: 'Cabello natural de grosor medio',
-    description: 'Fernanda buscaba iluminar su rostro con reflejos cálidos pero súper elegantes. Diseñamos un balayage completo combinado con babylights ultra finas en el contorno del rostro (contouring) para resaltar sus facciones. Llevamos el aclarado hacia un precioso caramelo miel dorado tridimensional. Finalizamos con un protocolo de sellado de cutículas y tratamiento reconstructor, logrando una melena extremadamente suave, dócil y con brillo espejo.',
+    description: 'Fernanda buscaba iluminar su rostro con reflejos cálidos pero súper elegantes. Diseñamos un balayage completo combinado con babylights ultra finas en el contorno del rostro (contouring) para resaltar sus facciones. Levamos el aclarado hacia un precioso caramelo miel dorado tridimensional. Finalizamos con un protocolo de sellado de cutículas y tratamiento reconstructor, logrando una melena extremadamente suave, dócil y con brillo espejo.',
     clientName: 'Fernanda',
     rating: 5,
     clientReview: 'Feliz con mi balayage caramelo miel dorado. El contorno iluminado destaca muchísimo mis facciones y el cabello quedó súper suave y sano.',
@@ -869,6 +869,44 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'paula-mechas-ceniza-perlado',
+    title: 'Paula: Mechas Ceniza Perlado & Babylights',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/paula-mechas-ceniza-perlado-punta-arenas/maison-balayage-punta-arenas-paula-mechas-despues-01',
+    startingBase: 'Castaño medio natural con deseo de mechas frías y definidas',
+    techniqueUsed: 'Técnica de mechas tejidas muy finitas combinadas con baby lights en todo el contorno facial (contouring) para una iluminación focalizada. Decoloración controlada a la altura de un 9 con matiz ceniza perlado y sellado capilar.',
+    finalTone: 'Rubio ceniza perlado tridimensional y extra claro (altura 9)',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Retoque de raíz y matización cada 3 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Paula llegó con el deseo de iluminar su melena con tonos fríos y definidos. Diseñamos un trabajo minucioso de mechas muy finitas tejidas junto con baby lights focalizadas en el contorno del rostro (contouring). Realizamos una aclaración muy limpia a la altura de un 9 y tonalizamos con un matiz ceniza perlado espectacular. Cerramos la sesión con un tratamiento intensivo de sellado de cutículas y nutrición profunda para garantizar el máximo brillo y un cabello extremadamente suave y sedoso.',
+    clientName: 'Paula',
+    rating: 5,
+    clientReview: 'Me encantaron mis mechas ceniza perlado. El efecto de contorno resalta muchísimo y el pelo me quedó súper brillante, sedoso y muy sano.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/paula-mechas-ceniza-perlado-punta-arenas/maison-balayage-punta-arenas-paula-mechas-despues-02',
+        alt: 'Caída natural y suavidad de las mechas ceniza de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/paula-mechas-ceniza-perlado-punta-arenas/maison-balayage-punta-arenas-paula-mechas-despues-03',
+        alt: 'Detalle de relieve, ondas sueltas y brillo perlado'
+      },
+      {
+        src: 'maison-balayage/casos/paula-mechas-ceniza-perlado-punta-arenas/maison-balayage-punta-arenas-paula-mechas-despues-04',
+        alt: 'Brillo tridimensional de las mechas ceniza perlado vista trasera'
+      }
+    ],
+    seoKeywords: [
+      'mechas ceniza perlado Punta Arenas',
+      'mechas finitas babylights',
+      'baby lights contorno facial',
+      'decoloracion altura 9 Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'case-4',
     title: 'Cobrizo Cálido & Warm Balayage Melt',
     category: 'cobrizo-warm',
@@ -964,6 +1002,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
