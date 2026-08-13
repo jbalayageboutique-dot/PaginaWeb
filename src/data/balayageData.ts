@@ -646,7 +646,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Fernanda: Balayage Caramelo Miel Dorado',
     category: 'cobrizo-warm',
     categoryLabel: 'Cobrizos & Cálidos',
-    afterImage: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05',
+    afterImage: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02',
+    rotateAfterImage: 90,
     startingBase: 'Castaño medio natural con deseo de iluminación cálida',
     techniqueUsed: 'Balayage completo combinado con babylights muy finas de contorno facial (contouring) en tonos cálidos caramelo miel dorado. Masaje de sellado de cutícula y tratamiento reconstructor de enlaces.',
     finalTone: 'Caramelo miel dorado tridimensional, sumamente luminoso y con brillo espejo',
@@ -664,9 +665,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         angle: 90
       },
       {
-        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-02',
-        alt: 'Detalle de las ondas y brillo caramelo miel dorado',
-        angle: 90
+        src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-05',
+        alt: 'Detalle de las ondas y brillo caramelo miel dorado'
       },
       {
         src: 'maison-balayage/casos/fernanda-balayage-caramelo-miel-dorado-punta-arenas/maison-balayage-punta-arenas-fernanda-balayage-caramelo-miel-despues-03',
