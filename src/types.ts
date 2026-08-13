@@ -26,6 +26,7 @@ export interface BeforeAfterCase {
   galleryImages?: {
     src: string;
     alt: string;
+    angle?: number | string;
   }[];
   videos?: {
     src: string;

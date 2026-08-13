@@ -564,19 +564,23 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       },
       {
         src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-02',
-        alt: 'Luz y relieve del contorno rubio de perfil'
+        alt: 'Luz y relieve del contorno rubio de perfil',
+        angle: 90
       },
       {
         src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-03',
-        alt: 'Detalle de mechas de alta densidad rubio extra claro'
+        alt: 'Detalle de mechas de alta densidad rubio extra claro',
+        angle: 90
       },
       {
         src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-04',
-        alt: 'Textura suave, brillo espejo y ondas sueltas'
+        alt: 'Textura suave, brillo espejo y ondas sueltas',
+        angle: 90
       },
       {
         src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-05',
-        alt: 'Caída y salud capilar de Valentina'
+        alt: 'Caída y salud capilar de Valentina',
+        angle: 90
       }
     ],
     seoKeywords: [

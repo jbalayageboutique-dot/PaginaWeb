@@ -385,7 +385,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                     {activeModalCase.galleryImages.map((image) => (
                       <img
                         key={image.src}
-                        src={getCloudinaryUrl(image.src, { width: 420, height: 520, quality: 'auto', format: 'auto' })}
+                        src={getCloudinaryUrl(image.src, { width: 420, height: 520, quality: 'auto', format: 'auto', angle: image.angle })}
                         alt={image.alt}
                         className="h-40 w-full rounded-xl object-cover border border-[#2A2A2A]"
                         referrerPolicy="no-referrer"
