@@ -10,6 +10,7 @@ import { SeoAssistantPanel } from './components/SeoAssistantPanel';
 import { CloudinaryMediaManager } from './components/CloudinaryMediaManager';
 import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 import { Footer } from './components/Footer';
+import { SpecialistSection } from './components/SpecialistSection';
 import { BeforeAfterCase } from './types';
 
 export default function App() {
@@ -51,6 +52,9 @@ export default function App() {
           onOpenCloudinary={() => setCloudinaryOpen(true)}
           customCases={customCases}
         />
+
+        {/* Janet's Certificate & Specialist Presentation */}
+        <SpecialistSection />
 
         {/* Google Business Profile & Rating (5.0 Stars & Reviews) */}
         <GoogleBusinessSection />

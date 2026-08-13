@@ -491,7 +491,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Valentina: Mechas Rubio Extra Claro',
     category: 'balayage-rubio',
     categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-portada-despues-01',
+    afterImage: 'maison-balayage/casos/valentina-balayage-rubio-luminoso-punta-arenas/maison-balayage-punta-arenas-valentina-balayage-rubio-despues-selfie',
     rotateAfterImage: 90,
     startingBase: 'Castaño claro natural con deseo de rubio global de alto impacto',
     techniqueUsed: 'Mechas de alta densidad con papel térmico e iluminación de contorno (contouring) facial para enmarcar el rostro. Incorporación del tratamiento de reconstrucción molecular Olaplex y sellado térmico de cutícula.',
