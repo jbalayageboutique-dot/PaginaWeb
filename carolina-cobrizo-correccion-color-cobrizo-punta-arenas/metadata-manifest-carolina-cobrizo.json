@@ -1,0 +1,166 @@
+{
+  "base": "/Users/janet/Documents/IA/WEBSITE JBALAYAGE/carolina-cobrizo-correccion-color-cobrizo-punta-arenas",
+  "renamed": [
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-antes-rojo-01.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-barrido-color-negro-rojo-antes-01.JPG",
+      "sha256_before": "a75436f0be368ebe1a1058fa66a29c72666fdcd003a839d980d7c06a3eb60c0e",
+      "sha256_after_rename": "a75436f0be368ebe1a1058fa66a29c72666fdcd003a839d980d7c06a3eb60c0e"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-espejo-01.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.JPG",
+      "sha256_before": "0221ac076ed2635a076efeb6cdb9add7cb2136ce6cca42f77d2cbccf8caa4102",
+      "sha256_after_rename": "0221ac076ed2635a076efeb6cdb9add7cb2136ce6cca42f77d2cbccf8caa4102"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-espejo-02.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-02.JPG",
+      "sha256_before": "f4ecf40e3bb77921b91abd57928aca798045f221f73d7ba6656ee00989f697c6",
+      "sha256_after_rename": "f4ecf40e3bb77921b91abd57928aca798045f221f73d7ba6656ee00989f697c6"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-detalle-color-01.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-uniforme-01.JPG",
+      "sha256_before": "e71b8628e24c32a497c363f5a4a25915e8e33de7046f555fb758aa7415b4c3eb",
+      "sha256_after_rename": "e71b8628e24c32a497c363f5a4a25915e8e33de7046f555fb758aa7415b4c3eb"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-frontal-01.jpg",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.jpg",
+      "sha256_before": "f85d82b4a5b95dcf41b95d4f1e293e7c174f9ddd8a45e69776a004213e00d5ae",
+      "sha256_after_rename": "f85d82b4a5b95dcf41b95d4f1e293e7c174f9ddd8a45e69776a004213e00d5ae"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-perfil-01.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01.JPG",
+      "sha256_before": "5162ae22ab3428613d49073f215126a761b5bbe5bf6c29cb1206d67b7e1d11d5",
+      "sha256_after_rename": "5162ae22ab3428613d49073f215126a761b5bbe5bf6c29cb1206d67b7e1d11d5"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-perfil-02.PNG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-02.PNG",
+      "sha256_before": "966a23c1b0d5543e66e15d969b240ef781ea1355e52c343d366e0ff2e635f56a",
+      "sha256_after_rename": "966a23c1b0d5543e66e15d969b240ef781ea1355e52c343d366e0ff2e635f56a"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-perfil-03.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-luz-natural-03.JPG",
+      "sha256_before": "99265dfa9d16720f10b71b72c3d51ca72a451434a546ef7f68e343cf75d15053",
+      "sha256_after_rename": "99265dfa9d16720f10b71b72c3d51ca72a451434a546ef7f68e343cf75d15053"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-resultado-perfil-04.JPG",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-textura-perfil-04.JPG",
+      "sha256_before": "93230dccdc2e74c83ca436ae36bd0db679daab38afc2924bedf1cf17bd64b004",
+      "sha256_after_rename": "93230dccdc2e74c83ca436ae36bd0db679daab38afc2924bedf1cf17bd64b004"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-movimiento-posterior-01.MOV",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-movimiento-brillo-posterior-01.MOV",
+      "sha256_before": "d91fdec68a4d407f252a0bb36476036fa713277a0e801f55ee0b3b52f291eb43",
+      "sha256_after_rename": "d91fdec68a4d407f252a0bb36476036fa713277a0e801f55ee0b3b52f291eb43"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-posterior-01.MOV",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-posterior-01.MOV",
+      "sha256_before": "535f235a50e7a75c2d76b3fefffe241f31dc98d2ab2e73b284f726bd22076321",
+      "sha256_after_rename": "535f235a50e7a75c2d76b3fefffe241f31dc98d2ab2e73b284f726bd22076321"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-frontal-01.MOV",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.MOV",
+      "sha256_before": "63ce11863216182fc7068d7744dd7bc6de7766c4b9b4e071dae49b26b21982b3",
+      "sha256_after_rename": "63ce11863216182fc7068d7744dd7bc6de7766c4b9b4e071dae49b26b21982b3"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-perfil-01.MOV",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01.MOV",
+      "sha256_before": "ab774666014f5a8ab2dbda375d35ade40c3b80dbb7f98911fb8d659bc393d227",
+      "sha256_after_rename": "ab774666014f5a8ab2dbda375d35ade40c3b80dbb7f98911fb8d659bc393d227"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-perfil-02.mov",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-02.mov",
+      "sha256_before": "cc396bd399f5543433be4e4f4012be2e7409a25d351cbfa56738bfbd74ad05e2",
+      "sha256_after_rename": "cc396bd399f5543433be4e4f4012be2e7409a25d351cbfa56738bfbd74ad05e2"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-detalle-posterior-01.MOV",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-posterior-01.MOV",
+      "sha256_before": "08487ec7447513719a6cd3f62b5788a6089c368d75ddb71b01b1d45f972d5a89",
+      "sha256_after_rename": "08487ec7447513719a6cd3f62b5788a6089c368d75ddb71b01b1d45f972d5a89"
+    },
+    {
+      "from": "carolina-cobrizo-correccion-color-cobrizo-espejo-01.mov",
+      "to": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.mov",
+      "sha256_before": "de8b03bec2fd445af95c6b8d131413fcc81a69b6ccb1153a84e55a15f6dfade0",
+      "sha256_after_rename": "de8b03bec2fd445af95c6b8d131413fcc81a69b6ccb1153a84e55a15f6dfade0"
+    }
+  ],
+  "metadata_updated": [
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-barrido-color-negro-rojo-antes-01.JPG",
+      "sha256_before_metadata": "a75436f0be368ebe1a1058fa66a29c72666fdcd003a839d980d7c06a3eb60c0e",
+      "sha256_after_metadata": "18a03eb3fb61cf55f7d659cadf3dad5f2e4920127e9b45c012eccd4041382070",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.JPG",
+      "sha256_before_metadata": "0221ac076ed2635a076efeb6cdb9add7cb2136ce6cca42f77d2cbccf8caa4102",
+      "sha256_after_metadata": "d395d70683d24facc86f9df090f108666377a6949db262ef6ef0eb25b825d5aa",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-02.JPG",
+      "sha256_before_metadata": "f4ecf40e3bb77921b91abd57928aca798045f221f73d7ba6656ee00989f697c6",
+      "sha256_after_metadata": "5829cb637605468de5757a00a0cf9ab09dda401c7b54f87fc040396137cb381b",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.jpg",
+      "sha256_before_metadata": "f85d82b4a5b95dcf41b95d4f1e293e7c174f9ddd8a45e69776a004213e00d5ae",
+      "sha256_after_metadata": "e0fa54ba23360d9fd0ad14ffcf80862bd28a0b5762ed86e80fa5e73050b2a381",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01.JPG",
+      "sha256_before_metadata": "5162ae22ab3428613d49073f215126a761b5bbe5bf6c29cb1206d67b7e1d11d5",
+      "sha256_after_metadata": "df275c82cf6c4cf8df4ab623fcf10f1618a4df923d28ecdb4f2e9fc79813ed33",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-02.PNG",
+      "sha256_before_metadata": "966a23c1b0d5543e66e15d969b240ef781ea1355e52c343d366e0ff2e635f56a",
+      "sha256_after_metadata": "e4bb679ac5e5cad2113491f2e5fa52f9b3ea4184eead93125dcd23e3ade63814",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-luz-natural-03.JPG",
+      "sha256_before_metadata": "99265dfa9d16720f10b71b72c3d51ca72a451434a546ef7f68e343cf75d15053",
+      "sha256_after_metadata": "f02ba12268dec199c54488bf537d8bc69f449bde8f3e08793f1ee7f59ddc9afb",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-textura-perfil-04.JPG",
+      "sha256_before_metadata": "93230dccdc2e74c83ca436ae36bd0db679daab38afc2924bedf1cf17bd64b004",
+      "sha256_after_metadata": "e0235f912086dc45b361d301e1df46203335f5b9a16a720d54c51aedb2e282c5",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    },
+    {
+      "file": "maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-uniforme-01.JPG",
+      "sha256_before_metadata": "e71b8628e24c32a497c363f5a4a25915e8e33de7046f555fb758aa7415b4c3eb",
+      "sha256_after_metadata": "90f3c82df966e8dd8b88776c1c9bbfc45361976bd4abfa762f73096b4d2e0d52",
+      "gps_latitude": -53.13529,
+      "gps_longitude": -70.94159
+    }
+  ]
+}

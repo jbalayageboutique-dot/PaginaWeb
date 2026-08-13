@@ -30,7 +30,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0F0F0F] text-[#E5E5E5] font-sans flex flex-col selection:bg-[#BFA181] selection:text-[#0F0F0F]">
+    <div className="min-h-screen bg-[#FAF7F2] text-[#2E2B27] font-sans flex flex-col selection:bg-[#BFA181] selection:text-[#FAF7F2]">
       {/* Top Navbar with Google profile link, Cloudinary & SEO trigger */}
       <Navbar
         onOpenSeoPanel={() => setSeoPanelOpen(true)}

@@ -1,0 +1,107 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas",
+  "uploaded_at": "2026-08-10T22:31:48.063Z",
+  "case": {
+    "id": "ninoska-balayage-babylights-miel",
+    "title": "Balayage y Babylights Miel Ninoska",
+    "before_public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2362,
+      "height": 4032,
+      "bytes": 3840702,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786396553/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2285,
+      "height": 4011,
+      "bytes": 4743368,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786396554/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2160,
+      "height": 4021,
+      "bytes": 2349741,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786396555/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 5680865,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786396557/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 576,
+      "height": 1024,
+      "bytes": 340877,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786401102/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-despues-04?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2290,
+      "height": 4029,
+      "bytes": 4777327,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786396558/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01.mov",
+      "public_id": "maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 21915078,
+      "duration": 11.196667,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786396560/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786396560/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/ninoska-balayage-babylights-miel-punta-arenas/maison-balayage-punta-arenas-ninoska-balayage-babylights-miel-movimiento-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}

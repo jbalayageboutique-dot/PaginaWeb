@@ -1,0 +1,95 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas",
+  "uploaded_at": "2026-08-09T06:40:32.853Z",
+  "case": {
+    "id": "milena-mechas-babylights-rubio-calido",
+    "title": "Mechas con papel y Babylights Rubio Calido Milena",
+    "before_public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2128,
+      "height": 2744,
+      "bytes": 2270153,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786257620/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "detail",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01.png",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01",
+      "resource_type": "image",
+      "format": "png",
+      "width": 1046,
+      "height": 1504,
+      "bytes": 2608029,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786257621/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01.png",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-detalle-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01.png",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01",
+      "resource_type": "image",
+      "format": "png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2528261,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786257622/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01.png",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-espejo-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01.png",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01",
+      "resource_type": "image",
+      "format": "png",
+      "width": 1084,
+      "height": 1451,
+      "bytes": 2843888,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786257623/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01.png",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-rubio-calido-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.mov",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 29426707,
+      "duration": 14.943333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786257627/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786257627/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-antes-del-cambio-01.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.mov",
+      "public_id": "maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 27844228,
+      "duration": 29.707,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786257631/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786257631/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/milena-mechas-babylights-rubio-calido-punta-arenas/maison-balayage-punta-arenas-milena-mechas-babylights-movimiento-brillo-despues-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}

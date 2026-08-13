@@ -1,0 +1,109 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas",
+  "uploaded_at": "2026-08-10T03:07:43.925Z",
+  "case": {
+    "id": "gisela-barrido-color-borgona",
+    "title": "Barrido de color y Borgoña Gisela",
+    "before_public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 934,
+      "height": 1558,
+      "bytes": 268363,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786331252/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01.jpg",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1819,
+      "height": 4032,
+      "bytes": 3132622,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786331254/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02.jpg",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1805,
+      "height": 4032,
+      "bytes": 3105006,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786331255/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1772,
+      "height": 4032,
+      "bytes": 2858813,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786331256/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 8236161,
+      "duration": 3.968333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331258/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-01.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 920,
+      "height": 1918,
+      "bytes": 8049068,
+      "duration": 5.663333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331260/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-02.jpg?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov",
+      "public_id": "maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 11783861,
+      "duration": 5.933333,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786331262/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/gisela-barrido-color-borgona-punta-arenas/maison-balayage-punta-arenas-gisela-barrido-color-borgona-movimiento-03.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}

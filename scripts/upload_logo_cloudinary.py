@@ -18,8 +18,8 @@ SALON_INFO = {
     "country":    "Chile",
     "phone":      "+56 9 8558 0190",
     "website":    "https://estudiobalayage.com",
-    "lat":        "-53.1638",
-    "lon":        "-70.9171",
+    "lat":        "-53.13529",
+    "lon":        "-70.94159",
     "copyright":  "© JB Balayage Boutique — Maison Balayage Studio Punta Arenas",
     "artist":     "JB Balayage Boutique",
 }
@@ -105,7 +105,7 @@ def upload(file_path):
         "display_name": "Logo JB Balayage Boutique Peluquería",
         "folder":       "maison-balayage/branding",
         "overwrite":    "true",
-        "public_id":    "logo-jb-balayage-boutique",
+        "public_id":    "maison-balayage-studio-logo-jb-balayage-boutique-punta-arenas",
         "tags":         tags,
         "timestamp":    ts,
     }
@@ -113,7 +113,7 @@ def upload(file_path):
     url = f"https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload"
     with open(file_path, "rb") as f:
         r = requests.post(url,
-            files={"file": ("logo-jb-balayage-boutique.png", f, "image/png")},
+            files={"file": ("maison-balayage-studio-logo-jb-balayage-boutique-punta-arenas.png", f, "image/png")},
             data={**sp, "api_key": API_KEY, "signature": sig},
             timeout=60)
     return r.json()
@@ -122,8 +122,8 @@ def upload(file_path):
 
 def main():
     base = Path(__file__).parent.parent
-    src  = base / "logoJB.png"
-    dst  = base / "assets" / "logo-jb-balayage-boutique.png"
+    src  = base / "maison-balayage-studio-logo-jb-balayage-boutique-punta-arenas.png"
+    dst  = base / "assets" / "maison-balayage-studio-logo-jb-balayage-boutique-punta-arenas.png"
     dst.parent.mkdir(parents=True, exist_ok=True)
 
     if not src.exists():
@@ -159,7 +159,7 @@ def main():
     }
     sb = src.stat().st_size
     sa = add_png_meta(str(src), str(dst), meta)
-    print(f"   ✅ Guardado: assets/logo-jb-balayage-boutique.png")
+    print(f"   ✅ Guardado: assets/maison-balayage-studio-logo-jb-balayage-boutique-punta-arenas.png")
     print(f"   📦 Orig: {sb:,}B ({sb/1024:.1f}KB) → Con meta: {sa:,}B ({sa/1024:.1f}KB)")
 
     # PASO 2 – Cloudinary

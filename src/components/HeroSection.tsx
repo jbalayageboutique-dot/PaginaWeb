@@ -34,7 +34,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
   };
 
   return (
-    <section id="hero" className="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden bg-gradient-to-b from-[#0F0F0F] via-[#141414] to-[#0F0F0F]">
+    <section id="hero" className="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden bg-gradient-to-b from-[#FAF7F2] via-[#F3EFE9] to-[#FAF7F2]">
       {/* Decorative ambient subtle circles */}
       <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#BFA181]/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -45,50 +45,50 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             
             {/* Google Verified Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#171717] border border-[#2A2A2A] shadow-xs text-xs text-stone-200">
-              <div className="flex items-center gap-1 text-amber-400">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-[#E7E2D8] shadow-xs text-xs text-stone-700">
+              <div className="flex items-center gap-1 text-amber-500">
                 <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                 <span className="font-bold">{GOOGLE_BUSINESS_DATA.rating}</span>
               </div>
-              <span className="text-stone-600">|</span>
-              <span className="font-medium text-stone-300">
+              <span className="text-stone-300">|</span>
+              <span className="font-medium text-stone-600">
                 {GOOGLE_BUSINESS_DATA.totalReviews} opiniones reales en Google
               </span>
               <a
                 href={GOOGLE_BUSINESS_DATA.googleProfileUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#BFA181] underline font-semibold ml-1 text-[11px] hover:text-amber-200"
+                className="text-[#BFA181] underline font-semibold ml-1 text-[11px] hover:text-amber-600"
               >
                 Ver Ficha Google
               </a>
             </div>
 
             {/* Main H1 - Key SEO Title */}
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-[#F5F5F5] leading-[1.12]">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-[#1C1917] leading-[1.12]">
               Especialista en Técnica <br className="hidden sm:inline" />
-              <span className="italic font-serif bg-gradient-to-r from-[#F5F5F5] via-[#BFA181] to-[#F5F5F5] bg-clip-text text-transparent">
+              <span className="italic font-serif bg-gradient-to-r from-[#1C1917] via-[#BFA181] to-[#1C1917] bg-clip-text text-transparent">
                 Balayage & Coloración
               </span>
             </h1>
 
             {/* Subheading */}
-            <p className="text-stone-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            <p className="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
               Especialistas en luz natural, degradados continuos y difuminado de raíz sin marcaciones. 
-              Resultados espectaculares de <strong className="text-white">Antes y Después</strong> diseñados a medida para cuidar la salud de tu fibra capilar.
+              Resultados espectaculares de <strong className="text-[#1C1917]">Antes y Después</strong> diseñados a medida para cuidar la salud de tu fibra capilar.
             </p>
 
             {/* Quick Benefits Bullet points */}
             <div className="grid sm:grid-cols-3 gap-3 pt-2 max-w-xl mx-auto lg:mx-0 text-left">
-              <div className="flex items-center gap-2 text-xs font-medium text-stone-200 bg-[#171717]/80 p-2.5 rounded-xl border border-[#2A2A2A]">
+              <div className="flex items-center gap-2 text-xs font-medium text-stone-700 bg-white/80 p-2.5 rounded-xl border border-[#E7E2D8]">
                 <ShieldCheck className="w-4 h-4 text-[#BFA181] shrink-0" />
                 <span>Cuidado Plex sin daño</span>
               </div>
-              <div className="flex items-center gap-2 text-xs font-medium text-stone-200 bg-[#171717]/80 p-2.5 rounded-xl border border-[#2A2A2A]">
+              <div className="flex items-center gap-2 text-xs font-medium text-stone-700 bg-white/80 p-2.5 rounded-xl border border-[#E7E2D8]">
                 <CheckCircle2 className="w-4 h-4 text-[#BFA181] shrink-0" />
                 <span>Sin raíz marcada (hasta 6 meses)</span>
               </div>
-              <div className="flex items-center gap-2 text-xs font-medium text-stone-200 bg-[#171717]/80 p-2.5 rounded-xl border border-[#2A2A2A]">
+              <div className="flex items-center gap-2 text-xs font-medium text-stone-700 bg-white/80 p-2.5 rounded-xl border border-[#E7E2D8]">
                 <Sparkles className="w-4 h-4 text-[#BFA181] shrink-0" />
                 <span>Efecto dimensional 3D</span>
               </div>
@@ -98,7 +98,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
               <button
                 onClick={onExploreGallery}
-                className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-[#BFA181] text-[#0F0F0F] font-semibold text-sm hover:bg-[#A88C6F] transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
+                className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-[#BFA181] text-[#FAF7F2] font-semibold text-sm hover:bg-[#A88C6F] transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
               >
                 Ver Galería Antes y Después
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -106,7 +106,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
 
               <button
                 onClick={onOpenQuiz}
-                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-[#171717] border border-[#BFA181]/50 text-white font-semibold text-sm hover:bg-stone-800 transition-all flex items-center justify-center gap-2"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white border border-[#BFA181] text-[#2E2B27] font-semibold text-sm hover:bg-stone-50 transition-all flex items-center justify-center gap-2"
               >
                 <Sparkles className="w-4 h-4 text-[#BFA181]" />
                 Diagnóstico Digital Capilar
@@ -114,9 +114,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
             </div>
 
             {/* Location & Contact info footer snippet */}
-            <div className="pt-2 text-xs text-stone-400 flex items-center justify-center lg:justify-start gap-4">
+            <div className="pt-2 text-xs text-stone-500 flex items-center justify-center lg:justify-start gap-4">
               <span className="flex items-center gap-1">
-                <MapPin className="w-3.5 h-3.5 text-stone-400" />
+                <MapPin className="w-3.5 h-3.5 text-stone-500" />
                 {GOOGLE_BUSINESS_DATA.address}
               </span>
               <span>•</span>
@@ -124,7 +124,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
                 href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-stone-300 underline flex items-center gap-1 hover:text-emerald-400"
+                className="text-stone-600 underline flex items-center gap-1 hover:text-emerald-600"
               >
                 <MessageCircle className="w-3.5 h-3.5 text-emerald-400" />
                 Atención directa por WhatsApp
@@ -135,15 +135,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
 
           {/* Right Column: Hero Spotlight Interactive Before / After Slider */}
           <div className="lg:col-span-5">
-            <div className="relative bg-[#171717] p-3 rounded-2xl shadow-2xl border border-[#2A2A2A]">
+            <div className="relative bg-white p-3 rounded-2xl shadow-2xl border border-[#E7E2D8]">
               
               {/* Header Badge on Card */}
               <div className="flex justify-between items-center mb-3 px-2">
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-[#F5F5F5]">
+                <div className="flex items-center gap-1.5 text-xs font-semibold text-[#1C1917]">
                   <Sparkles className="w-3.5 h-3.5 text-[#BFA181]" />
                   <span>Resultado Destacado de la Semana</span>
                 </div>
-                <span className="text-[11px] font-medium bg-[#BFA181]/20 text-[#BFA181] px-2.5 py-0.5 rounded-full border border-[#BFA181]/30">
+                <span className="text-[11px] font-medium bg-[#BFA181]/25 text-[#BFA181] px-2.5 py-0.5 rounded-full border border-[#BFA181]/30">
                   Desliza para comparar
                 </span>
               </div>
@@ -200,17 +200,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
               </div>
 
               {/* Case details summary */}
-              <div className="mt-3 p-3 bg-[#0F0F0F] rounded-xl border border-[#262626] text-xs space-y-1.5">
+              <div className="mt-3 p-3 bg-[#FAF7F2] rounded-xl border border-[#E7E2D8] text-xs space-y-1.5">
                 <div className="flex justify-between items-center">
-                  <span className="font-semibold text-white text-sm">{spotlightCase.title}</span>
+                  <span className="font-semibold text-[#1C1917] text-sm">{spotlightCase.title}</span>
                   <span className="text-[#BFA181] font-medium">⏱ {spotlightCase.durationHours}</span>
                 </div>
-                <p className="text-stone-400 line-clamp-2">{spotlightCase.description}</p>
-                <div className="flex flex-wrap gap-2 pt-1 text-[11px] text-stone-300">
-                  <span className="bg-[#171717] px-2 py-0.5 rounded border border-[#2A2A2A]">
+                <p className="text-stone-600 line-clamp-2">{spotlightCase.description}</p>
+                <div className="flex flex-wrap gap-2 pt-1 text-[11px] text-stone-600">
+                  <span className="bg-white px-2 py-0.5 rounded border border-[#E7E2D8]">
                     Base: {spotlightCase.startingBase}
                   </span>
-                  <span className="bg-[#171717] px-2 py-0.5 rounded border border-[#2A2A2A]">
+                  <span className="bg-white px-2 py-0.5 rounded border border-[#E7E2D8]">
                     {spotlightCase.maintenanceFrequency}
                   </span>
                 </div>

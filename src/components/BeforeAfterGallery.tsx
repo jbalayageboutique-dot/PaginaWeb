@@ -50,21 +50,21 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
   const getPos = (caseId: string) => sliderPositions[caseId] ?? 50;
 
   return (
-    <section id="galeria" className="py-16 md:py-24 bg-[#0F0F0F]">
+    <section id="galeria" className="py-16 md:py-24 bg-[#FAF7F2]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#BFA181]/15 text-[#BFA181] text-xs font-semibold uppercase tracking-wider border border-[#BFA181]/30">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#BFA181]/20 text-[#8C7153] text-xs font-semibold uppercase tracking-wider border border-[#BFA181]/30">
             <Sparkles className="w-3.5 h-3.5 text-[#BFA181]" />
             <span>Galería de Resultados Reales • Cloudinary Stream</span>
           </div>
 
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-[#F5F5F5]">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-[#1C1917]">
             Transformaciones Antes y Después
           </h2>
 
-          <p className="text-stone-300 text-base leading-relaxed">
+          <p className="text-stone-600 text-base leading-relaxed">
             Explora la diferencia entre el estado inicial y el acabado final con nuestra técnica de degradado continuo. 
             Todas nuestras fotografías son transmitidas velozmente a través del CDN de <strong>Cloudinary</strong> (`f_auto, q_auto`).
           </p>
@@ -73,7 +73,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
             <div className="pt-2">
               <button
                 onClick={onOpenCloudinary}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#BFA181] text-[#0F0F0F] font-bold text-xs hover:bg-[#A88C6F] transition-all shadow-md"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#BFA181] text-[#FAF7F2] font-bold text-xs hover:bg-[#A88C6F] transition-all shadow-md"
               >
                 <UploadCloud className="w-4 h-4" />
                 <span>Subir Nueva Fotografía a Cloudinary</span>
@@ -83,7 +83,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
         </div>
 
         {/* Filter and Search Bar */}
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-[#2A2A2A] pb-6">
+        <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-[#E7E2D8] pb-6">
           
           {/* Category Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2">
@@ -93,8 +93,8 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                 onClick={() => setSelectedCategory(cat.key)}
                 className={`px-4 py-2 rounded-full text-xs font-semibold transition-all ${
                   selectedCategory === cat.key
-                    ? 'bg-[#BFA181] text-[#0F0F0F] shadow-sm font-bold'
-                    : 'bg-[#171717] text-stone-300 border border-[#2A2A2A] hover:bg-stone-800'
+                    ? 'bg-[#BFA181] text-[#FAF7F2] shadow-sm font-bold'
+                    : 'bg-white text-stone-600 border border-[#E7E2D8] hover:bg-stone-50'
                 }`}
               >
                 {cat.label}
@@ -110,18 +110,18 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                 placeholder="Buscar por tono o técnica..."
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-2 pl-9 bg-[#171717] border border-[#2A2A2A] rounded-full text-xs text-white placeholder:text-stone-500 focus:outline-none focus:ring-2 focus:ring-[#BFA181]"
+                className="w-full px-4 py-2 pl-9 bg-white border border-[#E7E2D8] rounded-full text-xs text-stone-800 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-[#BFA181]"
               />
-              <SlidersHorizontal className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-3" />
+              <SlidersHorizontal className="w-3.5 h-3.5 text-stone-500 absolute left-3 top-3" />
             </div>
 
             {onOpenCloudinary && (
               <button
                 onClick={onOpenCloudinary}
-                className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-full bg-emerald-950/80 border border-emerald-800 text-emerald-300 text-xs font-semibold hover:bg-emerald-900 transition-colors shrink-0"
+                className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-700 text-xs font-semibold hover:bg-emerald-100 transition-colors shrink-0"
                 title="Gestor de fotos Cloudinary"
               >
-                <Zap className="w-3.5 h-3.5 text-emerald-400 fill-emerald-400" />
+                <Zap className="w-3.5 h-3.5 text-emerald-600 fill-emerald-600" />
                 <span>Cloudinary</span>
               </button>
             )}
@@ -131,8 +131,8 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
 
         {/* Grid of Before/After Cards */}
         {filteredCases.length === 0 ? (
-          <div className="text-center py-16 bg-[#171717] rounded-2xl border border-[#2A2A2A] mt-8">
-            <p className="text-stone-400 text-sm">No se encontraron resultados para los filtros seleccionados.</p>
+          <div className="text-center py-16 bg-white rounded-2xl border border-[#E7E2D8] mt-8">
+            <p className="text-stone-600 text-sm">No se encontraron resultados para los filtros seleccionados.</p>
             <button
               onClick={() => { setSelectedCategory('todos'); setSearchQuery(''); }}
               className="mt-3 px-4 py-2 text-xs font-semibold text-[#BFA181] underline"
@@ -150,7 +150,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
               return (
                 <article 
                   key={item.id} 
-                  className="bg-[#171717] rounded-2xl border border-[#2A2A2A] overflow-hidden shadow-sm hover:border-[#BFA181]/40 transition-all flex flex-col"
+                  className="bg-white rounded-2xl border border-[#E7E2D8] overflow-hidden shadow-sm hover:border-[#BFA181]/40 transition-all flex flex-col"
                 >
                   {/* Before / After Interactive Slider Container */}
                   <div 
@@ -220,7 +220,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                     {/* Zoom / Full Details Button */}
                     <button
                       onClick={() => setActiveModalCase(item)}
-                      className="absolute bottom-3 right-3 bg-[#171717]/90 text-stone-200 border border-[#2A2A2A] px-3 py-1 rounded-full text-xs font-semibold opacity-90 group-hover:opacity-100 transition-opacity flex items-center gap-1 shadow z-30 hover:bg-[#252525]"
+                      className="absolute bottom-3 right-3 bg-white/95 text-stone-700 border border-[#E7E2D8] px-3 py-1 rounded-full text-xs font-semibold opacity-90 group-hover:opacity-100 transition-opacity flex items-center gap-1 shadow z-30 hover:bg-stone-50"
                     >
                       <Eye className="w-3.5 h-3.5 text-[#BFA181]" />
                       Ver Ficha
@@ -230,33 +230,33 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                   {/* Case Information */}
                   <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
                     <div>
-                      <div className="flex items-center justify-between text-xs text-stone-400 mb-1">
+                      <div className="flex items-center justify-between text-xs text-stone-500 mb-1">
                         <span className="font-semibold text-[#BFA181] uppercase tracking-wider text-[11px]">
                           {item.categoryLabel}
                         </span>
-                        <span className="flex items-center gap-1 text-stone-400">
-                          <Clock className="w-3 h-3 text-stone-400" />
+                        <span className="flex items-center gap-1 text-stone-500">
+                          <Clock className="w-3 h-3 text-stone-500" />
                           {item.durationHours}
                         </span>
                       </div>
 
-                      <h3 className="font-serif text-xl font-normal text-[#F5F5F5] mb-2 leading-tight">
+                      <h3 className="font-serif text-xl font-normal text-[#1C1917] mb-2 leading-tight">
                         {item.title}
                       </h3>
 
-                      <p className="text-stone-400 text-xs line-clamp-2 leading-relaxed">
+                      <p className="text-stone-600 text-xs line-clamp-2 leading-relaxed">
                         {item.description}
                       </p>
                     </div>
 
                     {/* Technical details tags */}
-                    <div className="space-y-2 pt-2 border-t border-[#2A2A2A] text-xs">
-                      <div className="flex items-start gap-2 text-stone-300">
-                        <Layers className="w-3.5 h-3.5 text-stone-500 shrink-0 mt-0.5" />
+                    <div className="space-y-2 pt-2 border-t border-[#E7E2D8] text-xs">
+                      <div className="flex items-start gap-2 text-stone-700">
+                        <Layers className="w-3.5 h-3.5 text-stone-400 shrink-0 mt-0.5" />
                         <span><strong>Técnica:</strong> {item.techniqueUsed}</span>
                       </div>
-                      <div className="flex items-start gap-2 text-stone-300">
-                        <RefreshCw className="w-3.5 h-3.5 text-stone-500 shrink-0 mt-0.5" />
+                      <div className="flex items-start gap-2 text-stone-700">
+                        <RefreshCw className="w-3.5 h-3.5 text-stone-400 shrink-0 mt-0.5" />
                         <span><strong>Retoque:</strong> {item.maintenanceFrequency}</span>
                       </div>
                     </div>
@@ -265,7 +265,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                     <div className="pt-2 flex items-center gap-2">
                       <button
                         onClick={() => setActiveModalCase(item)}
-                        className="flex-1 py-2 rounded-full border border-[#2A2A2A] text-xs font-semibold text-stone-200 hover:bg-[#222222] transition-colors"
+                        className="flex-1 py-2 rounded-full border border-[#E7E2D8] text-xs font-semibold text-stone-700 hover:bg-stone-50 transition-colors"
                       >
                         Ver Diagnóstico
                       </button>
@@ -274,9 +274,9 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                         href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}?text=${encodeURIComponent(`Hola! Vi el caso "${item.title}" en la web y me gustaría lograr un resultado similar en mi cabello.`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="py-2 px-3 rounded-full bg-[#BFA181] text-[#0F0F0F] text-xs font-bold hover:bg-[#A88C6F] transition-colors flex items-center gap-1.5"
+                        className="py-2 px-3 rounded-full bg-[#BFA181] text-[#FAF7F2] text-xs font-bold hover:bg-[#A88C6F] transition-colors flex items-center gap-1.5"
                       >
-                        <MessageCircle className="w-3.5 h-3.5 text-emerald-950 fill-emerald-950" />
+                        <MessageCircle className="w-3.5 h-3.5 text-[#FAF7F2] fill-[#FAF7F2]" />
                         <span>Consultar</span>
                       </a>
                     </div>
@@ -292,22 +292,22 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
 
       {/* Detail Modal Pop-up for a selected Before/After Case */}
       {activeModalCase && (
-        <div className="fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-          <div className="bg-[#171717] text-white max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl border border-[#2A2A2A] animate-in fade-in zoom-in duration-200">
+        <div className="fixed inset-0 z-50 bg-stone-950/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white text-[#2E2B27] max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl border border-[#E7E2D8] animate-in fade-in zoom-in duration-200">
             
             {/* Modal Header */}
-            <div className="p-4 sm:p-6 bg-[#0F0F0F] text-white flex items-center justify-between border-b border-[#2A2A2A]">
+            <div className="p-4 sm:p-6 bg-[#FAF7F2] text-[#2E2B27] flex items-center justify-between border-b border-[#E7E2D8]">
               <div>
                 <span className="text-xs font-semibold text-[#BFA181] uppercase tracking-widest">
                   Ficha Técnica de Coloración
                 </span>
-                <h3 className="font-serif text-2xl font-normal mt-0.5 text-white">
+                <h3 className="font-serif text-2xl font-normal mt-0.5 text-[#1C1917]">
                   {activeModalCase.title}
                 </h3>
               </div>
               <button
                 onClick={() => setActiveModalCase(null)}
-                className="text-stone-400 hover:text-white text-2xl font-light px-2"
+                className="text-stone-500 hover:text-stone-800 text-2xl font-light px-2"
               >
                 ✕
               </button>
@@ -319,7 +319,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
               {/* Dual Before / After Image comparison side by side or single image */}
               <div className={activeModalCase.beforeImage ? "grid sm:grid-cols-2 gap-4" : "flex justify-center"}>
                 {activeModalCase.beforeImage && (
-                  <div className="relative rounded-xl overflow-hidden border border-[#2A2A2A] w-full">
+                  <div className="relative rounded-xl overflow-hidden border border-[#E7E2D8] w-full">
                     <img
                       src={getCloudinaryUrl(activeModalCase.beforeImage, { width: 800, quality: 'auto', format: 'auto', angle: activeModalCase.rotateBeforeImage })}
                       alt="Antes"
@@ -345,34 +345,34 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
               </div>
 
               {/* Case Info Specifications */}
-              <div className="grid sm:grid-cols-2 gap-4 bg-[#0F0F0F] p-4 rounded-xl border border-[#2A2A2A] text-xs">
+              <div className="grid sm:grid-cols-2 gap-4 bg-[#FAF7F2] p-4 rounded-xl border border-[#E7E2D8] text-xs">
                 <div>
-                  <span className="text-stone-400 block font-medium">Base Inicial del Cabello:</span>
-                  <span className="font-semibold text-white">{activeModalCase.startingBase}</span>
+                  <span className="text-stone-500 block font-medium">Base Inicial del Cabello:</span>
+                  <span className="font-semibold text-[#2E2B27]">{activeModalCase.startingBase}</span>
                 </div>
                 <div>
-                  <span className="text-stone-400 block font-medium">Resultado de Tono Final:</span>
+                  <span className="text-stone-500 block font-medium">Resultado de Tono Final:</span>
                   <span className="font-semibold text-[#BFA181]">{activeModalCase.finalTone}</span>
                 </div>
                 <div>
-                  <span className="text-stone-400 block font-medium">Técnica Aplicada:</span>
-                  <span className="font-semibold text-white">{activeModalCase.techniqueUsed}</span>
+                  <span className="text-stone-500 block font-medium">Técnica Aplicada:</span>
+                  <span className="font-semibold text-[#2E2B27]">{activeModalCase.techniqueUsed}</span>
                 </div>
                 <div>
-                  <span className="text-stone-400 block font-medium">Mantenimiento Recomendado:</span>
-                  <span className="font-semibold text-white">{activeModalCase.maintenanceFrequency}</span>
+                  <span className="text-stone-500 block font-medium">Mantenimiento Recomendado:</span>
+                  <span className="font-semibold text-[#2E2B27]">{activeModalCase.maintenanceFrequency}</span>
                 </div>
               </div>
 
               {/* Description */}
-              <div className="space-y-2 text-stone-300 text-sm">
-                <h4 className="font-semibold text-white">Diagnóstico & Procedimiento:</h4>
-                <p className="leading-relaxed text-stone-300">{activeModalCase.description}</p>
+              <div className="space-y-2 text-stone-600 text-sm">
+                <h4 className="font-semibold text-[#1C1917]">Diagnóstico & Procedimiento:</h4>
+                <p className="leading-relaxed text-stone-600">{activeModalCase.description}</p>
               </div>
 
               {/* Client review if available */}
               {activeModalCase.clientReview && (
-                <div className="p-4 bg-[#0F0F0F] rounded-xl border border-[#BFA181]/40 text-xs italic text-stone-200 space-y-1">
+                <div className="p-4 bg-[#FAF7F2] rounded-xl border border-[#BFA181] text-xs italic text-stone-700 space-y-1">
                   <div className="flex items-center gap-1 font-bold not-italic text-[#BFA181]">
                     <span>★ Opinión de {activeModalCase.clientName || 'Cliente'}:</span>
                   </div>
@@ -382,14 +382,14 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
 
               {activeModalCase.galleryImages && activeModalCase.galleryImages.length > 0 && (
                 <div className="space-y-3">
-                  <h4 className="font-semibold text-white text-sm">Más fotos del caso:</h4>
+                  <h4 className="font-semibold text-[#1C1917] text-sm">Más fotos del caso:</h4>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                     {activeModalCase.galleryImages.map((image) => (
                       <img
                         key={image.src}
                         src={getCloudinaryUrl(image.src, { width: 420, height: 520, quality: 'auto', format: 'auto', angle: image.angle })}
                         alt={image.alt}
-                        className="h-40 w-full rounded-xl object-cover border border-[#2A2A2A]"
+                        className="h-40 w-full rounded-xl object-cover border border-[#E7E2D8]"
                         referrerPolicy="no-referrer"
                         loading="lazy"
                       />
@@ -400,19 +400,19 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
 
               {activeModalCase.videos && activeModalCase.videos.length > 0 && (
                 <div className="space-y-3">
-                  <h4 className="font-semibold text-white text-sm">Videos del resultado:</h4>
+                  <h4 className="font-semibold text-[#1C1917] text-sm">Videos del resultado:</h4>
                   <div className="grid sm:grid-cols-3 gap-3">
                     {activeModalCase.videos.map((video) => (
                       <div key={video.src} className="space-y-2">
                         <video
                           src={video.src}
                           poster={video.poster}
-                          className="h-48 w-full rounded-xl object-cover border border-[#2A2A2A] bg-black"
+                          className="h-48 w-full rounded-xl object-cover border border-[#E7E2D8] bg-[#F3EFE9]"
                           controls
                           playsInline
                           preload="metadata"
                         />
-                        <p className="text-[11px] text-stone-400">{video.title}</p>
+                        <p className="text-[11px] text-stone-500">{video.title}</p>
                       </div>
                     ))}
                   </div>
@@ -425,14 +425,14 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                   href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}?text=${encodeURIComponent(`Hola! Me interesa lograr un resultado como "${activeModalCase.title}". Quisiera agendar una consulta.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 py-3 px-6 rounded-full bg-[#BFA181] text-[#0F0F0F] text-xs font-bold hover:bg-[#A88C6F] transition-colors flex items-center justify-center gap-2"
+                  className="flex-1 py-3 px-6 rounded-full bg-[#BFA181] text-[#FAF7F2] text-xs font-bold hover:bg-[#A88C6F] transition-colors flex items-center justify-center gap-2"
                 >
-                  <MessageCircle className="w-4 h-4 text-emerald-950 fill-emerald-950" />
+                  <MessageCircle className="w-4 h-4 text-[#FAF7F2] fill-[#FAF7F2]" />
                   Agendar este Estilo por WhatsApp
                 </a>
                 <button
                   onClick={() => setActiveModalCase(null)}
-                  className="py-3 px-6 rounded-full border border-[#2A2A2A] text-xs font-semibold text-stone-300 hover:bg-stone-800"
+                  className="py-3 px-6 rounded-full border border-[#E7E2D8] text-xs font-semibold text-stone-700 hover:bg-stone-50"
                 >
                   Cerrar Ficha
                 </button>
