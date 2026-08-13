@@ -1108,7 +1108,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Nayareth: Balayage & Contorno Iluminado Caramelo Miel',
     category: 'cobrizo-warm',
     categoryLabel: 'Cobrizos & Cálidos',
-    afterImage: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-despues-01',
+    afterImage: 'maison-balayage/casos/nayareth-balayage-contorno-iluminado-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-nayareth-portada-frente-ia',
     startingBase: 'Castaño oscuro natural con deseo de iluminación y calidez',
     techniqueUsed: 'Técnica de balayage difuminado combinada con contorno iluminado (contouring) facial en tonos caramelo y miel para aportar brillo y relieve. Protocolo final de sellado capilar e hidratación.',
     finalTone: 'Caramelo miel cálido, luminoso, con relieve tridimensional y brillo espejo',
