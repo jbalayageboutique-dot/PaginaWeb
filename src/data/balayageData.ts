@@ -961,7 +961,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Camuflaje de Canas Natural',
     category: 'correccion-color',
     categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-nueva',
+    beforeImage: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01',
     afterImage: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01',
     rotateAfterImage: 90,
     startingBase: 'Crecimiento de canas de alta densidad (60%) sobre base castaña natural',
