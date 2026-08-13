@@ -402,6 +402,54 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'nicole-morena-iluminada-peru',
+    title: 'Nicole: Balayage Morena Iluminada',
+    category: 'morena-iluminada',
+    categoryLabel: 'Morena Iluminada',
+    afterImage: 'maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-portada-despues-01',
+    startingBase: 'Castaño oscuro natural con alta densidad',
+    techniqueUsed: 'Técnica de balayage con papel de plata para un aclarado limpio y uniforme. Diseño estratégico de mechas para morena iluminada, masaje de sellado de cutícula e hidratación capilar.',
+    finalTone: 'Castaño avellana y caramelo suave tridimensional',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de puntos de luz cada 4-5 meses',
+    hairTexture: 'Cabello castaño oscuro abundante',
+    description: 'Nicole nos visitó desde el Perú a nuestro salón en Punta Arenas. Diseñamos para ella una técnica de balayage con papeles de plata para lograr una morena iluminada súper sutil y elegante en tonos avellana y caramelo. Cuidamos al máximo la fibra capilar, finalizando el proceso con un sellado de cutícula profundo para dejar el cabello ultra suave, dócil y con un brillo espectacular.',
+    clientName: 'Nicole',
+    rating: 5,
+    clientReview: 'Vine a Punta Arenas desde el Perú y busqué el mejor salón para una morena iluminada. El trabajo con papeles de plata quedó perfecto, mi pelo se siente muy suave y brillante.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-01',
+        alt: 'Balayage morena iluminada en detalle'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-02',
+        alt: 'Luz y relieve del contorno morena iluminada'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-03',
+        alt: 'Textura suave y brillo tridimensional'
+      },
+      {
+        src: 'maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-despues-04',
+        alt: 'Detalle de puntas y brillo'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786549580/maison-balayage/casos/nicole-morena-iluminada-peru-punta-arenas/maison-balayage-punta-arenas-nicole-morena-iluminada-peru-movimiento-01.mov',
+        title: 'Movimiento y caída del balayage caramelo'
+      }
+    ],
+    seoKeywords: [
+      'morena iluminada Punta Arenas',
+      'balayage avellana Punta Arenas',
+      'tecnica papel de plata balayage',
+      'peluqueria cerca de rasmussen',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'valentina-balayage-rubio-luminoso',
     title: 'Valentina: Balayage Rubio Ultra Luminoso',
     category: 'balayage-rubio',
@@ -674,6 +722,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
