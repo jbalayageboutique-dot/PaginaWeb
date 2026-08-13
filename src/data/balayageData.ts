@@ -933,7 +933,7 @@ export const SERVICES_MENU: ServiceItem[] = [
     recommendedFor: 'Cabellos decolorados, sensibilizados, quebradizos o antes de un cambio de color importante para preparar la estructura capilar de forma 100% segura.',
     popularBadge: true,
     seoTag: 'Tratamiento Olaplex',
-    imageUrl: 'https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best,e_enhance,e_sharpen:100/v1786466085/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg'
+    imageUrl: 'https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best,e_enhance,e_sharpen:100/v1786631001/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg'
   }
 ];
 

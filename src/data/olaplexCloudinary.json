@@ -1,8 +1,14 @@
 {
   "cloud_name": "apssuuqy",
   "folder": "maison-balayage/tratamientos",
-  "uploaded_at": "2026-08-11T16:34:45.702Z",
-  "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786466085/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg",
-  "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage?_a=BAMAPqWQ0",
-  "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fit,f_auto,h_600,q_auto,w_800/v1/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage?_a=BAMAPqWQ0"
+  "uploaded_at": "2026-08-13T14:23:22.831Z",
+  "photo": {
+    "public_id": "maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage",
+    "format": "jpg",
+    "width": 2999,
+    "height": 3664,
+    "bytes": 2096125,
+    "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786631001/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage.jpg",
+    "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage?_a=BAMAPqWQ0"
+  }
 }
