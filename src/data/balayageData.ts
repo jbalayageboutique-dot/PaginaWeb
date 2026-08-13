@@ -777,6 +777,49 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'antonia-balayage-caramelo-miel-beige-calido',
+    title: 'Antonia: Balayage Caramelo Miel o Beige Cálido',
+    category: 'cobrizo-warm',
+    categoryLabel: 'Cobrizos & Cálidos',
+    afterImage: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-01',
+    startingBase: 'Cabello castaño natural',
+    techniqueUsed: 'Balayage de precisión combinado con baby lights muy finitas en todo el contorno facial (contouring) para aportar una luminosidad estratégica al rostro.',
+    finalTone: 'Beige cálido, caramelo miel o beige champagne luminoso y elegante',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Retoque de contorno cada 3-4 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Un diseño sumamente especial realizado para mi sobrina Antonia. Diseñamos una técnica personalizada de balayage en un tono beige cálido / caramelo miel champagne, combinando con baby lights ultra finas en todo el contorno para enmarcar su mirada. Finalizamos con un protocolo de sellado de cutículas profundo para un acabado sedoso, con gran brillo y movimiento natural.',
+    clientName: 'Antonia (Sobrina)',
+    rating: 5,
+    clientReview: 'El trabajo más lindo hecho por mi tía. Mi balayage en tono beige cálido caramelo miel quedó espectacular, súper suave y brillante con el contorno perfecto.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-02',
+        alt: 'Detalle de las ondas y relieve de contorno rubio beige'
+      },
+      {
+        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-03',
+        alt: 'Brillo tridimensional y suavidad capilar'
+      },
+      {
+        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-04',
+        alt: 'Ondas suaves y relieve del balayage caramelo'
+      },
+      {
+        src: 'maison-balayage/casos/antonia-balayage-caramelo-miel-beige-calido-punta-arenas/maison-balayage-punta-arenas-antonia-balayage-caramelo-despues-05',
+        alt: 'Retrato de perfil mostrando la caida del color',
+        angle: 90
+      }
+    ],
+    seoKeywords: [
+      'balayage caramelo miel Punta Arenas',
+      'balayage beige calido',
+      'baby lights contorno facial',
+      'peluqueria boutique Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'clienta-africa-expedicion',
     title: 'Sarah: Babylights Rubias (Sin Matizar) - Expedición África',
     category: 'balayage-rubio',
@@ -921,6 +964,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
