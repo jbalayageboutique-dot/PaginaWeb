@@ -170,7 +170,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-portada-despues-01',
     startingBase: 'Base clara natural',
     techniqueUsed: 'Mechas con papel y técnica de babylights con mechas muy finitas en todo el contorno para iluminar el rostro. Incorporación de Olaplex para cuidar la salud capilar.',
-    finalTone: 'Rubio luminoso, vibrante and muy natural',
+    finalTone: 'Rubio luminoso, vibrante y muy natural',
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
     hairTexture: 'Cabello de grosor medio',
@@ -541,6 +541,53 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'mechas-valentina-rubio-olaplex',
+    title: 'Valentina: Mechas Rubio Extra Claro',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-portada-despues-01',
+    startingBase: 'Castaño claro natural con deseo de rubio global de alto impacto',
+    techniqueUsed: 'Mechas de alta densidad con papel térmico e iluminación de contorno (contouring) facial para enmarcar el rostro. Incorporación del tratamiento de reconstrucción molecular Olaplex y sellado térmico de cutícula.',
+    finalTone: 'Rubio extra claro perlado, brillante, tridimensional y ultra sano',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de raíz y contorno cada 3 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'Un diseño sumamente especial y con todo el cariño de una madre estilista: realizamos un trabajo de mechas rubio extra claro de alta densidad para mi hija Valentina. Para enmarcar su mirada y facciones, diseñamos un contorno iluminado (contouring) muy marcado. Cuidando meticulosamente la salud y elasticidad de su cabello, incorporamos el sistema reconstructor de puentes de disulfuro Olaplex durante toda la aclaración, logrando un rubio de impacto, sedoso y con brillo espejo.',
+    clientName: 'Valentina (Hija)',
+    rating: 5,
+    clientReview: 'El trabajo más hermoso de todos hecho con todo el amor de mi mamá. Mis mechas rubias extra claras quedaron espectaculares, con una luz increíble y súper suaves gracias al tratamiento Olaplex.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-01',
+        alt: 'Resultado final de mechas rubias extra claras visto de espaldas'
+      },
+      {
+        src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-02',
+        alt: 'Luz y relieve del contorno rubio de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-03',
+        alt: 'Detalle de mechas de alta densidad rubio extra claro'
+      },
+      {
+        src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-04',
+        alt: 'Textura suave, brillo espejo y ondas sueltas'
+      },
+      {
+        src: 'maison-balayage/casos/mechas-valentina-rubio-olaplex-punta-arenas/maison-balayage-punta-arenas-mechas-valentina-rubio-despues-05',
+        alt: 'Caída y salud capilar de Valentina'
+      }
+    ],
+    seoKeywords: [
+      'mechas rubias Punta Arenas',
+      'rubio extra claro Punta Arenas',
+      'iluminacion contorno facial',
+      'contouring rubio Punta Arenas',
+      'tratamiento olaplex Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'ninoska-balayage-babylights-miel',
     title: 'Ninoska: Balayage y Babylights',
     category: 'balayage-rubio',
@@ -776,6 +823,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
