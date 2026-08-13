@@ -61,7 +61,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         alt: 'Resultado final rubio y babylights de Carolina visto en espejo'
       },
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punrenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
         alt: 'Detalle del sellado de cutícula e hidratación profunda'
       },
       {
@@ -177,7 +177,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     description: 'Roxana cuenta con una base clara natural. Diseñamos un trabajo de mechas con papel combinado con babylights extra finas en todo el contorno para aportar luminosidad estratégica al rostro. Durante todo el proceso de aclaración trabajamos con el tratamiento protector Olaplex para garantizar y cuidar la salud del cabello. Al finalizar, aplicamos un tratamiento de sellado de cutícula e hidratación profunda, logrando devolverle brillo, suavidad y salud excepcional a la fibra capilar.',
     clientName: 'Roxana',
     rating: 5,
-    clientReview: 'Me encantaron mis mechas y las babylights súper finitas en el contorno. Gracias a Olaplex and el sellado de cutícula, mi pelo quedó ultra brillante, sano y suave.',
+    clientReview: 'Me encantaron mis mechas y las babylights súper finitas en el contorno. Gracias a Olaplex y el sellado de cutícula, mi pelo quedó ultra brillante, sano y suave.',
     galleryImages: [
       {
         src: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-espejo-ia-01',
@@ -654,7 +654,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     durationHours: '5 horas',
     maintenanceFrequency: 'Retoque de contorno a los 3-4 meses',
     hairTexture: 'Cabello natural de grosor medio',
-    description: 'Fernanda buscaba iluminar su rostro con reflejos cálidos pero súper elegantes. Diseñamos un balayage completo combinado con babylights ultra finas en el contorno del rostro (contouring) para resaltar sus facciones. Levamos el aclarado hacia un precioso caramelo miel dorado tridimensional. Finalizamos con un protocolo de sellado de cutículas y tratamiento reconstructor, logrando una melena extremadamente suave, dócil y con brillo espejo.',
+    description: 'Fernanda buscaba iluminar su rostro con reflejos cálidos pero súper elegantes. Diseñamos un balayage completo combinado con babylights ultra finas en el contorno del rostro (contouring) para resaltar sus facciones. Llevamos el aclarado hacia un precioso caramelo miel dorado tridimensional. Finalizamos con un protocolo de sellado de cutículas y tratamiento reconstructor, logrando una melena extremadamente suave, dócil y con brillo espejo.',
     clientName: 'Fernanda',
     rating: 5,
     clientReview: 'Feliz con mi balayage caramelo miel dorado. El contorno iluminado destaca muchísimo mis facciones y el cabello quedó súper suave y sano.',
@@ -907,6 +907,56 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'dinka-tonalizacion-mechas-sellado-cuticula',
+    title: 'Dinka: Tonalización de Mechas & Hidratación Extrema',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-05',
+    startingBase: 'Mechas rubias previas con pérdida de matiz y deshidratación',
+    techniqueUsed: 'Tonalización de precisión para refrescar y resaltar las mechas rubias en tono ceniza perlado extra claro. Protocolo profundo de hidratación extrema y sellado térmico de cutícula para restaurar la fibra y activar el reflejo de luz capilar.',
+    finalTone: 'Rubio ceniza perlado extra claro, extremadamente brillante, suave y sedoso',
+    durationHours: '3.5 horas',
+    maintenanceFrequency: 'Tonalización y baño de brillo cada 2 meses',
+    hairTexture: 'Cabello rubio decolorado de grosor medio',
+    description: 'Dinka nos visitó para revitalizar sus mechas y devolverle la vitalidad a su cabello. Diseñamos un trabajo de tonalización de alta precisión para perfeccionar el reflejo de sus mechas, eliminando matices desgastados y revelando un hermoso rubio ceniza perlado extra claro. Para potenciar el resultado de las mechas, aplicamos un tratamiento intensivo de hidratación extrema combinado con sellado térmico de cutículas. Esta restauración profunda resalta un brillo espejo tridimensional espectacular, dejando la melena increíblemente dócil, suave y llena de movimiento.',
+    clientName: 'Dinka',
+    rating: 5,
+    clientReview: 'El resultado de la hidratación y el sellado de cutícula es impresionante. Mis mechas ceniza perlado recuperaron un brillo y una suavidad increíbles. Se siente muy sano.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-01',
+        alt: 'Detalle del contorno iluminado y caída suave de Dinka'
+      },
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-02',
+        alt: 'Brillo y relieve de las mechas ceniza perlado de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-03',
+        alt: 'Movimiento y sedosidad con el sellado de cutícula'
+      },
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-04',
+        alt: 'Suavidad y textura del cabello hidratado'
+      },
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-06',
+        alt: 'Caída impecable y reflejo de luz natural'
+      },
+      {
+        src: 'maison-balayage/casos/dinka-tonalizacion-mechas-sellado-cuticula-punta-arenas/maison-balayage-punta-arenas-dinka-mechas-despues-07',
+        alt: 'Detalle del brillo espejo en las puntas'
+      }
+    ],
+    seoKeywords: [
+      'tonalizacion de mechas Punta Arenas',
+      'sellado de cuticula cabello',
+      'hidratacion profunda Punta Arenas',
+      'mechas ceniza perlado Punta Arenas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'case-4',
     title: 'Cobrizo Cálido & Warm Balayage Melt',
     category: 'cobrizo-warm',
@@ -1002,6 +1052,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
