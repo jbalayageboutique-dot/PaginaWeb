@@ -1,0 +1,64 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas",
+  "uploaded_at": "2026-08-13T17:23:09.907Z",
+  "case": {
+    "id": "camuflaje-canas-natural-punta-arenas",
+    "title": "Camuflaje de Canas Natural",
+    "before_public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01",
+    "after_public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before",
+      "original_filename": "maison-balayage-punta-arenas-camuflaje-canas-antes-01.jpg",
+      "public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 1641000,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786641778/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-camuflaje-canas-despues-01.jpg",
+      "public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4444590,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786641780/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-camuflaje-canas-despues-02.jpg",
+      "public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 5901782,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786641781/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-02?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "original_filename": "maison-balayage-punta-arenas-camuflaje-canas-movimiento-01.mp4",
+      "public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-01",
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786641786/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-01.mp4"
+    },
+    {
+      "original_filename": "maison-balayage-punta-arenas-camuflaje-canas-movimiento-02.mp4",
+      "public_id": "maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-02",
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786641788/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-02.mp4"
+    }
+  ]
+}

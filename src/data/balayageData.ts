@@ -61,7 +61,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
         alt: 'Resultado final rubio y babylights de Carolina visto en espejo'
       },
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punrenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
+        src: 'maison-balayage/casos/carolina-balayage-rubio-calido-olaplex-punta-arenas/maison-balayage-punta-arenas-carolina-balayage-rubio-calido-detalle-ia-02',
         alt: 'Detalle del sellado de cutícula e hidratación profunda'
       },
       {
@@ -907,6 +907,49 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'camuflaje-canas-natural-punta-arenas',
+    title: 'Camuflaje de Canas Natural',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-antes-01',
+    afterImage: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-01',
+    rotateAfterImage: 90,
+    startingBase: 'Crecimiento de canas de alta densidad (60%) sobre base castaña natural',
+    techniqueUsed: 'Técnica de micro-difuminado y babylights ultra finas para integrar de forma progresiva las canas con el color base, evitando tintura total y eliminando el efecto raíz. Tratamiento final de sellado capilar.',
+    finalTone: 'Castaño ceniza natural suave con canas camufladas e integradas tridimensionalmente',
+    durationHours: '4 horas',
+    maintenanceFrequency: 'Retoque de contorno cada 4-5 meses (muy bajo mantenimiento)',
+    hairTexture: 'Cabello natural de grosor medio con canas localizadas',
+    description: 'Nuestra clienta llegó buscando una alternativa para disimular sus canas sin la obligación de teñirse el cabello globalmente cada mes. Llevamos a cabo un camuflaje de canas de alta precisión, tejiendo micro-babylights súper finas para difuminarlas de manera sumamente suave con su base castaña natural. Logramos un resultado con luz, sombras y contrastes naturales excelentes. El cabello conserva su textura y salud impecable, brindando un crecimiento dócil y libre del molesto efecto raíz.',
+    clientName: 'Camuflaje de Canas',
+    rating: 5,
+    clientReview: 'No quería perder mis canas, solo disimularlas y que se vieran naturales sin la esclavitud de la tintura. El trabajo de difuminado quedó precioso, súper natural y el pelo muy brillante.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-despues-02',
+        alt: 'Resultado final del camuflaje de canas de perfil',
+        angle: 90
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786641786/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-01.mp4',
+        title: 'Movimiento y caída del camuflaje de canas'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786641788/maison-balayage/casos/camuflaje-canas-natural-punta-arenas/maison-balayage-punta-arenas-camuflaje-canas-movimiento-02.mp4',
+        title: 'Detalle del difuminado de raíces y canas'
+      }
+    ],
+    seoKeywords: [
+      'camuflaje de canas Punta Arenas',
+      'disimular canas base natural',
+      'babylights camuflar canas',
+      'difuminado de canas',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'dinka-tonalizacion-mechas-sellado-cuticula',
     title: 'Dinka: Tonalización de Mechas & Hidratación Extrema',
     category: 'balayage-rubio',
@@ -1052,6 +1095,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
