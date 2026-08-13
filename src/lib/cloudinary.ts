@@ -30,6 +30,7 @@ export function getCloudinaryUrl(
     quality?: string | number;
     format?: 'auto' | 'webp' | 'jpg' | 'png' | 'avif';
     gravity?: 'auto' | 'face' | 'center';
+    angle?: number | string;
   } = {}
 ): string {
   if (!imageSource) return '';
@@ -40,12 +41,14 @@ export function getCloudinaryUrl(
     crop = 'fill',
     quality = 'auto',
     format = 'auto',
-    gravity = 'auto'
+    gravity = 'auto',
+    angle
   } = options;
 
   // Build Cloudinary transformation flags
   const transformations: string[] = [`f_${format}`, `q_${quality}`];
 
+  if (angle) transformations.push(`a_${angle}`);
   if (width) transformations.push(`w_${width}`);
   if (height) transformations.push(`h_${height}`);
   if (width || height) {

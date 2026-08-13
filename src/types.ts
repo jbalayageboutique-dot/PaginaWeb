@@ -32,6 +32,8 @@ export interface BeforeAfterCase {
     poster?: string;
     title: string;
   }[];
+  rotateAfterImage?: number | string;
+  rotateBeforeImage?: number | string;
   seoKeywords: string[];
 }
 

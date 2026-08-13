@@ -144,8 +144,8 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {filteredCases.map((item) => {
               const sliderVal = getPos(item.id);
-              const optimizedBefore = getCloudinaryUrl(item.beforeImage, { width: 800, quality: 'auto', format: 'auto' });
-              const optimizedAfter = getCloudinaryUrl(item.afterImage, { width: 800, quality: 'auto', format: 'auto' });
+              const optimizedBefore = getCloudinaryUrl(item.beforeImage, { width: 800, quality: 'auto', format: 'auto', angle: item.rotateBeforeImage });
+              const optimizedAfter = getCloudinaryUrl(item.afterImage, { width: 800, quality: 'auto', format: 'auto', angle: item.rotateAfterImage });
 
               return (
                 <article 
@@ -319,7 +319,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                 {activeModalCase.beforeImage && (
                   <div className="relative rounded-xl overflow-hidden border border-[#2A2A2A] w-full">
                     <img
-                      src={getCloudinaryUrl(activeModalCase.beforeImage, { width: 800, quality: 'auto', format: 'auto' })}
+                      src={getCloudinaryUrl(activeModalCase.beforeImage, { width: 800, quality: 'auto', format: 'auto', angle: activeModalCase.rotateBeforeImage })}
                       alt="Antes"
                       className="w-full h-64 object-cover"
                       referrerPolicy="no-referrer"
@@ -331,7 +331,7 @@ export const BeforeAfterGallery: React.FC<BeforeAfterGalleryProps> = ({
                 )}
                 <div className={`relative rounded-xl overflow-hidden border border-[#BFA181] ${activeModalCase.beforeImage ? 'w-full' : 'max-w-md w-full'}`}>
                   <img
-                    src={getCloudinaryUrl(activeModalCase.afterImage, { width: 800, quality: 'auto', format: 'auto' })}
+                    src={getCloudinaryUrl(activeModalCase.afterImage, { width: 800, quality: 'auto', format: 'auto', angle: activeModalCase.rotateAfterImage })}
                     alt="Después"
                     className="w-full h-64 object-cover"
                     referrerPolicy="no-referrer"
