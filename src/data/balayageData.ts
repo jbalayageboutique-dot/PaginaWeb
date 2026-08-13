@@ -1004,7 +1004,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     title: 'Balayage Rubio Miel Dorado Cálido',
     category: 'cobrizo-warm',
     categoryLabel: 'Cobrizos & Cálidos',
-    afterImage: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-06',
+    afterImage: 'maison-balayage/casos/balayage-rubio-miel-dorado-calido-punta-arenas/maison-balayage-punta-arenas-miel-dorado-despues-02',
     startingBase: 'Castaño oscuro natural con deseo de reflejos cálidos e iluminación',
     techniqueUsed: 'Balayage completo a mano alzada y difuminado natural con decoloración controlada alcanzando una altura de 8 a 9. Masaje de sellado de cutícula y nutrición intensiva.',
     finalTone: 'Rubio cálido miel dorado sumamente brillante, suave y elegante (altura 8-9)',
