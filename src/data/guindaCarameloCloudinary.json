@@ -1,0 +1,120 @@
+{
+  "cloud_name": "apssuuqy",
+  "folder": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas",
+  "uploaded_at": "2026-08-13T13:48:03.085Z",
+  "case": {
+    "id": "barrido-color-guinda-caramelo-miel",
+    "title": "De Guinda Acumulado a Caramelo Miel",
+    "before_public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01",
+    "after_public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01"
+  },
+  "photos": [
+    {
+      "role": "before-main",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2523,
+      "height": 4002,
+      "bytes": 3452275,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628870/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 5741708,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628871/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 1575,
+      "height": 2662,
+      "bytes": 2438312,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628873/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2185,
+      "height": 4018,
+      "bytes": 3941541,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628874/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2204,
+      "height": 4007,
+      "bytes": 4095127,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628875/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 2252,
+      "height": 3693,
+      "bytes": 2167977,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628878/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05?_a=BAMAPqWQ0"
+    },
+    {
+      "role": "after-main",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01.jpg",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01",
+      "resource_type": "image",
+      "format": "jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 5501013,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/image/upload/v1786628879/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01.jpg",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/image/upload/f_auto,q_auto:best/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01?_a=BAMAPqWQ0",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/image/upload/c_fill,f_auto,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01?_a=BAMAPqWQ0"
+    }
+  ],
+  "videos": [
+    {
+      "role": "movement",
+      "original_filename": "maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01.mov",
+      "public_id": "maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01",
+      "resource_type": "video",
+      "format": "mov",
+      "width": 408,
+      "height": 630,
+      "bytes": 23199840,
+      "duration": 16.285,
+      "secure_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786628881/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01.mov",
+      "optimized_url": "https://res.cloudinary.com/apssuuqy/video/upload/v1786628881/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01.mov",
+      "thumbnail_url": "https://res.cloudinary.com/apssuuqy/video/upload/c_fill,g_auto,h_650,q_auto,w_500/v1/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01.jpg?_a=BAMAPqWQ0"
+    }
+  ]
+}

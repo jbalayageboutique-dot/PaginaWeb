@@ -170,7 +170,7 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterImage: 'maison-balayage/casos/roxana-balayage-cobrizo-punta-arenas/maison-balayage-punta-arenas-roxana-balayage-cobrizo-portada-despues-01',
     startingBase: 'Base clara natural',
     techniqueUsed: 'Mechas con papel y técnica de babylights con mechas muy finitas en todo el contorno para iluminar el rostro. Incorporación de Olaplex para cuidar la salud capilar.',
-    finalTone: 'Rubio luminoso, vibrante y muy natural',
+    finalTone: 'Rubio luminoso, vibrante and muy natural',
     durationHours: '4.5 horas',
     maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
     hairTexture: 'Cabello de grosor medio',
@@ -487,6 +487,60 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
+    id: 'barrido-color-guinda-caramelo-miel',
+    title: 'Corrección de Color: De Guinda a Caramelo Miel',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-portada-despues-01',
+    startingBase: 'Tono guinda artificial acumulado por más de 3 años',
+    techniqueUsed: 'Barrido de color técnico y minucioso para eliminar pigmentación acumulada sin dañar la fibra. Diseño de mechas finas en tonos caramelo y miel, e incorporación del sistema Olaplex para la protección capilar. Tratamiento final de sellado térmico de cutículas.',
+    finalTone: 'Caramelo miel sumamente luminoso, elegante, limpio y sin reflejos naranjos',
+    durationHours: '6 horas',
+    maintenanceFrequency: 'Retoque de raíz y matización cada 3 meses',
+    hairTexture: 'Cabello procesado con acumulación de tinte',
+    description: 'Nuestra clienta llegó buscando remover un tono guinda artificial acumulado por más de 3 años. Llevamos a cabo un minucioso barrido de color y diseño de mechas finas, logrando un tono caramelo miel sumamente elegante, lleno de luz y libre de reflejos naranjos no deseados. Para cuidar la integridad y salud de la fibra capilar, integramos el tratamiento completo de Olaplex en la decoloración, cerrando la sesión con un sellado térmico de cutículas para garantizar máxima suavidad y un brillo espectacular.',
+    clientName: 'Corrección de Color',
+    rating: 5,
+    clientReview: 'Espectacular el cambio de guinda a caramelo miel. Con Olaplex y el sellado de cutícula el cabello quedó brillante, sedoso y con un color súper natural y luminoso.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-01',
+        alt: 'Resultado final caramelo miel visto de perfil'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-02',
+        alt: 'Dimensión y brillo del caramelo miel'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-03',
+        alt: 'Suavidad y textura del cabello con Olaplex'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-04',
+        alt: 'Brillo espejo del color caramelo miel'
+      },
+      {
+        src: 'maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-despues-05',
+        alt: 'Detalle de caída y salud capilar'
+      }
+    ],
+    videos: [
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786580883/maison-balayage/casos/barrido-color-guinda-caramelo-miel-punta-arenas/maison-balayage-punta-arenas-barrido-color-guinda-caramelo-movimiento-01.mov',
+        title: 'Movimiento, rebote y elasticidad del cabello corregido'
+      }
+    ],
+    seoKeywords: [
+      'barrido de color Punta Arenas',
+      'sacar tinte guinda del cabello',
+      'balayage caramelo miel Punta Arenas',
+      'tratamiento olaplex Punta Arenas',
+      'sellado de cuticula cabello',
+      'JB Balayage Peluqueria boutique'
+    ]
+  },
+  {
     id: 'ninoska-balayage-babylights-miel',
     title: 'Ninoska: Balayage y Babylights',
     category: 'balayage-rubio',
@@ -722,6 +776,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     seoKeywords: ['babylights platinado', 'rubio vainilla', 'esfumado natural']
   }
 ];
+
+
 
 
 
