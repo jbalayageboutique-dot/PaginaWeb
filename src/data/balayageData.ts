@@ -1242,6 +1242,31 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'peluqueria boutique rasmussen',
       'JB Balayage Peluqueria boutique'
     ]
+  },
+  {
+    id: 'alisado-organico-premium',
+    title: 'Alisado Orgánico Premium & Brillo Espejo',
+    category: 'morena-iluminada',
+    categoryLabel: 'Morenas Iluminadas',
+    afterImage: 'maison-balayage/casos/alisado-organico-punta-arenas/maison-balayage-punta-arenas-alisado-organico-despues-01',
+    startingBase: 'Cabello con volumen, frizz y ondas difusas',
+    techniqueUsed: 'Tratamiento de Alisado Orgánico 100% libre de formol. Alineación capilar termoactiva, nutrición lipídica profunda y blindaje de cutícula.',
+    finalTone: 'Lacio perfecto, sedoso, dócil y con un brillo espejo espectacular',
+    durationHours: '4 horas',
+    maintenanceFrequency: 'Duración de 3 a 5 meses con la línea de mantenimiento recomendada',
+    hairTexture: 'Cabello natural de grosor medio con frizz',
+    description: 'Transformación total con nuestro tratamiento estrella de Alisado Orgánico Premium. Alineamos la fibra capilar de manera segura y sin químicos nocivos, eliminando completamente el volumen indeseado y el frizz. El resultado es una melena lacia, suave al tacto y con un reflejo espejo increíble.',
+    clientName: 'Alisado Orgánico',
+    rating: 5,
+    clientReview: 'Increíble el cambio. Mi pelo quedó lacio, súper brillante y dócil. Lo mejor de todo es que es un alisado orgánico y no tiene olor fuerte. ¡Recomendadísimo!',
+    galleryImages: [],
+    seoKeywords: [
+      'alisado organico Punta Arenas',
+      'alisado sin formol Chile',
+      'alisado de cabello brillo espejo',
+      'peluqueria boutique rasmussen',
+      'JB Balayage Peluqueria boutique'
+    ]
   }
 ];
 
