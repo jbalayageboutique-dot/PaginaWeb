@@ -66,23 +66,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         {/* Brand Logo */}
         <button 
           onClick={() => handleNavClick('hero')} 
-          className="flex items-center gap-4 text-left group"
+          className="flex items-center group"
         >
           <img 
             src={logoConfig.small_url}
             alt={logoConfig.alt}
-            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-sm"
+            className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-md"
             referrerPolicy="no-referrer"
             loading="eager"
           />
-          <div>
-            <span className="block font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wide text-[#1C1917] leading-tight">
-              JB Balayage Peluqueria boutique
-            </span>
-            <span className="block text-xs sm:text-sm tracking-[0.2em] uppercase text-[#8C7153] font-semibold mt-1">
-              Atelier de Coloración
-            </span>
-          </div>
         </button>
 
         {/* Desktop Nav Links */}

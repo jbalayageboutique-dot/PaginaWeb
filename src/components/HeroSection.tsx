@@ -65,12 +65,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
             </div>
 
             {/* Main H1 - Key SEO Title */}
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-[#1C1917] leading-[1.12]">
-              Especialista en Técnica <br className="hidden sm:inline" />
-              <span className="italic font-serif bg-gradient-to-r from-[#1C1917] via-[#BFA181] to-[#1C1917] bg-clip-text text-transparent">
-                Balayage & Coloración
-              </span>
-            </h1>
+            <div className="space-y-3">
+              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1C1917] leading-[1.1]">
+                JB Balayage <br className="hidden sm:inline" />
+                <span className="italic font-serif bg-gradient-to-r from-[#1C1917] via-[#BFA181] to-[#1C1917] bg-clip-text text-transparent">
+                  Peluquería Boutique
+                </span>
+              </h1>
+              <p className="text-[#8C7153] font-serif italic text-lg sm:text-xl font-medium tracking-wide">
+                Atelier de Coloración • Especialista en Técnica Balayage & Color
+              </p>
+            </div>
 
             {/* Subheading */}
             <p className="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
