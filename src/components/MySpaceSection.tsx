@@ -1,7 +1,10 @@
 import React from 'react';
 import { Sparkles, Heart } from 'lucide-react';
+import { getCloudinaryUrl } from '../lib/cloudinary';
 
 export const MySpaceSection: React.FC = () => {
+  const imgSpace = getCloudinaryUrl('maison-balayage/espacio/salon-mi-espacio', { width: 1000, quality: 'auto', format: 'auto' });
+
   return (
     <section id="mi-espacio" className="py-16 md:py-24 bg-[#F3EFE9] relative overflow-hidden">
       {/* Subtle ambient light overlay */}
@@ -48,7 +51,7 @@ export const MySpaceSection: React.FC = () => {
               
               <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
-                  src="/salon-mi-espacio.jpg"
+                  src={imgSpace}
                   alt="Maison Balayage Boutique - Nuestro Espacio de Estilismo"
                   className="w-full h-[300px] sm:h-[450px] object-cover rounded-2xl transform transition-transform duration-700 group-hover:scale-102"
                   loading="lazy"
