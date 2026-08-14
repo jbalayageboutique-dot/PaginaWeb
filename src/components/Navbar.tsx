@@ -226,3 +226,5 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
     </header>
   );
 };
+// Clean comment to trigger Vercel redeploy
+
