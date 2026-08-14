@@ -133,91 +133,43 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
 
           </div>
 
-          {/* Right Column: Hero Spotlight Interactive Before / After Slider */}
+          {/* Right Column: Specialist Cover Portrait */}
           <div className="lg:col-span-5">
-            <div className="relative bg-white p-3 rounded-2xl shadow-2xl border border-[#E7E2D8]">
-              
-              {/* Header Badge on Card */}
-              <div className="flex justify-between items-center mb-3 px-2">
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-[#1C1917]">
-                  <Sparkles className="w-3.5 h-3.5 text-[#BFA181]" />
-                  <span>Resultado Destacado de la Semana</span>
-                </div>
-                <span className="text-[11px] font-medium bg-[#BFA181]/25 text-[#BFA181] px-2.5 py-0.5 rounded-full border border-[#BFA181]/30">
-                  Desliza para comparar
-                </span>
-              </div>
+            <div className="relative bg-white p-3.5 rounded-3xl shadow-2xl border border-[#E7E2D8] group">
+              {/* Gold border/glow detail */}
+              <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-[#BFA181]/30 transition-all pointer-events-none" />
 
-              {/* Before/After Split View */}
-              <div 
-                className="relative w-full h-[380px] sm:h-[440px] rounded-xl overflow-hidden cursor-ew-resize select-none touch-none"
-                onMouseDown={() => setIsDragging(true)}
-                onMouseUp={() => setIsDragging(false)}
-                onMouseLeave={() => setIsDragging(false)}
-                onMouseMove={handleMouseMove}
-                onTouchMove={handleTouchMove}
-              >
-                {/* AFTER Image (Full background) */}
+              <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
-                  src={spotlightAfter}
-                  alt={`Después: ${spotlightCase.title}`}
-                  className="absolute inset-0 w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
+                  src={getCloudinaryUrl('maison-balayage/certificado/janet-certificado-vertical', { width: 800, quality: 'auto', format: 'auto' })}
+                  alt="Janet Bahamondez Trujillo - Especialista Certificada"
+                  className="w-full h-[450px] md:h-[520px] object-cover rounded-2xl"
+                  loading="eager"
                 />
                 
-                {/* AFTER Label */}
-                <div className="absolute top-3 right-3 bg-black/85 backdrop-blur-md text-amber-200 px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase border border-amber-300/30 z-10">
-                  DESPUÉS: {spotlightCase.categoryLabel}
-                </div>
-
-                {/* BEFORE Image (Clipped overlay) */}
-                <div 
-                  className="absolute top-0 left-0 bottom-0 overflow-hidden border-r-2 border-white shadow-2xl"
-                  style={{ width: `${sliderPos}%` }}
-                >
-                  <img
-                    src={spotlightBefore}
-                    alt={`Antes: ${spotlightCase.title}`}
-                    className="absolute top-0 left-0 h-full object-cover max-w-none"
-                    style={{ width: '100%', height: '100%' }}
-                    referrerPolicy="no-referrer"
-                  />
-                  {/* BEFORE Label */}
-                  <div className="absolute top-3 left-3 bg-stone-950/85 backdrop-blur-md text-white px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase border border-white/20">
-                    ANTES
+                {/* Overlay Badge */}
+                <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-xl border border-[#E7E2D8] shadow-lg">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-[10px] font-bold text-stone-600 uppercase tracking-widest">
+                      Atención Personalizada
+                    </span>
                   </div>
+                  <h3 className="font-serif text-lg font-normal text-[#1C1917]">
+                    Janet Bahamondez Trujillo
+                  </h3>
+                  <p className="text-[11px] text-stone-600 mt-0.5">
+                    Estilista Fundadora & Especialista Certificada en Mechas y Corrección de Color.
+                  </p>
                 </div>
 
-                {/* Drag handle line & icon */}
-                <div 
-                  className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-20 flex items-center justify-center"
-                  style={{ left: `${sliderPos}%` }}
-                >
-                  <div className="w-8 h-8 rounded-full bg-[#171717] text-[#BFA181] shadow-lg border border-[#BFA181] flex items-center justify-center text-xs font-bold">
-                    ↔
-                  </div>
+                {/* Ribbon Tag */}
+                <div className="absolute top-4 right-4 bg-[#BFA181] text-[#FAF7F2] px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase border border-[#FAF7F2]/20 shadow-md">
+                  ★ Especialista 2.0
                 </div>
-              </div>
-
-              {/* Case details summary */}
-              <div className="mt-3 p-3 bg-[#FAF7F2] rounded-xl border border-[#E7E2D8] text-xs space-y-1.5">
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-[#1C1917] text-sm">{spotlightCase.title}</span>
-                  <span className="text-[#BFA181] font-medium">⏱ {spotlightCase.durationHours}</span>
-                </div>
-                <p className="text-stone-600 line-clamp-2">{spotlightCase.description}</p>
-                <div className="flex flex-wrap gap-2 pt-1 text-[11px] text-stone-600">
-                  <span className="bg-white px-2 py-0.5 rounded border border-[#E7E2D8]">
-                    Base: {spotlightCase.startingBase}
-                  </span>
-                  <span className="bg-white px-2 py-0.5 rounded border border-[#E7E2D8]">
-                    {spotlightCase.maintenanceFrequency}
-                  </span>
-                </div>
-              </div>
-
             </div>
           </div>
+        </div>
 
         </div>
       </div>
