@@ -145,42 +145,41 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
 
           {/* Right Column: Specialist Cover Portrait */}
           <div className="lg:col-span-5">
-            <div className="relative bg-white p-3.5 rounded-3xl shadow-2xl border border-[#E7E2D8] group">
+            <div className="relative bg-white p-3.5 rounded-3xl shadow-2xl border border-[#E7E2D8] group flex flex-col gap-4">
               {/* Gold border/glow detail */}
               <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-[#BFA181]/30 transition-all pointer-events-none" />
 
               <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
-                  src={getCloudinaryUrl('maison-balayage/certificado/janet-certificado-vertical', { width: 800, quality: 'auto', format: 'auto' })}
+                  src={getCloudinaryUrl('maison-balayage/certificado/janet-certificado-vertical', { quality: 100, format: 'auto' })}
                   alt="Janet Bahamondez Trujillo - Especialista Certificada"
                   className="w-full h-[450px] md:h-[520px] object-cover rounded-2xl"
                   loading="eager"
                 />
                 
-                {/* Overlay Badge */}
-                <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-xl border border-[#E7E2D8] shadow-lg">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-                    <span className="text-[10px] font-bold text-stone-600 uppercase tracking-widest">
-                      Atención Personalizada
-                    </span>
-                  </div>
-                  <h3 className="font-serif text-lg font-normal text-[#1C1917]">
-                    Janet Bahamondez Trujillo
-                  </h3>
-                  <p className="text-[11px] text-stone-600 mt-0.5">
-                    Estilista Fundadora & Especialista Certificada en Mechas y Corrección de Color.
-                  </p>
-                </div>
-
                 {/* Ribbon Tag */}
                 <div className="absolute top-4 right-4 bg-[#BFA181] text-[#FAF7F2] px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase border border-[#FAF7F2]/20 shadow-md">
                   ★ Especialista 2.0
                 </div>
+              </div>
+
+              {/* Specialist Info Card - Placed below the image to not block the certificate */}
+              <div className="bg-white/95 p-4 rounded-xl border border-[#E7E2D8] shadow-xs">
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span className="text-[10px] font-bold text-stone-600 uppercase tracking-widest">
+                    Atención Personalizada
+                  </span>
+                </div>
+                <h3 className="font-serif text-lg font-normal text-[#1C1917]">
+                  Janet Bahamondez Trujillo
+                </h3>
+                <p className="text-[11px] text-stone-600 mt-0.5">
+                  Estilista Fundadora & Especialista Certificada en Mechas y Corrección de Color.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-
         </div>
       </div>
     </section>

@@ -71,7 +71,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           <img 
             src={logoConfig.small_url}
             alt={logoConfig.alt}
-            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-md"
+            className="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-md"
             referrerPolicy="no-referrer"
             loading="eager"
           />
@@ -84,6 +84,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
             className="hover:text-[#1C1917] transition-colors relative py-1 hover:after:content-[''] hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-[#BFA181]"
           >
             Antes y Después
+          </button>
+          <button 
+            onClick={() => handleNavClick('mi-espacio')} 
+            className="hover:text-[#1C1917] transition-colors"
+          >
+            Nuestro Espacio
           </button>
           <button 
             onClick={() => handleNavClick('servicios')} 
@@ -154,6 +160,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
               className="text-left text-stone-700 py-1"
             >
               Galeria Antes y Después
+            </button>
+            <button
+              onClick={() => handleNavClick('mi-espacio')}
+              className="text-left text-stone-700 py-1"
+            >
+              Nuestro Espacio
             </button>
             <button
               onClick={() => handleNavClick('servicios')}
