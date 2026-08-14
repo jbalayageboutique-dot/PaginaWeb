@@ -1212,6 +1212,38 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
       'mechas rubio frio perlado',
       'JB Balayage Peluqueria boutique'
     ]
+  },
+  {
+    id: 'diana-babylights-olaplex',
+    title: 'Diana: Baby Lights Extra Finas & Tratamiento Olaplex',
+    category: 'babylights-melt',
+    categoryLabel: 'Babylights & Melt',
+    afterImage: 'maison-balayage/casos/diana-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-diana-babylights-despues-01',
+    rotateAfterImage: 90,
+    startingBase: 'Cabello natural extra fino con deseo de aclarado rubio global',
+    techniqueUsed: 'Técnica de babylights extra finas (micro-tejidas) en todo el cabello para una iluminación global difuminada y sin líneas de crecimiento. Protocolo protector Olaplex y sellado térmico de cutícula.',
+    finalTone: 'Rubio extra claro perlado tridimensional y ultra luminoso',
+    durationHours: '5 horas',
+    maintenanceFrequency: 'Retoque de contorno y babylights cada 4-5 meses',
+    hairTexture: 'Cabello natural de grosor extra fino',
+    description: 'Diseñamos una iluminación sumamente delicada para Diana, quien posee un cabello muy fino. Realizamos la técnica de babylights extra finas (micro-tejidas) en todo el cabello para lograr un aclarado rubio global suave, sin efecto raíz y respetando su base. Todo el proceso se acompañó con el tratamiento Olaplex para asegurar la máxima protección de su fibra capilar fina, culminando con una nutrición selladora para un acabado de brillo espejo.',
+    clientName: 'Diana',
+    rating: 5,
+    clientReview: 'Me encantó el resultado de mis babylights. Al tener el pelo tan finito me daba miedo aclarármelo, pero quedó súper sano, suave y con un rubio perlado hermoso.',
+    galleryImages: [
+      {
+        src: 'maison-balayage/casos/diana-babylights-olaplex-punta-arenas/maison-balayage-punta-arenas-diana-babylights-despues-02',
+        alt: 'Caída natural y relieve de las babylights de Diana visto de espaldas',
+        angle: 90
+      }
+    ],
+    seoKeywords: [
+      'babylights finas Punta Arenas',
+      'cabello fino rubio Olaplex',
+      'iluminacion de contorno facial',
+      'peluqueria boutique rasmussen',
+      'JB Balayage Peluqueria boutique'
+    ]
   }
 ];
 
