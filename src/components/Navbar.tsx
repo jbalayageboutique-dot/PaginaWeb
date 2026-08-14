@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0"
         >
           <img 
-            src={getCloudinaryUrl(logoConfig.secure_url, { width: 200, height: 200, crop: 'fill', gravity: 'center', quality: 'best', format: 'auto' })}
+            src={logoConfig.small_url}
             alt={logoConfig.alt}
             className="w-full h-full object-cover rounded-full"
             referrerPolicy="no-referrer"
