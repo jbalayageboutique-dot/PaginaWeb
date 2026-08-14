@@ -43,3 +43,130 @@
   backdrop-filter: blur(12px);
   border: 1px solid rgba(191, 161, 129, 0.35);
 }
+
+:root {
+  --jb-wall: #FCFAF6;      /* Ivory (Marfil) main background */
+  --jb-wall-soft: #F5F2EC; /* Slightly warmer ivory */
+  --jb-panel: #FFFFFF;     /* Pure white for cards and high contrast elements */
+  --jb-panel-soft: #FAF8F4;/* Soft ivory-white panels */
+  --jb-line: #E7E2D8;
+  --jb-ink: #2E2B27;
+  --jb-muted: #6B6661;
+  --jb-gold: #BFA181;
+  --jb-gold-deep: #8C7153;
+  --jb-cream: #FCF9F3;
+}
+
+body {
+  color: var(--jb-ink);
+  background-color: var(--jb-wall);
+}
+
+h1,
+h2,
+h3,
+.font-serif-title {
+  color: var(--jb-ink);
+}
+
+[class*="bg-[#FAF7F2]"],
+[class*="bg-[#F3EFE9]"],
+[class*="from-[#FAF7F2]"],
+[class*="via-[#F3EFE9]"],
+[class*="to-[#FAF7F2]"] {
+  background: var(--jb-wall) !important;
+}
+
+[class*="bg-white"],
+[class*="from-white"] {
+  background-color: var(--jb-panel) !important;
+}
+
+[class*="bg-white/80"],
+[class*="bg-white/85"],
+[class*="bg-white/90"] {
+  background-color: rgba(255, 255, 255, 0.88) !important;
+}
+
+[class*="bg-stone-50"],
+[class*="bg-stone-100"] {
+  background-color: var(--jb-panel-soft) !important;
+}
+
+[class*="bg-[#BFA181]"] {
+  background-color: var(--jb-gold) !important;
+}
+
+[class*="bg-[#BFA181]/20"],
+[class*="bg-[#BFA181]/25"] {
+  background-color: rgba(195, 160, 95, 0.18) !important;
+}
+
+[class*="text-[#1C1917]"],
+[class*="text-[#2E2B27]"],
+[class*="text-stone-950"],
+[class*="text-stone-900"],
+[class*="text-stone-800"],
+[class*="text-stone-700"] {
+  color: var(--jb-ink) !important;
+}
+
+[class*="text-stone-600"],
+[class*="text-stone-500"],
+[class*="text-stone-400"] {
+  color: var(--jb-muted) !important;
+}
+
+[class*="text-[#BFA181]"],
+[class*="text-[#8C7153]"],
+[class*="text-amber-"],
+[class*="fill-amber-"] {
+  color: var(--jb-gold-deep) !important;
+}
+
+[class*="border-[#E7E2D8]"],
+[class*="border-[#BFA181]"],
+[class*="border-stone-"] {
+  border-color: var(--jb-line) !important;
+}
+
+[class*="ring-[#BFA181]"] {
+  --tw-ring-color: rgba(195, 160, 95, 0.35) !important;
+}
+
+[class*="shadow-2xl"],
+[class*="shadow-lg"],
+[class*="shadow-md"] {
+  box-shadow: 0 18px 45px rgba(68, 62, 52, 0.16) !important;
+}
+
+[class*="bg-black/"],
+[class*="bg-stone-950/"],
+[class*="bg-[#171717]"],
+[class*="bg-[#0F0F0F]"] {
+  background-color: rgba(43, 41, 37, 0.9) !important;
+}
+
+[class*="text-[#FAF7F2]"],
+[class*="text-white"] {
+  color: var(--jb-cream) !important;
+}
+
+.glass-panel,
+.glass-panel-dark {
+  background: rgba(216, 212, 204, 0.82);
+  border-color: rgba(195, 160, 95, 0.28);
+}
+
+[class*="bg-[#BFA181]/5"] {
+  background-color: rgba(185, 155, 99, 0.045) !important;
+}
+
+[class*="bg-[#BFA181]/10"] {
+  background-color: rgba(185, 155, 99, 0.065) !important;
+}
+
+[class*="bg-[#BFA181]/20"],
+[class*="bg-[#BFA181]/25"] {
+  background-color: rgba(185, 155, 99, 0.12) !important;
+}
