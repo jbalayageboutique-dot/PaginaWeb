@@ -62,25 +62,24 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         </div>
       </div>
 
-      {/* Main Nav Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Brand Logo */}
         <button 
           onClick={() => handleNavClick('hero')} 
-          className="flex items-center gap-3 text-left group"
+          className="flex items-center gap-4 text-left group"
         >
           <img 
             src={logoConfig.small_url}
             alt={logoConfig.alt}
-            className="w-10 h-10 rounded-full object-cover border border-[#BFA181] group-hover:scale-105 transition-transform"
+            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-sm"
             referrerPolicy="no-referrer"
             loading="eager"
           />
           <div>
-            <span className="block font-serif text-xl sm:text-2xl font-semibold tracking-wide text-[#1C1917]">
+            <span className="block font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wide text-[#1C1917] leading-tight">
               JB Balayage Peluqueria boutique
             </span>
-            <span className="block text-[10px] tracking-widest uppercase text-[#7C7874] font-medium">
+            <span className="block text-xs sm:text-sm tracking-[0.2em] uppercase text-[#8C7153] font-semibold mt-1">
               Atelier de Coloración
             </span>
           </div>
