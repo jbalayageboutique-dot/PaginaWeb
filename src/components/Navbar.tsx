@@ -62,83 +62,21 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        {/* Brand Logo */}
-        <button 
-          onClick={() => handleNavClick('hero')} 
-          className="flex items-center group"
-        >
-          <img 
-            src={logoConfig.small_url}
-            alt={logoConfig.alt}
-            className="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-md"
-            referrerPolicy="no-referrer"
-            loading="eager"
-          />
-        </button>
-
-        {/* Desktop Nav Links */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+        {/* Brand Logo (Centered on desktop, left on mobile) */}
+        <div className="flex-1 md:flex md:justify-center">
           <button 
-            onClick={() => handleNavClick('galeria')} 
-            className="hover:text-[#1C1917] transition-colors relative py-1 hover:after:content-[''] hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-[#BFA181]"
+            onClick={() => handleNavClick('hero')} 
+            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0 md:mx-auto"
           >
-            Antes y Después
+            <img 
+              src={getCloudinaryUrl(logoConfig.secure_url, { width: 200, height: 200, crop: 'fill', gravity: 'center', quality: 'best', format: 'auto' })}
+              alt={logoConfig.alt}
+              className="w-full h-full object-cover rounded-full"
+              referrerPolicy="no-referrer"
+              loading="eager"
+            />
           </button>
-          <button 
-            onClick={() => handleNavClick('mi-espacio')} 
-            className="hover:text-[#1C1917] transition-colors"
-          >
-            Nuestro Espacio
-          </button>
-          <button 
-            onClick={() => handleNavClick('servicios')} 
-            className="hover:text-[#1C1917] transition-colors"
-          >
-            Servicios
-          </button>
-          <button 
-            onClick={() => handleNavClick('especialista-olaplex')} 
-            className="hover:text-[#1C1917] transition-colors"
-          >
-            Especialista en Olaplex
-          </button>
-          <button 
-            onClick={() => handleNavClick('google-business')} 
-            className="hover:text-[#1C1917] transition-colors flex items-center gap-1.5"
-          >
-            Google Reviews
-            <span className="bg-[#BFA181]/20 text-[#BFA181] border border-[#BFA181]/40 text-[10px] px-1.5 py-0.5 rounded-full font-bold">
-              5.0 ★
-            </span>
-          </button>
-          <button 
-            onClick={() => handleNavClick('faq')} 
-            className="hover:text-[#1C1917] transition-colors"
-          >
-            Preguntas SEO
-          </button>
-        </nav>
-
-        {/* Right Call To Actions */}
-        <div className="hidden lg:flex items-center gap-3">
-          <button
-            onClick={onOpenQuiz}
-            className="px-4 py-2 text-xs font-semibold rounded-full border border-[#BFA181] text-[#2E2B27] hover:bg-[#BFA181]/15 transition-all flex items-center gap-1.5"
-          >
-            <Sparkles className="w-3.5 h-3.5 text-[#BFA181]" />
-            Test de Diagnóstico
-          </button>
-
-          <a
-            href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}?text=${encodeURIComponent('Hola! Me gustaría consultar por un turno para Balayage.')}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2.5 text-xs font-semibold rounded-full bg-[#BFA181] text-[#FAF7F2] hover:bg-[#A88C6F] transition-all shadow-sm hover:shadow flex items-center gap-2"
-          >
-            <MessageCircle className="w-4 h-4 text-emerald-950 fill-emerald-950" />
-            Agendar Turno
-          </a>
         </div>
 
         {/* Mobile menu toggle */}
@@ -149,6 +87,67 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
+      </div>
+
+      {/* Full-width Horizontal Cafecito Bar for Desktop */}
+      <div className="hidden md:block bg-[#BFA181] border-y border-[#A88C6F]/30 w-full">
+        <div className="max-w-7xl mx-auto flex items-stretch divide-x divide-white/20 text-white">
+          <button 
+            onClick={() => handleNavClick('galeria')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
+          >
+            Antes y Después
+          </button>
+          <button 
+            onClick={() => handleNavClick('mi-espacio')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
+          >
+            Nuestro Espacio
+          </button>
+          <button 
+            onClick={() => handleNavClick('servicios')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
+          >
+            Servicios
+          </button>
+          <button 
+            onClick={() => handleNavClick('especialista-olaplex')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
+          >
+            Especialista en Olaplex
+          </button>
+          <button 
+            onClick={() => handleNavClick('google-business')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-1 cursor-pointer"
+          >
+            Google Reviews
+            <span className="bg-white/20 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">
+              5.0 ★
+            </span>
+          </button>
+          <button 
+            onClick={() => handleNavClick('faq')} 
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
+          >
+            Preguntas SEO
+          </button>
+          <button
+            onClick={onOpenQuiz}
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-1.5 cursor-pointer"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-white" />
+            Test de Diagnóstico
+          </button>
+          <a
+            href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}?text=${encodeURIComponent('Hola! Me gustaría consultar por un turno para Balayage.')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-1.5 cursor-pointer"
+          >
+            <MessageCircle className="w-3.5 h-3.5 text-white fill-white/20" />
+            Agendar Turno
+          </a>
+        </div>
       </div>
 
       {/* Mobile Drawer */}

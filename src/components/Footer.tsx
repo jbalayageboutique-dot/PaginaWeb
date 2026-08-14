@@ -3,10 +3,11 @@ import { Star, MapPin, ExternalLink, Heart } from 'lucide-react';
 import { GOOGLE_BUSINESS_DATA } from '../data/balayageData';
 
 import logoConfig from '../data/logoConfig.json';
+import { getCloudinaryUrl } from '../lib/cloudinary';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#F3EFE9] text-[#2E2B27] pt-16 pb-12 border-t border-[#E7E2D8] text-xs">
+    <footer className="bg-[#F3EFE9] text-[#2E2B27] pt-16 pb-12 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Main Grid */}
@@ -16,9 +17,9 @@ export const Footer: React.FC = () => {
           <div className="space-y-4 md:col-span-1">
             <div className="flex items-center gap-3">
               <img 
-                src={logoConfig.small_url}
+                src={getCloudinaryUrl(logoConfig.secure_url, { width: 150, height: 150, crop: 'fill', gravity: 'center', quality: 'best', format: 'auto' })}
                 alt={logoConfig.alt}
-                className="w-12 h-12 rounded-full object-cover border border-[#E7E2D8]"
+                className="w-12 h-12 rounded-full object-cover border border-[#E7E2D8] shrink-0 aspect-square"
                 referrerPolicy="no-referrer"
                 loading="lazy"
               />

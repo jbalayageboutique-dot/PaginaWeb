@@ -8,7 +8,7 @@ export const OlaplexSpecialistSection: React.FC = () => {
   const imgOlaplexProduct = getCloudinaryUrl('maison-balayage/tratamientos/tratamiento-olaplex-completo-jb-balayage', { width: 1000, quality: 'auto', format: 'auto' });
 
   return (
-    <section id="especialista-olaplex" className="py-16 md:py-24 bg-white border-t border-[#E7E2D8] relative overflow-hidden">
+    <section id="especialista-olaplex" className="py-16 md:py-24 bg-white relative overflow-hidden">
       {/* Soft ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#BFA181]/5 rounded-full blur-3xl pointer-events-none" />
 

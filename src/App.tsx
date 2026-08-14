@@ -12,6 +12,7 @@ import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 import { Footer } from './components/Footer';
 import { SpecialistSection } from './components/SpecialistSection';
 import { OlaplexSpecialistSection } from './components/OlaplexSpecialistSection';
+import { MySpaceSection } from './components/MySpaceSection';
 import { BeforeAfterCase } from './types';
 
 export default function App() {
@@ -48,27 +49,46 @@ export default function App() {
           onExploreGallery={() => handleNavigateSection('galeria')}
         />
 
+        <hr className="border-t border-[#BFA181]" />
+
         {/* Filterable Before/After Gallery with Sliders, Cloudinary Streaming & Detail Modals */}
         <BeforeAfterGallery
           onOpenCloudinary={() => setCloudinaryOpen(true)}
           customCases={customCases}
         />
 
+        <hr className="border-t border-[#BFA181]" />
+
+        {/* Studio Space Section */}
+        <MySpaceSection />
+
+        <hr className="border-t border-[#BFA181]" />
+
         {/* Services & Pricing Menu */}
         <ServicesSection />
+
+        <hr className="border-t border-[#BFA181]" />
 
         {/* Olaplex Specialist presentation */}
         <OlaplexSpecialistSection />
 
+        <hr className="border-t border-[#BFA181]" />
+
         {/* Janet's Certificate & Specialist Presentation */}
         <SpecialistSection />
+
+        <hr className="border-t border-[#BFA181]" />
 
         {/* Google Business Profile & Rating (5.0 Stars & Reviews) */}
         <GoogleBusinessSection />
 
+        <hr className="border-t border-[#BFA181]" />
+
         {/* FAQ Accordion for SEO Keywords */}
         <FaqSection />
       </main>
+
+      <hr className="border-t border-[#BFA181]" />
 
       {/* Footer */}
       <Footer />

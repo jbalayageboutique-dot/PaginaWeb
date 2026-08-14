@@ -125,9 +125,12 @@ h3,
 }
 
 [class*="border-[#E7E2D8]"],
-[class*="border-[#BFA181]"],
 [class*="border-stone-"] {
   border-color: var(--jb-line) !important;
+}
+
+[class*="border-[#BFA181]"] {
+  border-color: var(--jb-gold) !important;
 }
 
 [class*="ring-[#BFA181]"] {

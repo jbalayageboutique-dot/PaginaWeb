@@ -4,12 +4,12 @@ import { GOOGLE_BUSINESS_DATA } from '../data/balayageData';
 import { getCloudinaryUrl } from '../lib/cloudinary';
 
 export const SpecialistSection: React.FC = () => {
-  const imgStudio = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-studio', { width: 800, quality: 'auto', format: 'auto' });
-  const imgOlaplex = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-olaplex', { width: 800, quality: 'auto', format: 'auto' });
-  const imgVertical = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-vertical', { width: 600, quality: 'auto', format: 'auto' });
+  const imgStudio = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-studio', { quality: 100, format: 'auto' });
+  const imgOlaplex = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-olaplex', { quality: 100, format: 'auto' });
+  const imgVertical = getCloudinaryUrl('maison-balayage/certificado/janet-certificado-vertical', { quality: 100, format: 'auto' });
 
   return (
-    <section id="especialista" className="py-16 md:py-24 bg-[#FAF7F2] border-t border-[#E7E2D8] relative overflow-hidden">
+    <section id="especialista" className="py-16 md:py-24 bg-[#FAF7F2] relative overflow-hidden">
       {/* Soft ambient background glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-[#BFA181]/5 rounded-full blur-3xl pointer-events-none" />
 

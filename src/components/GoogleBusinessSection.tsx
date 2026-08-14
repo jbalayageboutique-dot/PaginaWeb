@@ -4,7 +4,7 @@ import { GOOGLE_BUSINESS_DATA, GOOGLE_REVIEWS } from '../data/balayageData';
 
 export const GoogleBusinessSection: React.FC = () => {
   return (
-    <section id="google-business" className="py-16 md:py-24 bg-[#FAF7F2] text-[#2E2B27] relative overflow-hidden border-t border-[#E7E2D8]">
+    <section id="google-business" className="py-16 md:py-24 bg-[#FAF7F2] text-[#2E2B27] relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#BFA181]/5 rounded-full blur-3xl pointer-events-none" />
 
