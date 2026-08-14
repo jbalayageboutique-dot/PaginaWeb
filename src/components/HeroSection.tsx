@@ -72,9 +72,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
                   Peluquería Boutique
                 </span>
               </h1>
-              <p className="text-[#8C7153] font-serif italic text-lg sm:text-xl font-medium tracking-wide">
-                Atelier de Coloración • Especialista en Técnica Balayage & Color
-              </p>
+              <div className="pt-1.5 space-y-1">
+                <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-[#8C7153] leading-tight">
+                  Especialista en Técnica Balayage y Coloración
+                </h2>
+                <p className="text-xs sm:text-sm tracking-[0.22em] uppercase text-stone-500 font-semibold">
+                  Atelier de Coloración
+                </p>
+              </div>
             </div>
 
             {/* Subheading */}
