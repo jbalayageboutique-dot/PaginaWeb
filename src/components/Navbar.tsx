@@ -63,36 +63,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-        {/* Brand Logo (Centered on desktop, left on mobile) */}
-        <div className="flex-1 md:flex md:justify-center">
-          <button 
-            onClick={() => handleNavClick('hero')} 
-            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0 md:mx-auto"
-          >
-            <img 
-              src={getCloudinaryUrl(logoConfig.secure_url, { width: 200, height: 200, crop: 'fill', gravity: 'center', quality: 'best', format: 'auto' })}
-              alt={logoConfig.alt}
-              className="w-full h-full object-cover rounded-full"
-              referrerPolicy="no-referrer"
-              loading="eager"
-            />
-          </button>
-        </div>
-
-        {/* Mobile menu toggle */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 text-stone-600 hover:text-[#1C1917]"
-          aria-label="Abrir menú"
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-6">
+        {/* Brand Logo (Always on the left in a perfect circle) */}
+        <button 
+          onClick={() => handleNavClick('hero')} 
+          className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0"
         >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          <img 
+            src={getCloudinaryUrl(logoConfig.secure_url, { width: 200, height: 200, crop: 'fill', gravity: 'center', quality: 'best', format: 'auto' })}
+            alt={logoConfig.alt}
+            className="w-full h-full object-cover rounded-full"
+            referrerPolicy="no-referrer"
+            loading="eager"
+          />
         </button>
-      </div>
 
-      {/* Full-width Horizontal Cafecito Bar for Desktop */}
-      <div className="hidden md:block bg-[#BFA181] border-y border-[#A88C6F]/30 w-full">
-        <div className="max-w-7xl mx-auto flex items-stretch divide-x divide-white/20 text-white">
+        {/* Desktop: Horizontal Cafecito Bar starting right after the logo and stretching to the right */}
+        <div className="hidden md:flex flex-1 bg-[#BFA181] border border-[#A88C6F]/20 rounded-full overflow-hidden items-stretch divide-x divide-white/20 text-white shadow-sm">
           <button 
             onClick={() => handleNavClick('galeria')} 
             className="flex-1 py-3 text-center hover:bg-[#A88C6F] transition-all text-xs font-semibold uppercase tracking-wider cursor-pointer"
@@ -149,6 +136,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
             Agendar Turno
           </a>
         </div>
+
+        {/* Mobile menu toggle */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className="md:hidden p-2 text-stone-600 hover:text-[#1C1917]"
+          aria-label="Abrir menú"
+        >
+          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        </button>
       </div>
 
       {/* Mobile Drawer */}
