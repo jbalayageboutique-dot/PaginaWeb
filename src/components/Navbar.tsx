@@ -3,6 +3,7 @@ import { Sparkles, Search, MessageCircle, BarChart2, MapPin, Star, Menu, X, Zap,
 import { GOOGLE_BUSINESS_DATA } from '../data/balayageData';
 
 import logoConfig from '../data/logoConfig.json';
+import { getCloudinaryUrl } from '../lib/cloudinary';
 
 interface NavbarProps {
   onOpenSeoPanel: () => void;
