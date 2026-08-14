@@ -71,7 +71,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           <img 
             src={logoConfig.small_url}
             alt={logoConfig.alt}
-            className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-[#BFA181] group-hover:scale-105 transition-transform shadow-md"
+            className="h-12 sm:h-14 w-auto object-contain rounded-lg border border-[#BFA181]/30 bg-white/20 p-1 group-hover:scale-105 transition-transform shadow-sm"
             referrerPolicy="no-referrer"
             loading="eager"
           />

@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               <img 
                 src={logoConfig.small_url}
                 alt={logoConfig.alt}
-                className="w-9 h-9 rounded-full object-cover border border-[#E7E2D8]"
+                className="h-8 w-auto object-contain rounded border border-[#E7E2D8] bg-white/30 p-0.5"
                 referrerPolicy="no-referrer"
                 loading="lazy"
               />
