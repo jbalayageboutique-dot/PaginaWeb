@@ -65,18 +65,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuiz, onExploreG
             </div>
 
             {/* Main H1 - Key SEO Title */}
-            <div className="space-y-3">
-              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1C1917] leading-[1.1]">
-                JB Balayage <br className="hidden sm:inline" />
-                <span className="italic font-serif bg-gradient-to-r from-[#1C1917] via-[#BFA181] to-[#1C1917] bg-clip-text text-transparent">
-                  Peluquería Boutique
+            <div className="space-y-4">
+              <h1 className="font-sans text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#1C1917] leading-[1.3] pb-2">
+                JB Balayage Peluquería <br />
+                <span className="bg-gradient-to-r from-[#1C1917] via-[#BFA181] to-[#1C1917] bg-clip-text text-transparent">
+                  Boutique
                 </span>
               </h1>
-              <div className="pt-1.5 space-y-1">
-                <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-[#8C7153] leading-tight">
+              <div className="pt-1 space-y-2">
+                <h2 className="font-sans text-xl sm:text-2xl lg:text-3xl font-semibold text-[#8C7153] leading-relaxed">
                   Especialista en Técnica Balayage y Coloración
                 </h2>
-                <p className="text-xs sm:text-sm tracking-[0.22em] uppercase text-stone-500 font-semibold">
+                <p className="text-xs sm:text-sm tracking-[0.25em] uppercase text-stone-500 font-bold">
                   Atelier de Coloración
                 </p>
               </div>
