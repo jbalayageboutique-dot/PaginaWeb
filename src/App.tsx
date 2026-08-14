@@ -11,6 +11,7 @@ import { CloudinaryMediaManager } from './components/CloudinaryMediaManager';
 import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 import { Footer } from './components/Footer';
 import { SpecialistSection } from './components/SpecialistSection';
+import { OlaplexSpecialistSection } from './components/OlaplexSpecialistSection';
 import { BeforeAfterCase } from './types';
 
 export default function App() {
@@ -53,14 +54,17 @@ export default function App() {
           customCases={customCases}
         />
 
+        {/* Services & Pricing Menu */}
+        <ServicesSection />
+
+        {/* Olaplex Specialist presentation */}
+        <OlaplexSpecialistSection />
+
         {/* Janet's Certificate & Specialist Presentation */}
         <SpecialistSection />
 
         {/* Google Business Profile & Rating (5.0 Stars & Reviews) */}
         <GoogleBusinessSection />
-
-        {/* Services & Pricing Menu */}
-        <ServicesSection />
 
         {/* FAQ Accordion for SEO Keywords */}
         <FaqSection />

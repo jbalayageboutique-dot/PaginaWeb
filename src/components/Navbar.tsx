@@ -92,6 +92,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
             Servicios
           </button>
           <button 
+            onClick={() => handleNavClick('especialista-olaplex')} 
+            className="hover:text-[#1C1917] transition-colors"
+          >
+            Especialista en Olaplex
+          </button>
+          <button 
             onClick={() => handleNavClick('google-business')} 
             className="hover:text-[#1C1917] transition-colors flex items-center gap-1.5"
           >
@@ -154,6 +160,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
               className="text-left text-stone-700 py-1"
             >
               Servicios & Precios
+            </button>
+            <button
+              onClick={() => handleNavClick('especialista-olaplex')}
+              className="text-left text-stone-700 py-1"
+            >
+              Especialista en Olaplex
             </button>
             <button
               onClick={() => handleNavClick('google-business')}
