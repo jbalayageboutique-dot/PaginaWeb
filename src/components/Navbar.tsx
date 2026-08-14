@@ -67,7 +67,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
         {/* Brand Logo (Always on the left in a perfect circle) */}
         <button 
           onClick={() => handleNavClick('hero')} 
-          className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0"
+          className="w-20 h-20 sm:w-26 sm:h-26 rounded-full border border-[#BFA181] overflow-hidden shrink-0 aspect-square group hover:scale-105 transition-transform shadow-md flex items-center justify-center p-0"
         >
           <img 
             src={logoConfig.small_url}
