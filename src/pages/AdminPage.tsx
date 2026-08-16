@@ -152,17 +152,17 @@ export default function AdminPage() {
     document.title = 'Panel de Janet | JB Balayage Boutique';
   }, []);
 
-  const authHeaders = { 'Content-Type': 'application/json', 'x-admin-key': password };
+  const authHeaders = (pw?: string) => ({ 'Content-Type': 'application/json', 'x-admin-key': pw ?? password });
 
-  const loadData = useCallback(async (searchQ = '', newsletter = false) => {
+  const loadData = useCallback(async (searchQ = '', newsletter = false, pw?: string) => {
     setDataLoading(true);
     try {
       const params = new URLSearchParams();
       if (searchQ) params.set('search', searchQ);
       if (newsletter) params.set('newsletter', 'true');
       const [statsRes, listRes] = await Promise.all([
-        fetch('/api/admin/stats', { headers: authHeaders }),
-        fetch(`/api/clientas?${params.toString()}`, { headers: authHeaders }),
+        fetch('/api/admin/stats', { headers: authHeaders(pw) }),
+        fetch(`/api/clientas?${params.toString()}`, { headers: authHeaders(pw) }),
       ]);
       if (statsRes.status === 401 || listRes.status === 401) {
         sessionStorage.removeItem('jb_admin_pw');
@@ -213,7 +213,7 @@ export default function AdminPage() {
       sessionStorage.setItem('jb_admin_pw', pw);
       setPassword(pw);
       setStats(data.data);
-      loadData();
+      loadData('', false, pw);
     } catch {
       setLoginError('Error de conexión');
     } finally {
