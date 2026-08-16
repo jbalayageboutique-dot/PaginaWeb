@@ -51,25 +51,37 @@ const COMO_CONOCIO = [
 /*  HELPERS                                 */
 /* ──────────────────────────────────────── */
 
-/** Normaliza teléfono a formato wa.me sin + ni espacios */
-function normalizeWhatsApp(raw: string): string {
-  const digits = raw.replace(/\D/g, '');
-  // Si empieza con 56 (Chile) ya está bien
-  if (digits.startsWith('56') && digits.length >= 11) return digits;
-  // Si empieza con 9 (Chile sin código) → agregar 56
-  if (digits.startsWith('9') && digits.length === 9) return '56' + digits;
-  // Si empieza con 0056
-  if (digits.startsWith('0056')) return digits.slice(2);
-  return digits;
+/** Códigos de país — Chile preseleccionado (la mayoría de las clientas son locales) */
+const PAISES = [
+  { value: '56',  label: '🇨🇱 Chile' },
+  { value: '54',  label: '🇦🇷 Argentina' },
+  { value: '51',  label: '🇵🇪 Perú' },
+  { value: '591', label: '🇧🇴 Bolivia' },
+  { value: '598', label: '🇺🇾 Uruguay' },
+  { value: '55',  label: '🇧🇷 Brasil' },
+  { value: '1',   label: '🇺🇸 Estados Unidos' },
+  { value: '34',  label: '🇪🇸 España' },
+  { value: '',    label: '🌐 Otro' },
+];
+
+/** Normaliza teléfono a formato wa.me: código de país + número local */
+function normalizeWhatsApp(raw: string, codigoPais: string): string {
+  const local = raw.replace(/\D/g, '').replace(/^0+/, '');
+  const code = codigoPais.replace(/\D/g, '');
+  if (!local) return '';
+  // Si la clienta ya escribió el código completo, no lo duplicamos
+  if (code && local.startsWith(code) && local.length > code.length) return local;
+  return (code || '') + local;
 }
 
-/** Muestra formato +56 9 1234 5678 */
-function displayWhatsApp(raw: string): string {
-  const d = normalizeWhatsApp(raw);
-  if (d.startsWith('56') && d.length === 11) {
+/** Muestra formato legible: +56 9 1234 5678 */
+function displayWhatsApp(raw: string, codigoPais: string): string {
+  const d = normalizeWhatsApp(raw, codigoPais);
+  if (!d) return raw;
+  if (codigoPais === '56' && d.length === 11) {
     return `+56 ${d[2]} ${d.slice(3, 7)} ${d.slice(7)}`;
   }
-  return raw;
+  return `+${d}`;
 }
 
 /* ──────────────────────────────────────── */
@@ -164,6 +176,7 @@ export default function RegistroClientasPage() {
   const [formState, setFormState] = useState<FormState>('idle');
   const [errorMsg, setErrorMsg] = useState('');
   const [whatsappDisplay, setWhatsappDisplay] = useState('');
+  const [codigoPais, setCodigoPais] = useState('56');
 
   // SEO
   useEffect(() => {
@@ -191,7 +204,7 @@ export default function RegistroClientasPage() {
     setFormState('loading');
     setErrorMsg('');
 
-    const whatsappClean = normalizeWhatsApp(form.whatsapp);
+    const whatsappClean = normalizeWhatsApp(form.whatsapp, codigoPais);
     const whatsappUrl = `https://wa.me/${whatsappClean}`;
 
     try {
@@ -403,19 +416,38 @@ export default function RegistroClientasPage() {
             {/* ── WHATSAPP ── */}
             <InputWrapper
               label="WhatsApp *"
-              hint={whatsappDisplay ? `✓ ${displayWhatsApp(whatsappDisplay)}  →  wa.me/${normalizeWhatsApp(whatsappDisplay)}` : 'Ej: +56 9 1234 5678 — lo usamos para coordinarte el turno'}
+              hint={whatsappDisplay ? `✓ ${displayWhatsApp(whatsappDisplay, codigoPais)}  →  wa.me/${normalizeWhatsApp(whatsappDisplay, codigoPais)}` : 'Ej: 9 1234 5678 — lo usamos para coordinarte el turno'}
             >
-              <div className="relative">
-                <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" style={{ color: '#BFA181' }} />
-                <input
-                  type="tel" id="reg-whatsapp" required
-                  value={whatsappDisplay}
-                  onChange={e => handleWhatsAppChange(e.target.value)}
-                  placeholder="+56 9 1234 5678"
-                  style={{ ...inputStyle, paddingLeft: '40px' }}
-                  {...inputFocusHandlers}
-                  disabled={formState === 'loading'}
-                />
+              <div className="flex gap-2">
+                <div className="relative shrink-0" style={{ width: '132px' }}>
+                  <select
+                    aria-label="País"
+                    value={codigoPais}
+                    onChange={e => setCodigoPais(e.target.value)}
+                    style={{ ...inputStyle, appearance: 'none', padding: '12px 10px 12px 12px', paddingRight: '28px', fontSize: '13px' }}
+                    {...inputFocusHandlers}
+                    disabled={formState === 'loading'}
+                  >
+                    {PAISES.map(p => (
+                      <option key={p.value} value={p.value}>
+                        {p.label}{p.value ? ` +${p.value}` : ''}
+                      </option>
+                    ))}
+                  </select>
+                  <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 w-3.5 h-3.5 pointer-events-none" style={{ color: '#BFA181' }} />
+                </div>
+                <div className="relative flex-1 min-w-0">
+                  <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" style={{ color: '#BFA181' }} />
+                  <input
+                    type="tel" id="reg-whatsapp" required
+                    value={whatsappDisplay}
+                    onChange={e => handleWhatsAppChange(e.target.value)}
+                    placeholder={codigoPais === '56' ? '9 1234 5678' : 'Número sin código'}
+                    style={{ ...inputStyle, paddingLeft: '40px' }}
+                    {...inputFocusHandlers}
+                    disabled={formState === 'loading'}
+                  />
+                </div>
               </div>
             </InputWrapper>
 

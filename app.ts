@@ -159,6 +159,11 @@ app.post("/api/cloudinary/optimize", (req, res) => {
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// Remitente de los emails. Por defecto usamos el dominio compartido de Resend
+// (funciona sin verificar dominio). Cuando jbbalayage.cl esté verificado en Resend,
+// setear la env var EMAIL_FROM="JB Balayage Boutique <newsletter@jbbalayage.cl>".
+const EMAIL_FROM = process.env.EMAIL_FROM || "JB Balayage Boutique <onboarding@resend.dev>";
+
 // Helper: obtener o crear la audiencia JBalayage Newsletter
 async function getOrCreateAudience(): Promise<string> {
   if (process.env.RESEND_AUDIENCE_ID && process.env.RESEND_AUDIENCE_ID.trim() !== "") {
@@ -318,7 +323,7 @@ app.post("/api/newsletter/subscribe", async (req, res) => {
     const baseUrl = process.env.APP_URL?.replace(/\/$/, "") || `https://www.jbbalayage.cl`;
 
     const { error: emailError } = await resend.emails.send({
-      from: "JB Balayage Boutique <newsletter@jbalayageboutique.com>",
+      from: EMAIL_FROM,
       to: email.toLowerCase().trim(),
       subject: "🤍 ¡Bienvenida a JB Balayage Newsletter!",
       html: buildWelcomeEmail(firstName || name || "", unsubToken, baseUrl),
@@ -424,7 +429,7 @@ app.post("/api/newsletter/send-campaign", async (req, res) => {
         unsubTokens.set(token, contact.email);
 
         await resend.emails.send({
-          from: "JB Balayage Boutique <newsletter@jbalayageboutique.com>",
+          from: EMAIL_FROM,
           to: contact.email,
           subject,
           html: buildCampaignEmail(subject, htmlBody, token, baseUrl),
@@ -625,7 +630,25 @@ app.post("/api/clientas/register", async (req, res) => {
       RETURNING id, nombre, apellido, creado_en
     `;
 
-    // Si quiere newsletter Y tiene email, agregarla a Resend también
+    // Email de bienvenida: se manda a TODA clienta que deje email (no solo newsletter)
+    if (email?.trim()) {
+      try {
+        const baseUrl = process.env.APP_URL?.replace(/\/$/, "") || `https://www.jbbalayage.cl`;
+        const unsubToken = crypto.randomBytes(32).toString("hex");
+        const { error: emailErr } = await resend.emails.send({
+          from: EMAIL_FROM,
+          to: email.toLowerCase().trim(),
+          subject: "🤍 ¡Bienvenida a JB Balayage!",
+          html: buildWelcomeEmail(nombre, unsubToken, baseUrl),
+        });
+        if (emailErr) console.warn("No se pudo enviar el email de bienvenida:", emailErr);
+      } catch (e) {
+        // No fallar el registro si falla el email
+        console.warn("Email de bienvenida error (no crítico):", e);
+      }
+    }
+
+    // Si además quiere el newsletter, sumarla a la audiencia de Resend
     if (acepta_newsletter && email?.trim()) {
       try {
         const audienceId = await getOrCreateAudience();
@@ -637,16 +660,6 @@ app.post("/api/clientas/register", async (req, res) => {
             firstName: firstName || undefined,
             lastName: apellido || undefined,
             unsubscribed: false,
-          });
-
-          const baseUrl = process.env.APP_URL?.replace(/\/$/, "") || `https://www.jbbalayage.cl`;
-          const unsubToken = crypto.randomBytes(32).toString("hex");
-
-          await resend.emails.send({
-            from: "JB Balayage Boutique <newsletter@jbalayageboutique.com>",
-            to: email.toLowerCase().trim(),
-            subject: "🤍 ¡Bienvenida a JB Balayage Newsletter!",
-            html: buildWelcomeEmail(firstName || nombre, unsubToken, baseUrl),
           });
         }
       } catch (newsletterErr) {
