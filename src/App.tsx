@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { BeforeAfterGallery } from './components/BeforeAfterGallery';
@@ -13,13 +14,19 @@ import { Footer } from './components/Footer';
 import { SpecialistSection } from './components/SpecialistSection';
 import { OlaplexSpecialistSection } from './components/OlaplexSpecialistSection';
 import { MySpaceSection } from './components/MySpaceSection';
+import { NewsletterSection } from './components/NewsletterSection';
+import RegistroClientasPage from './pages/RegistroClientasPage';
+import AdminPage from './pages/AdminPage';
 import { BeforeAfterCase } from './types';
+
+
 
 export default function App() {
   const [seoPanelOpen, setSeoPanelOpen] = useState(false);
   const [quizOpen, setQuizOpen] = useState(false);
   const [cloudinaryOpen, setCloudinaryOpen] = useState(false);
   const [customCases, setCustomCases] = useState<BeforeAfterCase[]>([]);
+
 
   const handleNavigateSection = (id: string) => {
     const el = document.getElementById(id);
@@ -33,7 +40,16 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF7F2] text-[#2E2B27] font-sans flex flex-col selection:bg-[#BFA181] selection:text-[#FAF7F2]">
+    <Routes>
+      {/* Página dedicada de registro — SEO-friendly URL */}
+      <Route path="/registro-clientas" element={<RegistroClientasPage />} />
+
+      {/* Panel privado de Janet — dashboard de clientas */}
+      <Route path="/admin" element={<AdminPage />} />
+
+      {/* Sitio principal */}
+      <Route path="*" element={
+        <div className="min-h-screen bg-[#FAF7F2] text-[#2E2B27] font-sans flex flex-col selection:bg-[#BFA181] selection:text-[#FAF7F2]">
       {/* Top Navbar with Google profile link, Cloudinary & SEO trigger */}
       <Navbar
         onOpenSeoPanel={() => setSeoPanelOpen(true)}
@@ -88,6 +104,9 @@ export default function App() {
         <FaqSection />
       </main>
 
+      {/* Newsletter Section */}
+      <NewsletterSection />
+
       <hr className="border-t border-[#BFA181]" />
 
       {/* Footer */}
@@ -115,6 +134,8 @@ export default function App() {
         onAddCaseToGallery={handleAddCase}
       />
     </div>
+      } />
+    </Routes>
   );
 }
 

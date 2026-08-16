@@ -127,6 +127,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
             Test de Diagnóstico
           </button>
           <a
+            href="/registro-clientas"
+            id="nav-registrarme-btn"
+            className="flex-1 py-3 text-center transition-all text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-1.5 cursor-pointer"
+            style={{ background: 'rgba(255,255,255,0.18)' }}
+            onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.28)')}
+            onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.18)')}
+          >
+            ✦ Registrarme
+          </a>
+          <a
             href={`https://wa.me/${GOOGLE_BUSINESS_DATA.whatsappNumber}?text=${encodeURIComponent('Hola! Me gustaría consultar por un turno para Balayage.')}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -191,6 +201,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSeoPanel, onOpenQuiz, onOp
           </nav>
 
           <div className="pt-4 border-t border-[#E7E2D8] flex flex-col gap-3">
+            <a
+              href="/registro-clientas"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-2.5 text-xs font-semibold rounded-full border border-[#BFA181] text-[#2E2B27] flex items-center justify-center gap-2"
+            >
+              ✦ Registrarme como clienta
+            </a>
+
             <button
               onClick={() => { setMobileMenuOpen(false); onOpenQuiz(); }}
               className="w-full py-2.5 text-xs font-semibold rounded-full border border-[#BFA181] text-[#2E2B27] flex items-center justify-center gap-2"
