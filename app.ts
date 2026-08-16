@@ -671,14 +671,14 @@ app.post("/api/clientas/register", async (req, res) => {
   }
 });
 
-// DELETE /api/clientas/:id — Borrar registro (admin)
-app.delete("/api/clientas/:id", async (req, res) => {
+// POST /api/clientas/delete — Borrar registro (admin, ruta fija para Vercel)
+app.post("/api/clientas/delete", async (req, res) => {
   if (!isAdmin(req)) {
     res.status(401).json({ success: false, error: "No autorizado" });
     return;
   }
   try {
-    const { id } = req.params;
+    const { id } = req.body;
     const deleted = await db`DELETE FROM public.clientas WHERE id = ${id} RETURNING id`;
     if (deleted.length === 0) {
       res.status(404).json({ success: false, error: "No encontrada" });
