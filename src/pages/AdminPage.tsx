@@ -81,8 +81,12 @@ const OXIGENO_OPCIONES = ['', '10 vol', '20 vol', '30 vol', '40 vol'];
 const clp = (n: number | null | undefined) =>
   n != null ? `$${new Intl.NumberFormat('es-CL').format(n)}` : '—';
 
-const fechaCL = (f: string) =>
-  new Date(f).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' });
+const fechaCL = (f: string) => {
+  // La fecha llega como "2026-08-16T00:00:00.000Z" — usar solo la parte de fecha
+  // para que la zona horaria de Chile no corra el día hacia atrás
+  const [y, m, d] = f.split('T')[0].split('-').map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' });
+};
 
 const ORIGEN_LABELS: Record<string, string> = {
   instagram: '📸 Instagram',
