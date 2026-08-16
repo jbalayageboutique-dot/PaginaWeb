@@ -55,7 +55,6 @@ for (const file of files) {
       handler: "index.js",
       memory: 1024,
       maxDuration: 60,
-      framework: null,
     })
   );
   writeFileSync(path.join(fnDir, "package.json"), JSON.stringify({ type: "commonjs" }));
