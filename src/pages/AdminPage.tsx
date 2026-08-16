@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
-  Lock, Loader2, LogOut, Search, RefreshCw, Users, Mail, Heart,
+  Lock, Loader2, LogOut, Search, RefreshCw, Share2, Users, Mail, Heart,
   Cake, TrendingUp, MessageCircle, Sparkles, UserPlus, ChevronDown
 } from 'lucide-react';
 
@@ -293,6 +293,32 @@ export default function AdminPage() {
     setClientas([]);
   };
 
+  /* ── Compartir el link de registro ── */
+  const LINK_REGISTRO = 'https://www.jbbalayage.cl/registro-clientas';
+  const MENSAJE_REGISTRO = `¡Hola! 🤍 Registrate como clienta de JB Balayage Boutique acá:\n${LINK_REGISTRO}\n\nEs rapidito y así quedan tus datos y preferencias guardaditos para tu próxima visita ✨`;
+
+  const [linkCopiado, setLinkCopiado] = useState(false);
+
+  const compartirRegistro = async () => {
+    // En el celu: abre el menú de compartir (WhatsApp, etc.) con el mensaje listo
+    if (typeof navigator !== 'undefined' && navigator.share) {
+      try {
+        await navigator.share({ title: 'JB Balayage Boutique', text: MENSAJE_REGISTRO });
+        return;
+      } catch {
+        /* si canceló el share, seguir con el copiado */
+      }
+    }
+    // En la compu: copia el mensaje al portapapeles
+    try {
+      await navigator.clipboard.writeText(MENSAJE_REGISTRO);
+      setLinkCopiado(true);
+      setTimeout(() => setLinkCopiado(false), 2500);
+    } catch {
+      window.open(`https://wa.me/?text=${encodeURIComponent(MENSAJE_REGISTRO)}`, '_blank');
+    }
+  };
+
   /* ── FICHA TÉCNICA ── */
 
   const abrirFicha = async (clienta: Clienta) => {
@@ -372,6 +398,18 @@ export default function AdminPage() {
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <button
+              onClick={compartirRegistro}
+              className="p-2.5 rounded-xl flex items-center gap-2 text-xs font-semibold transition-all"
+              style={{
+                background: linkCopiado ? 'rgba(37,211,102,0.12)' : 'linear-gradient(135deg, #BFA181, #8C7153)',
+                color: linkCopiado ? '#128C7E' : '#FAF7F2',
+                border: linkCopiado ? '1px solid rgba(37,211,102,0.3)' : 'none',
+              }}
+              title="Compartir el link de registro con una clienta"
+            >
+              {linkCopiado ? '✓ ¡Copiado!' : <><Share2 className="w-4 h-4" /><span className="hidden sm:inline">Compartir registro</span></>}
+            </button>
             <button
               onClick={() => loadData(search, onlyNewsletter)}
               className="p-2.5 rounded-xl flex items-center gap-2 text-xs font-medium"
