@@ -35,7 +35,7 @@ for (const file of files) {
   // bundle.js: la app Express con TODAS sus dependencias inlineadas (CJS)
   await build({
     stdin: {
-      contents: `const { app } = require(${JSON.stringify(path.resolve(file))}); module.exports = app;`,
+      contents: `const mod = require(${JSON.stringify(path.resolve(file))}); module.exports = mod.default || mod;`,
       resolveDir: process.cwd(),
       loader: "js",
     },
