@@ -40,6 +40,50 @@ interface Clienta {
   creado_en: string;
 }
 
+interface Visita {
+  id: string;
+  clienta_id: string;
+  fecha: string;
+  titulo: string;
+  marca: string | null;
+  oxigeno: string | null;
+  formula: string | null;
+  tratamiento: string | null;
+  observaciones: string | null;
+  precio: number | null;
+  creado_en: string;
+}
+
+interface NuevaVisita {
+  fecha: string;
+  titulo: string;
+  marca: string;
+  oxigeno: string;
+  formula: string;
+  tratamiento: string;
+  observaciones: string;
+  precio: string;
+}
+
+const VISITA_VACIA: NuevaVisita = {
+  fecha: new Date().toISOString().split('T')[0],
+  titulo: '',
+  marca: '',
+  oxigeno: '',
+  formula: '',
+  tratamiento: '',
+  observaciones: '',
+  precio: '',
+};
+
+const OXIGENO_OPCIONES = ['', '10 vol', '20 vol', '30 vol', '40 vol'];
+
+const clp = (n: number | null | undefined) =>
+  n != null ? `$${new Intl.NumberFormat('es-CL').format(n)}` : '—';
+
+const fechaCL = (f: string) =>
+  new Date(f).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' });
+
 const ORIGEN_LABELS: Record<string, string> = {
   instagram: '📸 Instagram',
   tiktok: '🎵 TikTok',
@@ -147,6 +191,12 @@ export default function AdminPage() {
   const [onlyNewsletter, setOnlyNewsletter] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [dataLoading, setDataLoading] = useState(false);
+  const [fichaClienta, setFichaClienta] = useState<Clienta | null>(null);
+  const [visitas, setVisitas] = useState<Visita[]>([]);
+  const [visitasLoading, setVisitasLoading] = useState(false);
+  const [nuevaVisita, setNuevaVisita] = useState<NuevaVisita>(VISITA_VACIA);
+  const [guardandoVisita, setGuardandoVisita] = useState(false);
+  const [visitaError, setVisitaError] = useState('');
 
   useEffect(() => {
     document.title = 'Panel de Janet | JB Balayage Boutique';
@@ -237,6 +287,65 @@ export default function AdminPage() {
     setPassword('');
     setStats(null);
     setClientas([]);
+  };
+
+  /* ── FICHA TÉCNICA ── */
+
+  const abrirFicha = async (clienta: Clienta) => {
+    setFichaClienta(clienta);
+    setNuevaVisita({ ...VISITA_VACIA, fecha: new Date().toISOString().split('T')[0] });
+    setVisitaError('');
+    setVisitasLoading(true);
+    try {
+      const res = await fetch(`/api/visitas?clienta_id=${clienta.id}`, { headers: authHeaders() });
+      const data = await res.json();
+      if (data.success) setVisitas(data.data);
+    } catch {
+      setVisitaError('Error cargando la ficha');
+    } finally {
+      setVisitasLoading(false);
+    }
+    setTimeout(() => {
+      document.getElementById('ficha-tecnica')?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
+
+  const guardarVisita = async () => {
+    if (!fichaClienta) return;
+    setGuardandoVisita(true);
+    setVisitaError('');
+    try {
+      const res = await fetch('/api/visitas', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ ...nuevaVisita, clienta_id: fichaClienta.id }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        setVisitaError(data.error || 'No se pudo guardar');
+        return;
+      }
+      setVisitas(v => [data.data, ...v]);
+      setNuevaVisita({ ...VISITA_VACIA, fecha: nuevaVisita.fecha });
+    } catch {
+      setVisitaError('Error de conexión');
+    } finally {
+      setGuardandoVisita(false);
+    }
+  };
+
+  const borrarVisita = async (id: string) => {
+    try {
+      const res = await fetch('/api/visitas/delete', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ id }),
+      });
+      const data = await res.json();
+      if (data.success) setVisitas(v => v.filter(x => x.id !== id));
+    } catch {
+      setVisitaError('Error al borrar la visita');
+    }
   };
 
   if (!password) {
@@ -455,10 +564,198 @@ export default function AdminPage() {
                           <p style={{ color: '#2E2B27', fontStyle: 'italic' }}>"{c.motivo_consulta}"</p>
                         </div>
                       )}
+                      <div className="sm:col-span-2">
+                        <button
+                          onClick={e => { e.stopPropagation(); abrirFicha(c); }}
+                          className="px-4 py-2.5 rounded-xl text-xs font-semibold flex items-center gap-2 transition-all"
+                          style={{ background: 'linear-gradient(135deg, #BFA181, #8C7153)', color: '#FAF7F2' }}
+                        >
+                          📋 Ver ficha técnica
+                        </button>
+                      </div>
                     </div>
                   )}
                 </div>
               ))}
+            </div>
+          )}
+        </section>
+
+        {/* ── FICHA TÉCNICA DE LA CLIENTA ── */}
+        <section id="ficha-tecnica">
+          {fichaClienta ? (
+            <div className="rounded-2xl overflow-hidden" style={{ background: '#FFFFFF', border: '1px solid #F0EBE3' }}>
+              {/* Encabezado de la ficha */}
+              <div
+                className="px-6 py-5 border-b flex flex-wrap items-center justify-between gap-3"
+                style={{ borderColor: '#F0EBE3', background: 'linear-gradient(135deg, #BFA181 0%, #8C7153 100%)' }}
+              >
+                <div>
+                  <p className="text-[10px] tracking-widest uppercase" style={{ color: 'rgba(255,255,255,0.7)' }}>Ficha técnica</p>
+                  <h3 className="text-xl font-light text-white" style={{ fontFamily: 'Cormorant Garamond, Georgia, serif' }}>
+                    {fichaClienta.nombre} {fichaClienta.apellido || ''}
+                  </h3>
+                  <p className="text-xs mt-0.5" style={{ color: 'rgba(255,255,255,0.75)' }}>
+                    {visitas.length} {visitas.length === 1 ? 'visita registrada' : 'visitas registradas'}
+                    {visitas.length > 0 && ` · última: ${fechaCL(visitas[0].fecha)}${visitas[0].precio != null ? ` · ${clp(visitas[0].precio)}` : ''}`}
+                  </p>
+                </div>
+                <button
+                  onClick={() => setFichaClienta(null)}
+                  className="px-4 py-2 rounded-xl text-xs font-medium"
+                  style={{ background: 'rgba(255,255,255,0.15)', color: '#FFFFFF' }}
+                >
+                  Cerrar ficha
+                </button>
+              </div>
+
+              <div className="p-6 space-y-6">
+                {/* Nueva visita */}
+                <div className="p-5 rounded-2xl" style={{ background: '#FDFAF6', border: '1px dashed #D8CFC0' }}>
+                  <h4 className="text-sm font-semibold mb-4 flex items-center gap-2" style={{ color: '#2E2B27' }}>
+                    ✏️ Registrar visita de hoy
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Fecha</label>
+                      <input type="date" value={nuevaVisita.fecha}
+                        onChange={e => setNuevaVisita(v => ({ ...v, fecha: e.target.value }))}
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Servicio realizado *</label>
+                      <input type="text" value={nuevaVisita.titulo}
+                        onChange={e => setNuevaVisita(v => ({ ...v, titulo: e.target.value }))}
+                        placeholder="Ej: Balayage + tonalización"
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Marca de tintura</label>
+                      <input type="text" value={nuevaVisita.marca}
+                        onChange={e => setNuevaVisita(v => ({ ...v, marca: e.target.value }))}
+                        placeholder="Ej: Majirel, Igora, Koleston"
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Oxígeno</label>
+                      <select value={nuevaVisita.oxigeno}
+                        onChange={e => setNuevaVisita(v => ({ ...v, oxigeno: e.target.value }))}
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: nuevaVisita.oxigeno ? '#2E2B27' : '#B0A89E' }}>
+                        {OXIGENO_OPCIONES.map(o => <option key={o} value={o}>{o || '—'}</option>)}
+                      </select>
+                    </div>
+                    <div className="sm:col-span-2">
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Fórmula de color *</label>
+                      <textarea value={nuevaVisita.formula} rows={3}
+                        onChange={e => setNuevaVisita(v => ({ ...v, formula: e.target.value }))}
+                        placeholder="Ej: 60g de 7.0 + 15g de 7.34 + 5cm de corrector cenizo, con oxígeno de 20 vol 1:1.5, 35 min de exposición en balayage a mano alzada con papel"
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none resize-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Tratamiento</label>
+                      <input type="text" value={nuevaVisita.tratamiento}
+                        onChange={e => setNuevaVisita(v => ({ ...v, tratamiento: e.target.value }))}
+                        placeholder="Ej: Olaplex 1+2, hidratación"
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Precio cobrado (CLP)</label>
+                      <input type="number" min="0" value={nuevaVisita.precio}
+                        onChange={e => setNuevaVisita(v => ({ ...v, precio: e.target.value }))}
+                        placeholder="Ej: 55000"
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                    <div className="sm:col-span-2">
+                      <label className="block text-[10px] font-semibold tracking-wider uppercase mb-1" style={{ color: '#8C7153' }}>Observaciones</label>
+                      <textarea value={nuevaVisita.observaciones} rows={2}
+                        onChange={e => setNuevaVisita(v => ({ ...v, observaciones: e.target.value }))}
+                        placeholder="Estado del cabello, cómo reaccionó el color, qué le recomendé para casa, qué ajustar la próxima vez..."
+                        className="w-full px-3 py-2.5 rounded-xl text-xs outline-none resize-none"
+                        style={{ background: '#FFFFFF', border: '1.5px solid #E7E2D8', color: '#2E2B27' }} />
+                    </div>
+                  </div>
+                  {visitaError && <p className="text-xs mt-3" style={{ color: '#b45309' }}>⚠️ {visitaError}</p>}
+                  <button
+                    onClick={guardarVisita}
+                    disabled={guardandoVisita || !nuevaVisita.titulo.trim() || !nuevaVisita.formula.trim()}
+                    className="mt-4 w-full py-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-2"
+                    style={{
+                      background: 'linear-gradient(135deg, #BFA181, #8C7153)',
+                      color: '#FAF7F2',
+                      opacity: (guardandoVisita || !nuevaVisita.titulo.trim() || !nuevaVisita.formula.trim()) ? 0.55 : 1,
+                    }}
+                  >
+                    {guardandoVisita ? <><Loader2 className="w-4 h-4 animate-spin" />Guardando...</> : '✓ Guardar en la ficha'}
+                  </button>
+                </div>
+
+                {/* Historial de visitas */}
+                {visitasLoading ? (
+                  <div className="py-8 text-center"><Loader2 className="w-5 h-5 animate-spin mx-auto" style={{ color: '#BFA181' }} /></div>
+                ) : visitas.length === 0 ? (
+                  <p className="text-center text-xs py-6" style={{ color: '#B0A89E' }}>
+                    Todavía no hay visitas registradas. La primera que guardes queda como referencia para las próximas.
+                  </p>
+                ) : (
+                  <div className="space-y-3">
+                    {visitas.map(v => (
+                      <div key={v.id} className="p-5 rounded-2xl" style={{ background: '#FFFFFF', border: '1px solid #F0EBE3' }}>
+                        <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
+                          <div>
+                            <p className="text-sm font-semibold" style={{ color: '#2E2B27' }}>{v.titulo}</p>
+                            <p className="text-xs" style={{ color: '#9B9591' }}>{fechaCL(v.fecha)}</p>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            {v.precio != null && (
+                              <span className="text-sm font-semibold px-3 py-1 rounded-full" style={{ background: 'rgba(191,161,129,0.12)', color: '#8C7153' }}>
+                                {clp(v.precio)}
+                              </span>
+                            )}
+                            <button
+                              onClick={() => borrarVisita(v.id)}
+                              className="text-xs px-2 py-1 rounded-lg"
+                              style={{ color: '#b45309', background: 'rgba(239,68,68,0.06)' }}
+                              title="Borrar esta visita"
+                            >
+                              🗑
+                            </button>
+                          </div>
+                        </div>
+                        <div className="text-xs space-y-2">
+                          {(v.marca || v.oxigeno) && (
+                            <p><span style={{ color: '#9B9591' }}>Marca/Ox:</span>{' '}
+                              <span style={{ color: '#2E2B27' }}>{[v.marca, v.oxigeno].filter(Boolean).join(' · ')}</span>
+                            </p>
+                          )}
+                          <div className="p-3 rounded-xl" style={{ background: '#FDFAF6', border: '1px solid #F0EBE3' }}>
+                            <p style={{ color: '#9B9591' }} className="mb-1">Fórmula:</p>
+                            <p style={{ color: '#2E2B27', whiteSpace: 'pre-wrap', fontFamily: 'ui-monospace, monospace' }}>{v.formula}</p>
+                          </div>
+                          {v.tratamiento && <p><span style={{ color: '#9B9591' }}>Tratamiento:</span> <span style={{ color: '#2E2B27' }}>{v.tratamiento}</span></p>}
+                          {v.observaciones && (
+                            <p className="p-3 rounded-xl" style={{ background: 'rgba(191,161,129,0.06)', color: '#6B6661', fontStyle: 'italic' }}>
+                              📝 {v.observaciones}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          ) : (
+            <div className="rounded-2xl p-6 text-center" style={{ background: '#FFFFFF', border: '1px dashed #E7E2D8' }}>
+              <p className="text-sm" style={{ color: '#9B9591' }}>
+                📋 <span style={{ color: '#8C7153', fontWeight: 600 }}>Ficha técnica</span> — tocá una clienta de la lista y después "Ver ficha técnica" para registrar sus fórmulas de color, tratamientos y precios de cada visita.
+              </p>
             </div>
           )}
         </section>

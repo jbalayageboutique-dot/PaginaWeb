@@ -504,11 +504,99 @@ async function ensureClientasSchema() {
     await db`ALTER TABLE public.clientas ADD COLUMN IF NOT EXISTS whatsapp_url TEXT`;
     await db`CREATE INDEX IF NOT EXISTS idx_clientas_apellido ON public.clientas(apellido)`;
     await db`CREATE INDEX IF NOT EXISTS idx_clientas_nacimiento ON public.clientas(fecha_nacimiento)`;
+    // Ficha técnica: historial de visitas con fórmulas de color, tratamientos y precios
+    await db`
+      CREATE TABLE IF NOT EXISTS public.visitas (
+        id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+        clienta_id UUID NOT NULL REFERENCES public.clientas(id) ON DELETE CASCADE,
+        fecha DATE NOT NULL DEFAULT CURRENT_DATE,
+        titulo TEXT NOT NULL,
+        marca TEXT,
+        oxigeno TEXT,
+        formula TEXT NOT NULL,
+        tratamiento TEXT,
+        observaciones TEXT,
+        precio INTEGER,
+        creado_en TIMESTAMPTZ DEFAULT NOW()
+      )
+    `;
+    await db`CREATE INDEX IF NOT EXISTS idx_visitas_clienta ON public.visitas(clienta_id, fecha DESC)`;
     console.log("✅ Schema clientas verificado");
   } catch (e) {
     console.error("⚠️ No se pudo verificar el schema de clientas:", e);
   }
 }
+
+// ── Rutas de la ficha técnica (visitas) — protegidas con la contraseña del panel ──
+
+// GET /api/visitas?clienta_id=... — historial de una clienta
+app.get("/api/visitas", async (req, res) => {
+  if (!isAdmin(req)) {
+    res.status(401).json({ success: false, error: "No autorizado" });
+    return;
+  }
+  try {
+    const { clienta_id } = req.query as { clienta_id?: string };
+    if (!clienta_id) {
+      res.status(400).json({ success: false, error: "Falta clienta_id" });
+      return;
+    }
+    const visitas = await db`
+      SELECT * FROM public.visitas
+      WHERE clienta_id = ${clienta_id}
+      ORDER BY fecha DESC, creado_en DESC
+    `;
+    res.json({ success: true, data: visitas });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error?.message });
+  }
+});
+
+// POST /api/visitas — registrar una visita con su fórmula
+app.post("/api/visitas", async (req, res) => {
+  if (!isAdmin(req)) {
+    res.status(401).json({ success: false, error: "No autorizado" });
+    return;
+  }
+  try {
+    const { clienta_id, fecha, titulo, marca, oxigeno, formula, tratamiento, observaciones, precio } = req.body;
+    if (!clienta_id || !titulo?.trim() || !formula?.trim()) {
+      res.status(400).json({ success: false, error: "La clienta, el título del servicio y la fórmula son obligatorios" });
+      return;
+    }
+    const [visita] = await db`
+      INSERT INTO public.visitas
+        (clienta_id, fecha, titulo, marca, oxigeno, formula, tratamiento, observaciones, precio)
+      VALUES
+        (${clienta_id}, ${fecha || null}, ${titulo.trim()}, ${marca?.trim() || null},
+         ${oxigeno || null}, ${formula.trim()}, ${tratamiento?.trim() || null},
+         ${observaciones?.trim() || null}, ${precio != null && precio !== '' ? Number(precio) : null})
+      RETURNING *
+    `;
+    res.json({ success: true, data: visita });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error?.message });
+  }
+});
+
+// POST /api/visitas/delete — borrar una visita de la ficha
+app.post("/api/visitas/delete", async (req, res) => {
+  if (!isAdmin(req)) {
+    res.status(401).json({ success: false, error: "No autorizado" });
+    return;
+  }
+  try {
+    const { id } = req.body;
+    const deleted = await db`DELETE FROM public.visitas WHERE id = ${id} RETURNING id`;
+    if (deleted.length === 0) {
+      res.status(404).json({ success: false, error: "Visita no encontrada" });
+      return;
+    }
+    res.json({ success: true });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error?.message });
+  }
+});
 
 // ── Stats para el dashboard admin ──
 async function getAdminStats() {
