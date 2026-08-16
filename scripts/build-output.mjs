@@ -32,7 +32,7 @@ for (const file of files) {
   const fnDir = path.join(OUT, "functions", "api", rel + ".func");
   mkdirSync(fnDir, { recursive: true });
 
-  // Wrapper CJS: module.exports = app (la app Express ya bundleada con todas sus dependencias)
+  // bundle.js: la app Express con TODAS sus dependencias inlineadas (CJS)
   await build({
     stdin: {
       contents: `const { app } = require(${JSON.stringify(path.resolve(file))}); module.exports = app;`,
@@ -43,10 +43,26 @@ for (const file of files) {
     platform: "node",
     target: "node20",
     format: "cjs",
-    outfile: path.join(fnDir, "index.js"),
+    outfile: path.join(fnDir, "bundle.js"),
     sourcemap: false,
     minify: false,
   });
+
+  // index.js: handler que carga el bundle con manejo de errores (reporta crashes de cold start)
+  writeFileSync(
+    path.join(fnDir, "index.js"),
+    `module.exports = async (req, res) => {
+  try {
+    if (!globalThis.__jbalayageApp) globalThis.__jbalayageApp = require("./bundle.js");
+    return await globalThis.__jbalayageApp(req, res);
+  } catch (e) {
+    res.statusCode = 200;
+    res.setHeader("content-type", "application/json; charset=utf-8");
+    res.end(JSON.stringify({ __crash: String((e && e.stack) || e).slice(0, 1500) }));
+  }
+};
+`
+  );
 
   writeFileSync(
     path.join(fnDir, ".vc-config.json"),
