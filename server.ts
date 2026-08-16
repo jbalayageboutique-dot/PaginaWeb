@@ -651,18 +651,18 @@ app.get("/api/clientas", async (req: express.Request, res: express.Response) => 
   }
 });
 
+// ── Contraseña del panel /admin (se puede sobreescribir con la env var ADMIN_PASSWORD en Vercel) ──
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ava1967";
+
 // ── Helper: chequear admin key (contraseña del panel /admin) ──
 function isAdmin(req: express.Request): boolean {
-  const key = req.headers["x-admin-key"];
-  const expected = process.env.ADMIN_PASSWORD || process.env.NEWSLETTER_ADMIN_KEY || "jbalayage-admin-2024";
-  return key === expected;
+  return req.headers["x-admin-key"] === ADMIN_PASSWORD;
 }
 
 // Login del panel admin — valida la contraseña y devuelve las stats si es correcta
 app.post("/api/admin/login", async (req: express.Request, res: express.Response) => {
   const { password } = req.body;
-  const expected = process.env.ADMIN_PASSWORD || process.env.NEWSLETTER_ADMIN_KEY || "jbalayage-admin-2024";
-  if (password !== expected) {
+  if (password !== ADMIN_PASSWORD) {
     res.status(401).json({ success: false, error: "Contraseña incorrecta" });
     return;
   }
