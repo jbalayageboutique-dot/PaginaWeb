@@ -278,7 +278,7 @@ function buildCampaignEmail(subject: string, htmlBody: string, unsubToken: strin
 // In-memory token store para unsubscribes (en producción usarías DB)
 const unsubTokens: Map<string, string> = new Map();
 
-app.post("/api/newsletter/subscribe", async (req: express.Request, res: express.Response) => {
+app.post("/api/newsletter/subscribe", async (req, res) => {
   try {
     const { email, name } = req.body;
     if (!email || typeof email !== "string" || !email.includes("@")) {
@@ -339,7 +339,7 @@ app.post("/api/newsletter/subscribe", async (req: express.Request, res: express.
   }
 });
 
-app.get("/api/newsletter/unsubscribe", async (req: express.Request, res: express.Response) => {
+app.get("/api/newsletter/unsubscribe", async (req, res) => {
   try {
     const { token, email: directEmail } = req.query as { token?: string; email?: string };
 
@@ -384,7 +384,7 @@ app.get("/api/newsletter/unsubscribe", async (req: express.Request, res: express
   }
 });
 
-app.post("/api/newsletter/send-campaign", async (req: express.Request, res: express.Response) => {
+app.post("/api/newsletter/send-campaign", async (req, res) => {
   try {
     const adminKey = req.headers["x-admin-key"];
     const expectedKey = process.env.ADMIN_PASSWORD || process.env.NEWSLETTER_ADMIN_KEY || "ava1967";
@@ -444,7 +444,7 @@ app.post("/api/newsletter/send-campaign", async (req: express.Request, res: expr
   }
 });
 
-app.get("/api/newsletter/stats", async (req: express.Request, res: express.Response) => {
+app.get("/api/newsletter/stats", async (req, res) => {
   try {
     const adminKey = req.headers["x-admin-key"];
     const expectedKey = process.env.ADMIN_PASSWORD || process.env.NEWSLETTER_ADMIN_KEY || "ava1967";
@@ -484,7 +484,7 @@ const db = postgres(
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ava1967";
 
 // ── Helper: chequear admin key (contraseña del panel /admin) ──
-function isAdmin(req: express.Request): boolean {
+function isAdmin(req: any): boolean {
   return req.headers["x-admin-key"] === ADMIN_PASSWORD;
 }
 
@@ -549,7 +549,7 @@ async function getAdminStats() {
 }
 
 // Login del panel admin — valida la contraseña y devuelve las stats si es correcta
-app.post("/api/admin/login", async (req: express.Request, res: express.Response) => {
+app.post("/api/admin/login", async (req, res) => {
   const { password } = req.body;
   if (password !== ADMIN_PASSWORD) {
     res.status(401).json({ success: false, error: "Contraseña incorrecta" });
@@ -564,7 +564,7 @@ app.post("/api/admin/login", async (req: express.Request, res: express.Response)
 });
 
 // GET /api/admin/stats — Dashboard (protegido)
-app.get("/api/admin/stats", async (req: express.Request, res: express.Response) => {
+app.get("/api/admin/stats", async (req, res) => {
   if (!isAdmin(req)) {
     res.status(401).json({ success: false, error: "No autorizado" });
     return;
@@ -577,7 +577,7 @@ app.get("/api/admin/stats", async (req: express.Request, res: express.Response) 
 });
 
 // GET /api/admin/cumpleanos — Clientas que cumplen años hoy
-app.get("/api/admin/cumpleanos", async (req: express.Request, res: express.Response) => {
+app.get("/api/admin/cumpleanos", async (req, res) => {
   if (!isAdmin(req)) {
     res.status(401).json({ success: false, error: "No autorizado" });
     return;
@@ -597,7 +597,7 @@ app.get("/api/admin/cumpleanos", async (req: express.Request, res: express.Respo
 });
 
 // POST /api/clientas/register — Registrar nueva clienta
-app.post("/api/clientas/register", async (req: express.Request, res: express.Response) => {
+app.post("/api/clientas/register", async (req, res) => {
   try {
     const {
       nombre, apellido, whatsapp, whatsapp_url, email,
@@ -672,7 +672,7 @@ app.post("/api/clientas/register", async (req: express.Request, res: express.Res
 });
 
 // DELETE /api/clientas/:id — Borrar registro (admin)
-app.delete("/api/clientas/:id", async (req: express.Request, res: express.Response) => {
+app.delete("/api/clientas/:id", async (req, res) => {
   if (!isAdmin(req)) {
     res.status(401).json({ success: false, error: "No autorizado" });
     return;
@@ -691,7 +691,7 @@ app.delete("/api/clientas/:id", async (req: express.Request, res: express.Respon
 });
 
 // GET /api/clientas — Listar clientas (protegida)
-app.get("/api/clientas", async (req: express.Request, res: express.Response) => {
+app.get("/api/clientas", async (req, res) => {
   if (!isAdmin(req)) {
     res.status(401).json({ success: false, error: "No autorizado" });
     return;
