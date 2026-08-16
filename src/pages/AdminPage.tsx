@@ -538,6 +538,15 @@ export default function AdminPage() {
                       </div>
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        onClick={e => { e.stopPropagation(); abrirFicha(c); }}
+                        className="p-2 rounded-lg flex items-center gap-1.5"
+                        style={{ background: 'rgba(191,161,129,0.18)' }}
+                        title="Abrir ficha técnica"
+                      >
+                        <span className="text-sm leading-none">📋</span>
+                        <span className="text-[11px] font-semibold hidden sm:inline" style={{ color: '#8C7153' }}>Ficha</span>
+                      </button>
                       <a
                         href={c.whatsapp_url || `https://wa.me/${c.whatsapp.replace(/\D/g, '')}`}
                         target="_blank"
