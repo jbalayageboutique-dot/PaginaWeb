@@ -1,4 +1,5 @@
 {
+  "installCommand": "pnpm install && node scripts/build-api.mjs",
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
