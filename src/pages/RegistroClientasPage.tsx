@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {
   User, Phone, Mail, Calendar, MessageSquare,
   ArrowRight, CheckCircle2, Loader2, Sparkles,
-  Heart, Star, ChevronDown, Instagram, Search
+  Heart, Star, ChevronDown, Instagram, Search, MessageCircle
 } from 'lucide-react';
 
 import logoConfig from '../data/logoConfig.json';
@@ -314,9 +314,22 @@ export default function RegistroClientasPage() {
               </p>
             </div>
           </a>
-          <div className="flex items-center gap-1">
-            {[1,2,3,4,5].map(i => <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />)}
-            <span className="text-xs ml-1" style={{ color: '#6B6661' }}>5.0 Google</span>
+          <div className="flex items-center gap-2">
+            <a
+              href={`https://wa.me/?text=${encodeURIComponent(`¡Hola! 🤍 Registrate como clienta de JB Balayage Boutique acá:\nhttps://www.jbbalayage.cl/registro-clientas\n\nEs rapidito y así quedan tus datos y preferencias guardaditos para tu próxima visita ✨`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-xl flex items-center gap-1.5 text-xs font-semibold"
+              style={{ background: 'linear-gradient(135deg, #BFA181, #8C7153)', color: '#FAF7F2' }}
+              title="Compartir formulario por WhatsApp"
+            >
+              <MessageCircle className="w-4 h-4" />
+              <span className="hidden sm:inline">Compartir formulario</span>
+            </a>
+            <div className="flex items-center gap-1">
+              {[1,2,3,4,5].map(i => <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />)}
+              <span className="text-xs ml-1" style={{ color: '#6B6661' }}>5.0 Google</span>
+            </div>
           </div>
         </div>
       </header>

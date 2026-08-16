@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
-  Lock, Loader2, LogOut, Search, RefreshCw, Copy, Users, Mail, Heart,
+  Lock, Loader2, LogOut, Search, RefreshCw, Users, Mail, Heart,
   Cake, TrendingUp, MessageCircle, Sparkles, UserPlus, ChevronDown
 } from 'lucide-react';
 
@@ -293,18 +293,11 @@ export default function AdminPage() {
     setClientas([]);
   };
 
-  /* ── Copiar link de registro al portapapeles ── */
+  /* ── Compartir registro por WhatsApp directo ── */
   const LINK_REGISTRO = 'https://www.jbbalayage.cl/registro-clientas';
   const MENSAJE_REGISTRO = `¡Hola! 🤍 Registrate como clienta de JB Balayage Boutique acá:\n${LINK_REGISTRO}\n\nEs rapidito y así quedan tus datos y preferencias guardaditos para tu próxima visita ✨`;
+  const waCompartir = `https://wa.me/?text=${encodeURIComponent(MENSAJE_REGISTRO)}`;
 
-  const [linkCopiado, setLinkCopiado] = useState(false);
-
-  const copiarLinkRegistro = () => {
-    navigator.clipboard.writeText(MENSAJE_REGISTRO).then(() => {
-      setLinkCopiado(true);
-      setTimeout(() => setLinkCopiado(false), 1800);
-    });
-  };
 
   /* ── FICHA TÉCNICA ── */
 
@@ -385,18 +378,17 @@ export default function AdminPage() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <button
-              onClick={copiarLinkRegistro}
+            <a
+              href={waCompartir}
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-2.5 rounded-xl flex items-center gap-2 text-xs font-semibold"
-              style={{
-                background: linkCopiado ? 'rgba(37,211,102,0.12)' : 'linear-gradient(135deg, #BFA181, #8C7153)',
-                color: linkCopiado ? '#128C7E' : '#FAF7F2',
-                border: linkCopiado ? '1px solid rgba(37,211,102,0.3)' : 'none',
-              }}
-              title="Copiar link de registro al portapapeles"
+              style={{ background: 'linear-gradient(135deg, #BFA181, #8C7153)', color: '#FAF7F2' }}
+              title="Enviar link de registro por WhatsApp"
             >
-              {linkCopiado ? '✓ ¡Copiado!' : <><Copy className="w-4 h-4" /><span className="hidden sm:inline">Nuevo registro</span></>}
-            </button>
+              <MessageCircle className="w-4 h-4" />
+              <span className="hidden sm:inline">Nuevo registro</span>
+            </a>
             <button
               onClick={() => loadData(search, onlyNewsletter)}
               className="p-2.5 rounded-xl flex items-center gap-2 text-xs font-medium"
