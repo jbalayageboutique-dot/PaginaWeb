@@ -92,72 +92,59 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
-    id: 'carolina-cobrizo-correccion-color',
-    title: 'Carolina Cobrizo: corrección de negro y rojo a cobrizo luminoso',
-    category: 'correccion-color',
-    categoryLabel: 'Corrección de Color',
-    beforeImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-barrido-color-negro-rojo-antes-del-cambio-01',
-    afterImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-portada-despues-02',
-    startingBase: 'Tintura negra previa con acumulación de rojo artificial',
-    techniqueUsed: 'Barrido de color, extracción progresiva de pigmentos rojo/negro y masaje técnico prolongado para emparejar la base',
-    finalTone: 'Cobrizo luminoso, uniforme y cálido',
-    durationHours: 'Sesión técnico extendida',
-    maintenanceFrequency: 'Baño de brillo y matiz según diagnóstico',
-    hairTexture: 'Cabello teñido con carga artificial acumulada',
-    description: 'Carolina llegó buscando un cobrizo que no le habían podido lograr. Se realizó un barrido de color para retirar pigmentos negros y rojos, dos de los tonos más difíciles de limpiar, trabajando la fibra con paciencia hasta lograr una base pareja. El resultado fue un cobrizo uniforme, luminoso y muy favorecedor.',
+    id: 'carolina-balayage-rubio-nuevo',
+    title: 'Carolina: Balayage con Babylights en Tonos Cálidos y Miel',
+    category: 'balayage-rubio',
+    categoryLabel: 'Balayage Rubio',
+    afterImage: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01',
+    startingBase: 'Cabello natural oscuro',
+    techniqueUsed: 'Técnica de mechas con papel combinadas con babylights extra finas en todo el contorno para iluminar el rostro (contouring) en tonos cálidos y miel. Protocolo completo de Olaplex integrado en la aclaración para el cuidado capilar, finalizando con sellado de cutícula e hidratación profunda.',
+    finalTone: 'Rubio cálido y miel, luminoso, saludable y de gran brillo',
+    durationHours: '4.5 horas',
+    maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
+    hairTexture: 'Cabello natural de grosor medio',
+    description: 'En esta sesión de diseño para Carolina, realizamos un trabajo de mechas con papel combinadas con babylights extra finas para aportar iluminación cálida y tonos miel en todo el contorno de su rostro. Cuidando estrictamente la salud de su cabello, incorporamos el tratamiento de Olaplex durante todo el proceso de aclarado. Para coronar la transformación, aplicamos un protocolo de sellado de cutícula e hidratación profunda, dando como resultado una melena rubia extremadamente brillante, sedosa y en perfectas tonalidades cálidas.',
     clientName: 'Carolina',
     rating: 5,
-    clientReview: 'Se fue muy conforme y feliz porque se logró el color cobrizo que quería.',
+    clientReview: 'Me encantaron las babylights súper finas de contorno en tonos miel. El pelo me quedó sanísimo gracias a Olaplex y con un brillo espectacular por el sellado de cutícula.',
     galleryImages: [
       {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01',
-        alt: 'Resultado cobrizo de Carolina visto en espejo'
+        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01',
+        alt: 'Reflejo del balayage rubio cálido y miel de Carolina'
       },
       {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-02',
-        alt: 'Retrato en espejo del resultado cobrizo final'
+        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02',
+        alt: 'Luz y relieve del contorno rubio cálido de perfil'
       },
       {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01',
-        alt: 'Vista frontal del cobrizo final luminoso'
-      },
-      {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01',
-        alt: 'Vista de perfil del cobrizo uniforme'
-      },
-      {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-luz-natural-03',
-        alt: 'Cobrizo final visto con luz natural'
-      },
-      {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-textura-perfil-04',
-        alt: 'Textura y brillo del color cobrizo final'
-      },
-      {
-        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-uniforme-01',
-        alt: 'Detalle de brillo y uniformidad del cobrizo'
+        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03',
+        alt: 'Textura suave y brillo tridimensional'
       }
     ],
     videos: [
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252970/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.mov',
-        title: 'Resultado cobrizo en espejo'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548798/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.mov',
+        title: 'Movimiento y relieve del rubio miel'
       },
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252972/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.mov',
-        title: 'Vista frontal del resultado'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548800/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.mov',
+        title: 'Suavidad y brillo al movimiento'
       },
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252986/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-movimiento-brillo-posterior-01.mov',
-        title: 'Movimiento y brillo posterior'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548802/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.mov',
+        title: 'Resultado final brillante con ondas'
+      },
+      {
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548806/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.mov',
+        title: 'Elasticidad y caída del rubio cálido y miel'
       }
     ],
     seoKeywords: [
-      'correccion de color cobrizo Punta Arenas',
-      'barrido de color tintura negra',
-      'sacar tintura roja del cabello',
-      'color cobrizo uniforme',
-      'peluqueria colorista Punta Arenas',
+      'mechas con papel Punta Arenas',
+      'babylights rubio miel',
+      'iluminacion contorno facial',
+      'tratamiento olaplex Punta Arenas',
+      'sellado cuticula cabello',
       'JB Balayage Peluqueria boutique'
     ]
   },
@@ -251,59 +238,72 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ]
   },
   {
-    id: 'carolina-balayage-rubio-nuevo',
-    title: 'Carolina: Balayage con Babylights en Tonos Cálidos y Miel',
-    category: 'balayage-rubio',
-    categoryLabel: 'Balayage Rubio',
-    afterImage: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-espejo-ia-01',
-    startingBase: 'Cabello natural oscuro',
-    techniqueUsed: 'Técnica de mechas con papel combinadas con babylights extra finas en todo el contorno para iluminar el rostro (contouring) en tonos cálidos y miel. Protocolo completo de Olaplex integrado en la aclaración para el cuidado capilar, finalizando con sellado de cutícula e hidratación profunda.',
-    finalTone: 'Rubio cálido y miel, luminoso, saludable y de gran brillo',
-    durationHours: '4.5 horas',
-    maintenanceFrequency: 'Matización regular y retoque a los 4 meses',
-    hairTexture: 'Cabello natural de grosor medio',
-    description: 'En esta sesión de diseño para Carolina, realizamos un trabajo de mechas con papel combinadas con babylights extra finas para aportar iluminación cálida y tonos miel en todo el contorno de su rostro. Cuidando estrictamente la salud de su cabello, incorporamos el tratamiento de Olaplex durante todo el proceso de aclarado. Para coronar la transformación, aplicamos un protocolo de sellado de cutícula e hidratación profunda, dando como resultado una melena rubia extremadamente brillante, sedosa y en perfectas tonalidades cálidas.',
+    id: 'carolina-cobrizo-correccion-color',
+    title: 'Carolina Cobrizo: corrección de negro y rojo a cobrizo luminoso',
+    category: 'correccion-color',
+    categoryLabel: 'Corrección de Color',
+    beforeImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-barrido-color-negro-rojo-antes-del-cambio-01',
+    afterImage: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-portada-despues-02',
+    startingBase: 'Tintura negra previa con acumulación de rojo artificial',
+    techniqueUsed: 'Barrido de color, extracción progresiva de pigmentos rojo/negro y masaje técnico prolongado para emparejar la base',
+    finalTone: 'Cobrizo luminoso, uniforme y cálido',
+    durationHours: 'Sesión técnico extendida',
+    maintenanceFrequency: 'Baño de brillo y matiz según diagnóstico',
+    hairTexture: 'Cabello teñido con carga artificial acumulada',
+    description: 'Carolina llegó buscando un cobrizo que no le habían podido lograr. Se realizó un barrido de color para retirar pigmentos negros y rojos, dos de los tonos más difíciles de limpiar, trabajando la fibra con paciencia hasta lograr una base pareja. El resultado fue un cobrizo uniforme, luminoso y muy favorecedor.',
     clientName: 'Carolina',
     rating: 5,
-    clientReview: 'Me encantaron las babylights súper finas de contorno en tonos miel. El pelo me quedó sanísimo gracias a Olaplex y con un brillo espectacular por el sellado de cutícula.',
+    clientReview: 'Se fue muy conforme y feliz porque se logró el color cobrizo que quería.',
     galleryImages: [
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-01',
-        alt: 'Reflejo del balayage rubio cálido y miel de Carolina'
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01',
+        alt: 'Resultado cobrizo de Carolina visto en espejo'
       },
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-02',
-        alt: 'Luz y relieve del contorno rubio cálido de perfil'
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-02',
+        alt: 'Retrato en espejo del resultado cobrizo final'
       },
       {
-        src: 'maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-despues-03',
-        alt: 'Textura suave y brillo tridimensional'
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01',
+        alt: 'Vista frontal del cobrizo final luminoso'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-01',
+        alt: 'Vista de perfil del cobrizo uniforme'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-perfil-luz-natural-03',
+        alt: 'Cobrizo final visto con luz natural'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-textura-perfil-04',
+        alt: 'Textura y brillo del color cobrizo final'
+      },
+      {
+        src: 'maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-detalle-cobrizo-uniforme-01',
+        alt: 'Detalle de brillo y uniformidad del cobrizo'
       }
     ],
     videos: [
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548798/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-01.mov',
-        title: 'Movimiento y relieve del rubio miel'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252970/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-espejo-01.mov',
+        title: 'Resultado cobrizo en espejo'
       },
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548800/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-02.mov',
-        title: 'Suavidad y brillo al movimiento'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252972/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-cobrizo-final-frontal-01.mov',
+        title: 'Vista frontal del resultado'
       },
       {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548802/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-03.mov',
-        title: 'Resultado final brillante con ondas'
-      },
-      {
-        src: 'https://res.cloudinary.com/apssuuqy/video/upload/v1786548806/maison-balayage/casos/carolina-balayage-rubio-nacar-punta-arenas/maison-balayage-punta-arenas-carolina-rubio-nacar-movimiento-04.mov',
-        title: 'Elasticidad y caída del rubio cálido y miel'
+        src: 'https://res.cloudinary.com/apssuuqy/video/upload/q_auto/v1786252986/maison-balayage/casos/carolina-cobrizo-correccion-color-cobrizo-punta-arenas/maison-balayage-punta-arenas-carolina-cobrizo-movimiento-brillo-posterior-01.mov',
+        title: 'Movimiento y brillo posterior'
       }
     ],
     seoKeywords: [
-      'mechas con papel Punta Arenas',
-      'babylights rubio miel',
-      'iluminacion contorno facial',
-      'tratamiento olaplex Punta Arenas',
-      'sellado cuticula cabello',
+      'correccion de color cobrizo Punta Arenas',
+      'barrido de color tintura negra',
+      'sacar tintura roja del cabello',
+      'color cobrizo uniforme',
+      'peluqueria colorista Punta Arenas',
       'JB Balayage Peluqueria boutique'
     ]
   },
